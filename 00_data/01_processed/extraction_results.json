@@ -1,0 +1,502 @@
+[
+  {
+    "id": "S001",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "poor",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S002",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S003",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S004",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S005",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "existential",
+      "risk_indicators": "moderate"
+    }
+  },
+  {
+    "id": "S006",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S007",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "poor",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S008",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S009",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "work_academic",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S010",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S011",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S012",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S013",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S014",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S015",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S016",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S017",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S018",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S019",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S020",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S021",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "high",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "high"
+    }
+  },
+  {
+    "id": "S022",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S023",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S024",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S025",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S026",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S027",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S028",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S029",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S030",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "existential",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S031",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S032",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "other",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S033",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S034",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "moderate"
+    }
+  },
+  {
+    "id": "S035",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S036",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "existential",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S037",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S038",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "poor",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S039",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S040",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "work_academic",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S041",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "high",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S042",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S043",
+    "extraction": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S044",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S045",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S046",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "existential",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S047",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S048",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "existential",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S049",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S050",
+    "extraction": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  }
+]

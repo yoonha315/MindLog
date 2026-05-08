@@ -1,0 +1,852 @@
+[
+  {
+    "id": "S001",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is predominantly negative, as indicated by phrases such as 'history of sexual abuse,' 'breast cancer survivor,' 'lifetime insomniac,' 'long history of depression,' and 'beginning to have anxiety.' These phrases suggest distress and emotional challenges.",
+      "energy_level": "The user's energy level is not explicitly mentioned, but the mention of 'lifetime insomniac' and 'long history of depression' suggests a likely low energy level due to fatigue and lethargy often associated with these conditions.",
+      "sleep_quality": "The user explicitly mentions being a 'lifetime insomniac,' which indicates poor sleep quality.",
+      "dominant_theme": "The dominant theme is emotional, as the user discusses a 'long history of depression,' 'beginning to have anxiety,' and 'low self esteem,' which are all related to emotional regulation and mental health.",
+      "risk_indicators": "There are no explicit risk indicators such as self-harm or suicidal ideation. The user expresses concerns and challenges but does not indicate any immediate risk, so the risk level is 'none.'"
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "poor",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S002",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as indicated by their self-report of feeling 'depressed' and the husband's dismissive response, which likely exacerbates feelings of sadness and frustration.",
+      "energy_level": "The energy level appears to be low, as the user describes feeling 'depressed' and is struggling to communicate effectively with their husband, suggesting a lack of motivation or energy.",
+      "sleep_quality": "Sleep quality is not mentioned in the text, so there is no information to assess this aspect.",
+      "dominant_theme": "The dominant theme is relationships, as the conversation revolves around the user's interaction with their husband and their desire for him to take their feelings seriously.",
+      "risk_indicators": "There are no explicit risk indicators in the text. The user expresses feeling 'depressed' but does not mention any thoughts of self-harm or suicidal ideation."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S003",
+    "reasoning": {
+      "affect_valence": "The user mentions feeling 'sad' due to the weather, which indicates a negative affect valence.",
+      "energy_level": "There is no specific mention of energy levels such as feeling fatigued or energetic, so it is not possible to determine the energy level from the text.",
+      "sleep_quality": "The user does not mention anything related to sleep, so sleep quality is not mentioned.",
+      "dominant_theme": "The main focus of the user's statement is on their emotional response to the weather, indicating an emotional theme.",
+      "risk_indicators": "The user expresses sadness but does not mention any thoughts of self-harm or hopelessness, so there are no risk indicators present."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S004",
+    "reasoning": {
+      "affect_valence": "The user mentions feeling 'sad' due to the weather, which indicates a negative emotional state. There is no mention of positive or neutral emotions.",
+      "energy_level": "The text does not provide any specific information about the user's energy level. There are no indications of fatigue or high energy.",
+      "sleep_quality": "There is no mention of sleep in the user's statement, so we cannot assess sleep quality.",
+      "dominant_theme": "The user's concern is primarily about their emotional response to the weather, indicating that the dominant theme is emotional.",
+      "risk_indicators": "The user expresses sadness but does not mention any thoughts of self-harm or hopelessness, so there are no risk indicators present."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S005",
+    "reasoning": {
+      "affect_valence": "The user's statements reflect a predominantly negative affect valence. Phrases like 'I feel like I just shouldn't be here' and 'wish I wouldn't have been born' indicate feelings of distress and hopelessness.",
+      "energy_level": "The user describes life as a 'chore,' which suggests a low energy level, as they seem to find daily life burdensome and possibly exhausting.",
+      "sleep_quality": "There is no mention of sleep in the user's text, so we cannot determine their sleep quality.",
+      "dominant_theme": "The dominant theme is existential, as the user expresses feelings about existence, purpose, and self-worth with statements like 'I feel like I just shouldn't be here' and 'wish I wouldn't have been born.'",
+      "risk_indicators": "The user explicitly states they are not suicidal, but they express passive ideation with 'wished for an accident to occur and take it' and 'wish I wouldn't have been born,' which indicates a moderate level of risk."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "existential",
+      "risk_indicators": "moderate"
+    }
+  },
+  {
+    "id": "S006",
+    "reasoning": {
+      "affect_valence": "The user's affect valence appears to be negative as they describe feeling 'nervous and shaky' when attending therapy sessions. These feelings suggest anxiety or distress.",
+      "energy_level": "The text does not provide explicit information about the user's overall energy level. However, the mention of feeling 'nervous and shaky' could imply a heightened state of arousal, but not necessarily indicative of overall energy level.",
+      "sleep_quality": "There is no mention of sleep in the user's statement, so we cannot assess sleep quality.",
+      "dominant_theme": "The dominant theme is emotional, as the user is discussing their feelings of nervousness and anxiety related to attending therapy sessions.",
+      "risk_indicators": "There are no indications of risk in the user's statement. They are expressing anxiety about therapy, but there is no mention of hopelessness or self-harm."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S007",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as indicated by phrases like 'I hate falling asleep' and the distressing nature of the dreams where men 'try to hurt' them.",
+      "energy_level": "The user's energy level is likely low due to the sleep disturbances and the statement about going without sleep for three days, which suggests fatigue and exhaustion.",
+      "sleep_quality": "The sleep quality is poor, as evidenced by the user's description of waking up multiple times early in the morning, being the last to fall asleep, and expressing a strong dislike for sleep.",
+      "dominant_theme": "The dominant theme is emotional, focusing on the user's distressing dreams and the emotional impact of their sleep issues.",
+      "risk_indicators": "There are low risk indicators present, as the user expresses distress and a dislike for sleep, but there is no explicit mention of self-harm or suicidal ideation."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "poor",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S008",
+    "reasoning": {
+      "affect_valence": "The user expresses feelings of being 'lost, sad and unwanted,' indicating a predominantly negative emotional state. The mention of wanting to break up despite love further underscores the distress and confusion.",
+      "energy_level": "The user does not explicitly mention feeling fatigued or energetic, but the emotional distress and feeling 'lost' suggest a low energy level, as these feelings often correlate with a lack of motivation or withdrawal.",
+      "sleep_quality": "There is no mention of sleep or sleep-related issues in the text, so we cannot assess this aspect.",
+      "dominant_theme": "The primary focus is on the user's emotional response to changes in their relationship, particularly feelings of separation anxiety and distress over perceived neglect. This aligns with the 'relationships' theme.",
+      "risk_indicators": "The user expresses distress and a desire to break up, but there are no explicit or implicit references to self-harm or suicidal ideation. The risk level is 'none' as the distress is relationship-focused without indications of harm."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S009",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as they express being 'terrified' of having an anxiety attack and mention that this situation is 'all new' to them, indicating distress and fear.",
+      "energy_level": "The user does not explicitly mention their energy level, but the context of being 'terrified' and the stress of a new job suggests they might not be feeling particularly energetic. However, there is no clear indication of low energy, so 'medium' is the most defensible label.",
+      "sleep_quality": "There is no mention of sleep or sleep-related issues in the user's text.",
+      "dominant_theme": "The dominant theme is 'emotional' as the user is primarily concerned with their anxiety and fear of having an anxiety attack.",
+      "risk_indicators": "There are no explicit or implicit indications of risk such as self-harm or suicidal ideation in the user's text."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S010",
+    "reasoning": {
+      "affect_valence": "The user expresses anxiety and fear about starting therapy, as indicated by phrases like 'freaking out' and 'fear'. This suggests a predominantly negative affect valence.",
+      "energy_level": "The user does not mention feeling fatigued or particularly energetic. The focus is on emotional concerns rather than energy levels, suggesting a medium energy level.",
+      "sleep_quality": "There is no mention of sleep in the user's statement, so sleep quality is not mentioned.",
+      "dominant_theme": "The dominant theme is emotional, as the user is concerned about their emotional reaction ('I'll cry and embarrass myself') and their anxiety about starting therapy.",
+      "risk_indicators": "There are no indications of risk such as hopelessness or self-harm. The user's concerns are about embarrassment and anxiety, which do not suggest risk indicators."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S011",
+    "reasoning": {
+      "affect_valence": "The user's statement 'I'm freaking out' indicates a sense of anxiety or nervousness about starting therapy, which suggests a negative affect valence.",
+      "energy_level": "The user does not express any particular level of energy, such as feeling fatigued or energetic. The focus is on emotional concerns rather than energy, suggesting a neutral or medium energy level.",
+      "sleep_quality": "There is no mention of sleep or any related issues in the user's statement.",
+      "dominant_theme": "The user's concern about crying and embarrassment in therapy points to an emotional theme, as it involves feelings of anxiety and self-consciousness.",
+      "risk_indicators": "There are no indications of risk, such as hopelessness or self-harm, in the user's statement. The concern is about embarrassment, not risk."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S012",
+    "reasoning": {
+      "affect_valence": "The user's statement reflects a desire to overcome a fear, which suggests a proactive and somewhat hopeful attitude. However, the presence of fear indicates some level of distress. Overall, the affect is mixed but leans towards a positive intention to improve.",
+      "energy_level": "The user expresses a desire to take action ('I want to face that fear'), indicating a willingness to engage and potentially a medium energy level. There is no indication of lethargy or high energy.",
+      "sleep_quality": "There is no mention of sleep or related issues in the user's statement.",
+      "dominant_theme": "The primary focus of the user's statement is on facing and overcoming fear, which relates to emotional regulation and personal growth.",
+      "risk_indicators": "There are no indications of risk, such as hopelessness or self-harm, in the user's statement. The focus is on overcoming fear, which is a positive and constructive goal."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S013",
+    "reasoning": {
+      "affect_valence": "The text does not express any clear emotional tone such as happiness or sadness. It is a factual statement about a financial situation, which suggests a neutral affect valence.",
+      "energy_level": "There is no indication of the user's energy level in the text. The focus is on a financial situation rather than the user's personal energy or motivation.",
+      "sleep_quality": "There is no mention of sleep or related issues in the text.",
+      "dominant_theme": "The dominant theme is related to financial constraints and family responsibilities, which aligns with the 'relationships' theme as it involves the user's child and their inability to afford something.",
+      "risk_indicators": "There are no indications of risk in the text. The user discusses a financial situation without any language suggesting distress or harm."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S014",
+    "reasoning": {
+      "affect_valence": "The text does not provide explicit information about the individual's current emotional state, but the context suggests a potentially negative impact due to the traumatic childhood experiences described.",
+      "energy_level": "There is no direct mention of the individual's energy level in the text, so it cannot be determined.",
+      "sleep_quality": "The text does not mention any information about sleep, so this field is not applicable.",
+      "dominant_theme": "The dominant theme is 'relationships' as the text focuses on the individual's early life experiences with their birth mother, adopted mother, adopted father, and foster care, highlighting the impact of these relationships.",
+      "risk_indicators": "The text describes a history of suicide attempts by the birth mother and abuse by the stepmother, which are significant risk factors, but there is no direct mention of the individual's current risk level."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S015",
+    "reasoning": {
+      "affect_valence": "The text conveys a negative emotional tone, as it involves a discussion about death and the resulting crying, which indicates distress and sadness.",
+      "energy_level": "There is no indication of the user's energy level in the text. The focus is on an emotional interaction rather than physical energy or activity.",
+      "sleep_quality": "There is no mention of sleep or related issues in the text.",
+      "dominant_theme": "The dominant theme is 'relationships' as the conversation revolves around family dynamics and the emotional impact of discussing a parent's potential death.",
+      "risk_indicators": "The text does not contain any explicit or implicit references to self-harm or suicidal ideation. It discusses a hypothetical situation about death, but there is no indication of risk to the user or others."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S016",
+    "reasoning": {
+      "affect_valence": "The user's narrative is predominantly negative, focusing on betrayal and control in a past relationship. Phrases like 'controlling me,' 'huge hissy fit,' 'cheating on me,' and 'nasty and narcissistic person' indicate distress and negativity.",
+      "energy_level": "The user mentions difficulty in being social now, which suggests a lower energy level, as they may feel withdrawn or unmotivated to engage socially.",
+      "sleep_quality": "There is no mention of sleep in the user's narrative, so we cannot assess this aspect.",
+      "dominant_theme": "The dominant theme is relationships, as the entire narrative revolves around the dynamics and issues within a past romantic relationship.",
+      "risk_indicators": "There are no explicit or implicit mentions of self-harm, suicidal ideation, or hopelessness. The focus is on past relationship issues, so the risk level is none."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S017",
+    "reasoning": {
+      "affect_valence": "The user describes having trouble feeling emotions and compares themselves to a 'sociopath lacking any feeling,' which suggests a negative affect valence due to the distress and concern about their emotional state.",
+      "energy_level": "The text does not provide specific information about the user's energy level. There are no indications of fatigue or high energy, so it is most defensible to assume a medium energy level.",
+      "sleep_quality": "There is no mention of sleep in the user's report, so the sleep quality is labeled as not_mentioned.",
+      "dominant_theme": "The dominant theme is emotional, as the user is focused on their inability to feel emotions and is seeking help to change this state.",
+      "risk_indicators": "The user does not express any explicit self-harm or suicidal ideation, but the mention of being unable to feel emotions and the distress about this could suggest some level of risk. However, without more explicit language, the risk indicators are best labeled as low."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S018",
+    "reasoning": {
+      "affect_valence": "The user's statement 'How can I get my life back?' suggests a sense of distress and a desire for improvement, indicating a negative affect. Additionally, mentioning the loss of a job and impacts on relationships and anger further supports a negative emotional state.",
+      "energy_level": "The user does not explicitly mention feeling fatigued or energetic, but the context of struggling with PTSD and its impacts suggests a likely low energy level, as these conditions often lead to feeling unmotivated or exhausted.",
+      "sleep_quality": "There is no mention of sleep or related issues in the user's statement, so sleep quality is not mentioned.",
+      "dominant_theme": "The dominant theme revolves around emotional struggles, as indicated by the mention of PTSD, anger, and the impact on relationships, which are all emotional and psychological concerns.",
+      "risk_indicators": "The user expresses distress and a desire for change but does not mention any self-harm or suicidal thoughts. Therefore, the risk indicators are none."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S019",
+    "reasoning": {
+      "affect_valence": "The user's affect valence appears to be negative, as they mention being a survivor of multiple traumatic experiences and the impact of triggers on their daily life and relationship. The use of 'triggers are having an effect' suggests distress.",
+      "energy_level": "The text does not provide explicit information about the user's energy level. However, the mention of trying to cope with triggers suggests they are actively engaged in managing their situation, which might indicate a medium energy level.",
+      "sleep_quality": "There is no mention of sleep in the user's report, so we cannot determine the quality of their sleep.",
+      "dominant_theme": "The dominant theme is emotional, as the user discusses the impact of past trauma and triggers on their life and relationships, which relates to emotional regulation and coping.",
+      "risk_indicators": "There are no explicit or implicit references to self-harm or suicidal ideation. The focus is on coping with triggers, indicating no immediate risk language."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S020",
+    "reasoning": {
+      "affect_valence": "The user's experience is predominantly negative, as indicated by phrases like 'I felt sick' and the distressing situation of unwanted touching.",
+      "energy_level": "The text does not provide explicit information about the user's energy level, but the context suggests a low energy state due to feeling sick and the distressing situation.",
+      "sleep_quality": "There is no mention of sleep quality in the text.",
+      "dominant_theme": "The dominant theme is relationships, as the situation involves interactions with a friend and a distressing boundary violation.",
+      "risk_indicators": "There are no explicit risk indicators such as self-harm or suicidal statements, but the situation is distressing. However, it does not reach the threshold for low risk as defined."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S021",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is predominantly negative, as indicated by phrases like 'anger issues,' 'worsened,' 'lose her,' and 'explode.' The overall tone reflects distress and concern about the consequences of their actions.",
+      "energy_level": "The user describes feeling like they are 'about to explode,' which suggests a high energy level characterized by agitation and restlessness.",
+      "sleep_quality": "There is no mention of sleep in the text, so we cannot assess the user's sleep quality.",
+      "dominant_theme": "The dominant theme is emotional, as the user discusses their 'anger issues,' emotional regulation, and the impact of these emotions on their relationship.",
+      "risk_indicators": "The risk indicators are high due to the admission of physical violence ('I throw things at her when I’m angry, and sometimes I hit her') and the statement 'I'm about to explode,' which suggests a potential for further harm."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "high",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "high"
+    }
+  },
+  {
+    "id": "S022",
+    "reasoning": {
+      "affect_valence": "The user expresses mixed emotions. Initially, there is a sense of discomfort ('he was on her more than me'), but this is followed by a resolution ('it made me feel better') and a desire for more ('craving more of it'). However, there is also an 'empty feeling' before it happens again, indicating a complex emotional state.",
+      "energy_level": "The user does not explicitly mention feeling fatigued or energetic. The craving for more experiences suggests some level of engagement, but the 'empty feeling' could imply a lack of motivation or energy. Overall, the energy level seems to be medium.",
+      "sleep_quality": "There is no mention of sleep or sleep-related issues in the text.",
+      "dominant_theme": "The primary focus is on the user's emotional response to the threesome experience and the subsequent feelings of emptiness, indicating an emotional theme.",
+      "risk_indicators": "The user describes feeling 'empty,' which could suggest some emotional distress, but there are no explicit references to self-harm, hopelessness, or suicidal ideation."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S023",
+    "reasoning": {
+      "affect_valence": "The user's feelings are predominantly negative, as indicated by words like 'jealous' and 'afraid.' The user expresses concern and distress over the situation with their girlfriend.",
+      "energy_level": "The user does not express any particular level of energy, but the act of attempting to talk to the girlfriend suggests a medium energy level, as they are engaged in addressing the issue.",
+      "sleep_quality": "There is no mention of sleep in the user's report, so we cannot assess sleep quality.",
+      "dominant_theme": "The dominant theme is 'relationships,' as the user's concerns revolve around their girlfriend's interactions with her ex-boyfriends and the impact on their relationship.",
+      "risk_indicators": "There are no indications of risk in the user's report. The concerns are about jealousy and relationship dynamics, not about self-harm or hopelessness."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S024",
+    "reasoning": {
+      "affect_valence": "The user's text reflects anxiety and fear, as indicated by phrases like 'afraid of having sex,' 'afraid of disappointing my partner,' and 'scared that he will be disappointed.' These expressions suggest a predominantly negative emotional state.",
+      "energy_level": "The text does not provide any information about the user's energy level. The focus is on emotional concerns rather than physical energy or activity levels.",
+      "sleep_quality": "There is no mention of sleep or related issues in the text, so we cannot assess the user's sleep quality.",
+      "dominant_theme": "The dominant theme is 'relationships,' as the user is concerned about her partner's perceptions and the impact of her inexperience and body image on the relationship.",
+      "risk_indicators": "There are no explicit or implicit references to self-harm, hopelessness, or suicidal ideation in the text. The user's concerns are centered around relationship dynamics and self-image."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S025",
+    "reasoning": {
+      "affect_valence": "The user expresses mixed emotions about their actions, stating they feel both 'guilty' and 'not guilty.' This indicates a neutral affect valence as they are experiencing conflicting emotions rather than predominantly negative or positive ones.",
+      "energy_level": "There is no mention of energy levels such as feeling fatigued or energetic. The user's focus is on their emotional state and moral dilemma, not on their physical energy.",
+      "sleep_quality": "The user does not mention anything related to sleep, such as trouble sleeping or feeling rested.",
+      "dominant_theme": "The dominant theme is 'relationships' as the user discusses their marital status and an extramarital affair, which involves interpersonal dynamics and feelings of guilt.",
+      "risk_indicators": "There are no indications of risk such as hopelessness or self-harm. The user's focus is on their feelings about their actions and rights over their body."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S026",
+    "reasoning": {
+      "affect_valence": "The user's tone is predominantly negative, as they describe a distressing situation involving their husband's pattern of detachment and his unhealthy dependency on alcohol. Phrases like 'unhealthy dependency on alcohol' and 'does not believe in therapy' indicate distress and concern.",
+      "energy_level": "The user seems to be actively seeking answers and trying to understand the situation, which suggests a medium energy level. They mention researching online, indicating engagement and effort.",
+      "sleep_quality": "There is no mention of sleep or related issues in the text.",
+      "dominant_theme": "The dominant theme is relationships, as the user discusses their marriage, their husband's relationships with his children, and his detachment patterns.",
+      "risk_indicators": "There are no explicit or implicit indications of risk to self or others in the user's text."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S027",
+    "reasoning": {
+      "affect_valence": "The user expresses concern about their actions and the impact on their boyfriend, which suggests a mix of emotions but not predominantly negative ones. The question 'Was I wrong?' indicates some level of self-reflection and uncertainty rather than distress or negativity.",
+      "energy_level": "The user does not express any signs of fatigue or high energy. The focus is on a relational issue, and there is no indication of being particularly energetic or depleted, suggesting a medium energy level.",
+      "sleep_quality": "There is no mention of sleep or any related issues in the text.",
+      "dominant_theme": "The main focus of the text is on relationships, specifically the dynamics between the user, their friend, and their boyfriend.",
+      "risk_indicators": "There are no indications of risk language such as hopelessness or self-harm. The user's concern is about relational dynamics, not personal safety."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S028",
+    "reasoning": {
+      "affect_valence": "The user's text reflects a predominantly negative affect valence. They mention being 'abused emotionally all of my life' and having a 'really hard time getting back on my feet,' which indicates distress and struggle.",
+      "energy_level": "The user describes having a 'really hard time getting back on my feet,' suggesting a low energy level as they seem to be struggling and possibly feeling unmotivated or exhausted.",
+      "sleep_quality": "There is no mention of sleep in the user's text, so we cannot determine their sleep quality.",
+      "dominant_theme": "The dominant theme is 'relationships,' as the user discusses patterns of emotional abuse in their relationships with men and seeks help to stop this cycle.",
+      "risk_indicators": "There are no explicit or implicit references to self-harm or suicidal ideation. The user is seeking help, which suggests they are looking for solutions rather than expressing hopelessness, so the risk indicators are 'none.'"
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S029",
+    "reasoning": {
+      "affect_valence": "The text describes a progression of emotions, ending with 'depressed and hopeless again,' which indicates a predominantly negative affect valence.",
+      "energy_level": "The text does not provide specific information about energy levels, but the mention of 'depressed and hopeless' suggests a likely low energy level due to the association of these feelings with lethargy and lack of motivation.",
+      "sleep_quality": "There is no mention of sleep or related issues in the text.",
+      "dominant_theme": "The dominant theme is 'emotional' as the text focuses on changes in mood, specifically anger, feeling wonderful, and then depression and hopelessness.",
+      "risk_indicators": "The phrase 'depressed and hopeless again' suggests a low level of risk, as it indicates a negative emotional state without explicit mention of self-harm or suicidal ideation."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S030",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as indicated by the distressing nature of the thoughts they are experiencing, such as 'you aren't worth anything.' This suggests feelings of worthlessness and distress.",
+      "energy_level": "The text does not provide specific information about the user's energy level. There are no indications of fatigue or high energy, so it is most defensible to assume a medium energy level.",
+      "sleep_quality": "There is no mention of sleep in the user's report, so the sleep quality is labeled as not_mentioned.",
+      "dominant_theme": "The dominant theme is emotional, as the user is dealing with intrusive negative thoughts about self-worth, which relates to emotional regulation and mental health.",
+      "risk_indicators": "The risk indicators are low, as the user expresses distress about their thoughts but does not mention any specific ideation or intent. The phrase 'you aren't worth anything' suggests some level of hopelessness."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S031",
+    "reasoning": {
+      "affect_valence": "The user's language indicates a negative affect valence, as they describe having thoughts like 'you aren't worth anything,' which suggests feelings of worthlessness and distress.",
+      "energy_level": "There is no explicit mention of energy levels in the text. The focus is on intrusive thoughts rather than physical energy or motivation.",
+      "sleep_quality": "The user does not mention anything related to sleep, so we cannot assess sleep quality from this text.",
+      "dominant_theme": "The dominant theme is emotional, as the user is dealing with intrusive negative thoughts and questioning their self-worth, which relates to emotional regulation and mental health.",
+      "risk_indicators": "The phrase 'you aren't worth anything' suggests low self-worth, but there is no explicit mention of self-harm or suicidal ideation. Therefore, the risk indicators are low, as there is a vague reference to hopelessness."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S032",
+    "reasoning": {
+      "affect_valence": "The user's question is neutral as it is a straightforward inquiry about the process of ending counseling sessions, without any emotional language or tone.",
+      "energy_level": "The user's energy level appears to be neutral as well, as the question is posed in a matter-of-fact manner without any indication of fatigue or high energy.",
+      "sleep_quality": "There is no mention of sleep in the user's question, so we cannot assess sleep quality.",
+      "dominant_theme": "The dominant theme is related to 'other' as the question pertains to the procedural aspect of counseling, which does not fit into the emotional, relationships, work_academic, physical_health, existential, or daily_routine categories.",
+      "risk_indicators": "There are no risk indicators present in the user's question, as it is a neutral inquiry about counseling procedures."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "other",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S033",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as indicated by phrases like 'he says I anger him,' 'he gets angry at me,' and 'I feel like we’re so distant from each other now.' These suggest feelings of distress and sadness.",
+      "energy_level": "The energy level appears to be low. The user describes feeling distant and notes a lack of laughter, which suggests a lack of motivation or engagement.",
+      "sleep_quality": "There is no mention of sleep in the text, so we cannot assess sleep quality.",
+      "dominant_theme": "The dominant theme is relationships. The user discusses issues with their partner, mentioning feelings of distance and changes in their interactions.",
+      "risk_indicators": "There are no explicit or implicit risk indicators in the text. The user expresses concern and distress but does not mention any self-harm or suicidal thoughts."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S034",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as they express feelings of depression, fear, exhaustion, and hopelessness. Phrases like 'I'm depressed,' 'exhausting pretending to be okay,' and 'I don't know how much longer I can try' indicate a predominantly negative emotional state.",
+      "energy_level": "The user's energy level is low. They describe feeling 'exhausted' and 'really tired,' which suggests a lack of energy and motivation.",
+      "sleep_quality": "The user does not mention any specific issues related to sleep, such as insomnia or nightmares. Therefore, sleep quality is not mentioned.",
+      "dominant_theme": "The dominant theme is emotional, as the user discusses their depression, feelings of exhaustion, and the emotional burden of hiding their true feelings from others.",
+      "risk_indicators": "The risk indicators are moderate. The user expresses a sense of hopelessness and exhaustion with phrases like 'I don't know how much longer I can try,' which suggests passive ideation without explicit mention of self-harm or suicidal intent."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "moderate"
+    }
+  },
+  {
+    "id": "S035",
+    "reasoning": {
+      "affect_valence": "The user's affect valence appears to be negative. They describe a situation involving conflict and distress, such as 'my boyfriend found out' and 'told everyone I was cheating,' which suggests feelings of shame and betrayal. Additionally, the user expresses self-blame with 'I feel like I'm usually the issue here.'",
+      "energy_level": "The user's energy level seems to be low. The text reflects a sense of being overwhelmed and possibly exhausted by the relationship issues, as indicated by the phrase 'I moved out of the house' and the contemplation of whether to 'walk away.'",
+      "sleep_quality": "The user does not mention any information about sleep, so the sleep quality is labeled as 'not_mentioned.'",
+      "dominant_theme": "The dominant theme is 'relationships.' The entire text revolves around the user's relationship with their boyfriend, including issues of trust, communication, and the potential for reconciliation or separation.",
+      "risk_indicators": "There are no explicit risk indicators present in the text. The user is contemplating the health of their relationship but does not express any thoughts of self-harm or hopelessness beyond the relationship context."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S036",
+    "reasoning": {
+      "affect_valence": "The user expresses feeling 'very upset and depressed' and describes their experience as 'tough,' indicating a predominantly negative emotional state.",
+      "energy_level": "The user mentions feeling 'scared' and 'shaking all the time,' which suggests a heightened state of agitation rather than low energy, but not necessarily high energy either. This aligns more with a medium energy level due to the emotional turmoil.",
+      "sleep_quality": "There is no mention of sleep or sleep-related issues in the text.",
+      "dominant_theme": "The user's concerns revolve around their emotional response to their sexual orientation and identity, indicating an 'emotional' theme with elements of existential questioning.",
+      "risk_indicators": "The user expresses distress and fear but does not mention any self-harm or suicidal thoughts. The language suggests significant distress but does not reach the level of moderate or high risk indicators."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S037",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is predominantly negative, as indicated by phrases like 'felt hopeless,' 'added to my sadness,' and the mention of a poor relationship with their sister.",
+      "energy_level": "The text does not provide specific information about the user's energy level. There are no mentions of fatigue, lethargy, or high energy activities.",
+      "sleep_quality": "There is no mention of sleep in the text, so we cannot determine the user's sleep quality.",
+      "dominant_theme": "The dominant theme is 'relationships,' as the user discusses their relationship with their sister and the impact of their mother's death on their emotions.",
+      "risk_indicators": "The user mentions feeling 'hopeless' last year, which suggests a low level of risk. There are no explicit mentions of self-harm or suicidal ideation."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S038",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as indicated by the mention of PTSD, panic attacks, nightmares, anger, and depression. The phrase 'feel like I'm always on the edge or just apathetic' further supports a negative emotional state.",
+      "energy_level": "The user's energy level appears to be low. The mention of feeling 'apathetic' and 'always on the edge' suggests a lack of motivation and possible exhaustion.",
+      "sleep_quality": "The user mentions having 'nightmares,' which indicates poor sleep quality.",
+      "dominant_theme": "The dominant theme is emotional, as the user discusses PTSD, panic attacks, anger, and depression, which are all related to emotional regulation and mental health.",
+      "risk_indicators": "The user does not express any explicit self-harm or suicidal ideation, but the mention of depression and feeling 'apathetic' suggests some level of distress. However, there are no specific indicators of risk, so the label is 'none.'"
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "poor",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S039",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as they express feelings of rejection and regret, stating 'I feel rejected and think I married the wrong person.' This indicates distress and dissatisfaction with their relationship.",
+      "energy_level": "The user's energy level appears to be low. They mention 'thinking about it all day,' which suggests rumination and a lack of motivation or engagement in other activities.",
+      "sleep_quality": "Sleep quality is not mentioned in the text, as there are no references to sleep patterns or issues.",
+      "dominant_theme": "The dominant theme is relationships, as the user discusses changes in their partner's behavior and their feelings about the marriage, indicating a focus on relational dynamics.",
+      "risk_indicators": "There are no explicit risk indicators in the text. The user expresses dissatisfaction and regret, but there are no references to self-harm or suicidal ideation."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S040",
+    "reasoning": {
+      "affect_valence": "The user does not express any clear positive or negative emotions in the text. The statement is factual and lacks emotional language, indicating a neutral affect valence.",
+      "energy_level": "The user does not mention feeling tired or energetic. The focus is on past and potential future changes, which does not provide information about their current energy level. Thus, it is best categorized as medium.",
+      "sleep_quality": "There is no mention of sleep or related issues in the text, so sleep quality is not mentioned.",
+      "dominant_theme": "The user discusses past school experiences and current thoughts about changing jobs, which aligns with the work_academic theme.",
+      "risk_indicators": "There are no expressions of hopelessness, self-harm, or suicidal ideation in the text. Therefore, there are no risk indicators present."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "work_academic",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S041",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as indicated by phrases like 'scared to lose him' and 'freaking out,' which suggest anxiety and distress.",
+      "energy_level": "The energy level appears to be medium. The user is actively engaged in their emotions and reactions, such as 'freaking out,' but there is no indication of lethargy or high energy.",
+      "sleep_quality": "Sleep quality is not mentioned in the text, as there are no references to sleep patterns or issues.",
+      "dominant_theme": "The dominant theme is relationships, as the text focuses on the user's feelings about their partner becoming distant and their fear of losing him.",
+      "risk_indicators": "There are low risk indicators present, as the user expresses fear and anxiety about losing their partner, but there is no mention of self-harm or suicidal ideation."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S042",
+    "reasoning": {
+      "affect_valence": "The text describes a progression of emotions, ending with 'depressed and hopeless again,' which indicates a predominantly negative affect valence.",
+      "energy_level": "The text does not provide specific information about energy levels, but the mention of 'depressed and hopeless' suggests a likely low energy level, as these emotions often correlate with fatigue and lack of motivation.",
+      "sleep_quality": "There is no mention of sleep or related issues in the text, so sleep quality is not mentioned.",
+      "dominant_theme": "The dominant theme is emotional, as the text focuses on changes in mood and feelings of depression and hopelessness.",
+      "risk_indicators": "The mention of 'hopeless' suggests a low level of risk, as it indicates a negative emotional state without specific ideation or plans."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S043",
+    "reasoning": {
+      "affect_valence": "The user's statement reflects a desire to overcome a fear, which suggests a proactive and somewhat hopeful attitude. However, the mention of fear indicates some underlying anxiety. Overall, the affect is mixed but leans towards a positive intention to improve the situation.",
+      "energy_level": "The user expresses a desire to take action ('I want to face that fear'), indicating a level of motivation and engagement. This suggests a medium energy level, as they are not lethargic but also not overly energetic.",
+      "sleep_quality": "There is no mention of sleep or related issues in the user's statement.",
+      "dominant_theme": "The primary focus of the user's statement is on facing and overcoming fear, which relates to emotional regulation and anxiety management.",
+      "risk_indicators": "There are no indications of risk, such as self-harm or suicidal ideation, in the user's statement. The focus is on overcoming fear, not on any harmful thoughts or behaviors."
+    },
+    "labels": {
+      "affect_valence": "neutral",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S044",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as they express feelings of struggle, lack of trust, and uncertainty about the future of their relationship. Phrases like 'struggling to forget and forgive' and 'I feel like I cannot trust him' indicate distress and emotional turmoil.",
+      "energy_level": "The user's energy level appears to be low. They describe struggling and uncertainty, which suggests a sense of being overwhelmed and possibly fatigued by the situation.",
+      "sleep_quality": "There is no mention of sleep in the user's text, so we cannot determine their sleep quality.",
+      "dominant_theme": "The dominant theme is relationships, as the user discusses issues of trust, forgiveness, and the impact of their partner's actions on their family and children.",
+      "risk_indicators": "There are no explicit or implicit risk indicators in the user's text. They express emotional distress but do not mention any self-harm or suicidal thoughts."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S045",
+    "reasoning": {
+      "affect_valence": "The user's text reflects a sense of confusion and concern about social interactions, which suggests a negative affect. Phrases like 'I don't understand why they won't answer' and 'Could it be that there is something they don't like about me?' indicate feelings of insecurity and distress.",
+      "energy_level": "The user does not express any particular level of energy, either high or low. The focus is on understanding social dynamics rather than expressing fatigue or high energy, suggesting a medium energy level.",
+      "sleep_quality": "There is no mention of sleep or related issues in the text, so sleep quality is not mentioned.",
+      "dominant_theme": "The dominant theme is relationships, as the user is concerned about their interactions with others and why people are not responding to their messages.",
+      "risk_indicators": "There are no explicit or implicit indications of risk in the user's text. The concerns are about social interactions and do not suggest any self-harm or suicidal ideation."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S046",
+    "reasoning": {
+      "affect_valence": "The user expresses feeling 'very upset and depressed' and describes their experience as 'tough,' indicating a predominantly negative emotional state.",
+      "energy_level": "The user mentions feeling 'scared' and 'shaking all the time,' which suggests a heightened state of anxiety rather than low energy, but not necessarily high energy either. This aligns more with a medium energy level due to the presence of anxiety.",
+      "sleep_quality": "There is no mention of sleep or sleep-related issues in the text.",
+      "dominant_theme": "The user's concerns revolve around their emotional response to their sexual orientation and identity, indicating an 'emotional' theme with elements of existential questioning.",
+      "risk_indicators": "The user expresses distress and fear but does not mention any self-harm or suicidal thoughts. The language suggests significant distress but does not reach the level of moderate risk indicators like passive ideation."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "low"
+    }
+  },
+  {
+    "id": "S047",
+    "reasoning": {
+      "affect_valence": "The user's affect valence appears to be negative due to the confusion and distress caused by the fiancé's infidelity. Phrases like 'I'm confused on what to do' and the context of dealing with cheating indicate emotional turmoil.",
+      "energy_level": "The user's energy level seems to be medium. While they are dealing with a difficult situation, they are actively considering their options and seeking advice, which suggests they are functional.",
+      "sleep_quality": "There is no mention of sleep in the text, so we cannot determine the user's sleep quality.",
+      "dominant_theme": "The dominant theme is relationships, as the entire conversation revolves around the user's relationship with their fiancé, the issue of infidelity, and the potential future of their relationship.",
+      "risk_indicators": "There are no risk indicators present in the text. The user is expressing confusion and seeking advice, but there are no mentions of hopelessness or self-harm."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "relationships",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S048",
+    "reasoning": {
+      "affect_valence": "The user expresses a negative emotional state by mentioning 'imposter syndrome' and the feeling of being 'found out as a fraud.' Despite acknowledging positive aspects like being 'well-published' and 'well liked,' the overall tone is one of distress and self-doubt.",
+      "energy_level": "The user does not explicitly mention their energy levels. However, the ability to be 'well-published' and 'well liked' suggests they are at least functional, indicating a medium energy level.",
+      "sleep_quality": "There is no mention of sleep in the user's text, so we cannot assess their sleep quality.",
+      "dominant_theme": "The dominant theme is 'emotional,' as the user is dealing with 'imposter syndrome,' which relates to self-doubt and emotional regulation.",
+      "risk_indicators": "There are no explicit or implicit references to self-harm or suicidal ideation. The user's concerns are centered around self-perception and emotional distress, indicating no risk indicators."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S049",
+    "reasoning": {
+      "affect_valence": "The user's affect valence is negative, as they express difficulty and distress in moving on from a relationship. Phrases like 'so difficult to move on' and 'I feel like I don't want to be without my genuine love for him' indicate emotional struggle and sadness.",
+      "energy_level": "The user's energy level appears to be low. They describe an emotional struggle and a sense of being stuck, as seen in 'I know that I need to get past my feelings' and 'How can I get myself to just move on?' which suggest a lack of motivation and energy to move forward.",
+      "sleep_quality": "There is no mention of sleep in the user's text, so the sleep quality is not mentioned.",
+      "dominant_theme": "The dominant theme is emotional, as the user is dealing with feelings of love, loss, and the difficulty of moving on from a relationship. The focus is on their emotional state and the internal conflict they are experiencing.",
+      "risk_indicators": "There are no explicit or implicit risk indicators in the text. The user is expressing emotional distress but does not mention any thoughts of self-harm or hopelessness beyond the context of the relationship."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "low",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  },
+  {
+    "id": "S050",
+    "reasoning": {
+      "affect_valence": "The user's statement 'How can I get my life back?' suggests a sense of distress and a desire for improvement, indicating a negative affect. Additionally, mentioning the loss of a job and impacts on relationships and anger further supports a negative valence.",
+      "energy_level": "The text does not explicitly mention energy levels, but the context of losing a job and struggling with PTSD side effects suggests a possible depletion of energy. However, without explicit mention, it is safest to assume a medium energy level as the user is still seeking solutions.",
+      "sleep_quality": "There is no mention of sleep in the user's statement, so we must label this as not_mentioned.",
+      "dominant_theme": "The dominant theme appears to be emotional, as the user discusses PTSD, its side effects, and the impact on anger and relationships, which are emotional and psychological concerns.",
+      "risk_indicators": "The user does not express any explicit self-harm or suicidal ideation. The question 'How can I get my life back?' indicates a desire for change rather than hopelessness, suggesting no immediate risk indicators."
+    },
+    "labels": {
+      "affect_valence": "negative",
+      "energy_level": "medium",
+      "sleep_quality": "not_mentioned",
+      "dominant_theme": "emotional",
+      "risk_indicators": "none"
+    }
+  }
+]

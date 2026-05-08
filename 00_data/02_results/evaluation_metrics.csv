@@ -1,0 +1,8 @@
+Field,Accuracy,Precision (macro),Recall (macro),F1 (macro),Cohen's Kappa
+Affect Valence,1.0,1.0,1.0,1.0,1.0
+Energy Level,0.82,0.7143,0.8799,0.7679,0.6457
+Sleep Quality,1.0,1.0,1.0,1.0,1.0
+Dominant Theme,0.84,0.715,0.9385,0.7503,0.7368
+Risk Indicators,0.62,0.8127,0.8365,0.7883,0.3462
+Overall (macro avg),0.856,0.8484,0.931,0.8613,0.7457
+Exact Match (all fields),0.42,—,—,—,—

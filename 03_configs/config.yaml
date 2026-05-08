@@ -1,0 +1,101 @@
+# ============================================================
+# MindLog Extraction Pipeline — Preliminary Validation Config
+# ============================================================
+# Validates the structured-indicator extraction pipeline
+# against the Kaggle NLP Mental Health Conversations dataset.
+#
+# Reference: MindLog Research Proposal §7.4
+# ============================================================
+
+paths:
+  raw_dir:       "00_data/00_raw"
+  processed_dir: "00_data/01_processed"
+  results_dir:   "00_data/02_results"
+  artifacts_dir: "04_artifacts"
+
+  raw_files:
+    conversations: "combined_data.csv"   # thedevastator/nlp-mental-health-conversations
+
+  output_files:
+    sampled_conversations: "sampled_conversations.json"
+    ground_truth:          "ground_truth_labels.json"
+    extraction_results:    "extraction_results.json"
+    evaluation_report:     "evaluation_report.json"
+    evaluation_csv:        "evaluation_metrics.csv"
+
+# ── Dataset Configuration ────────────────────────────────────
+dataset:
+  source_url: "https://www.kaggle.com/datasets/thedevastator/nlp-mental-health-conversations"
+  required_cols: ["Context", "Response"]
+  sample_size: 50               # N conversations for benchmark
+  random_seed: 42
+  min_context_length: 80        # chars — filter out trivially short entries
+  max_context_length: 3000      # chars — filter out excessively long entries
+
+# ── Extraction Schema ────────────────────────────────────────
+# Maps directly to MindLog Proposal §4.2 — Structured Log Extraction
+extraction:
+  fields:
+    affect_valence:
+      type: "categorical"
+      labels: ["positive", "neutral", "negative"]
+      description: "Overall emotional tone of the user's self-report"
+
+    energy_level:
+      type: "categorical"
+      labels: ["low", "medium", "high"]
+      description: "User's reported or inferred energy/activity level"
+
+    sleep_quality:
+      type: "categorical"
+      labels: ["poor", "fair", "good", "not_mentioned"]
+      description: "Sleep quality if mentioned; 'not_mentioned' otherwise"
+
+    dominant_theme:
+      type: "categorical"
+      labels:
+        - "emotional"        # sadness, anxiety, mood
+        - "relationships"    # family, friends, romantic
+        - "work_academic"    # job, school, career
+        - "physical_health"  # body, exercise, illness
+        - "existential"      # purpose, meaning, self-identity
+        - "daily_routine"    # chores, habits, logistics
+        - "other"
+      description: "Primary topic or concern in the conversation"
+
+    risk_indicators:
+      type: "categorical"
+      labels: ["none", "low", "moderate", "high"]
+      description: "Presence of self-harm, suicidal ideation, or crisis language"
+
+# ── LLM Configuration ────────────────────────────────────────
+llm:
+  provider: "openai"
+  model: "gpt-4o"
+  temperature: 0
+  max_tokens: 512
+  retry_attempts: 3
+  retry_delay_seconds: 2
+  batch_delay_seconds: 0.5     # rate-limit safety margin between API calls
+
+# ── Ground Truth Annotation ──────────────────────────────────
+annotation:
+  # LLM-as-judge for automated ground truth generation
+  # A separate, higher-fidelity pass with explicit CoT reasoning
+  model: "gpt-4o"
+  temperature: 0
+  max_tokens: 1024
+  require_reasoning: true       # force CoT justification per field
+
+# ── Evaluation Metrics ───────────────────────────────────────
+evaluation:
+  primary_metric: "accuracy"
+  metrics:
+    - "accuracy"
+    - "precision_macro"
+    - "recall_macro"
+    - "f1_macro"
+    - "cohens_kappa"
+  exact_match: true              # also report all-fields-correct rate
+  confidence_interval: 0.95      # bootstrap CI for accuracy
+  bootstrap_iterations: 1000

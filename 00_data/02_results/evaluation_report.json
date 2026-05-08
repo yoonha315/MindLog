@@ -1,0 +1,494 @@
+{
+  "field_reports": {
+    "affect_valence": {
+      "field": "affect_valence",
+      "n_samples": 50,
+      "n_errors": 0,
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "cohens_kappa": 1.0,
+      "per_class": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 41
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9
+        },
+        "positive": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            41,
+            0,
+            0
+          ],
+          [
+            0,
+            9,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "bootstrap_ci": {
+        "accuracy": 1.0,
+        "ci_lower": 1.0,
+        "ci_upper": 1.0,
+        "n_iterations": 1000
+      }
+    },
+    "energy_level": {
+      "field": "energy_level",
+      "n_samples": 50,
+      "n_errors": 0,
+      "accuracy": 0.82,
+      "precision_macro": 0.7143,
+      "recall_macro": 0.8799,
+      "f1_macro": 0.7679,
+      "cohens_kappa": 0.6457,
+      "per_class": {
+        "high": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 1
+        },
+        "low": {
+          "precision": 0.75,
+          "recall": 0.8333,
+          "f1": 0.7895,
+          "support": 18
+        },
+        "medium": {
+          "precision": 0.8929,
+          "recall": 0.8065,
+          "f1": 0.8475,
+          "support": 31
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "high",
+          "low",
+          "medium"
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            15,
+            3
+          ],
+          [
+            1,
+            5,
+            25
+          ]
+        ]
+      },
+      "bootstrap_ci": {
+        "accuracy": 0.8209,
+        "ci_lower": 0.7,
+        "ci_upper": 0.92,
+        "n_iterations": 1000
+      }
+    },
+    "sleep_quality": {
+      "field": "sleep_quality",
+      "n_samples": 50,
+      "n_errors": 0,
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "cohens_kappa": 1.0,
+      "per_class": {
+        "fair": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "good": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "not_mentioned": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 47
+        },
+        "poor": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "fair",
+          "good",
+          "not_mentioned",
+          "poor"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            47,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ]
+      },
+      "bootstrap_ci": {
+        "accuracy": 1.0,
+        "ci_lower": 1.0,
+        "ci_upper": 1.0,
+        "n_iterations": 1000
+      }
+    },
+    "dominant_theme": {
+      "field": "dominant_theme",
+      "n_samples": 50,
+      "n_errors": 0,
+      "accuracy": 0.84,
+      "precision_macro": 0.715,
+      "recall_macro": 0.9385,
+      "f1_macro": 0.7503,
+      "cohens_kappa": 0.7368,
+      "per_class": {
+        "daily_routine": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "emotional": {
+          "precision": 1.0,
+          "recall": 0.6923,
+          "f1": 0.8182,
+          "support": 26
+        },
+        "existential": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "f1": 0.3333,
+          "support": 1
+        },
+        "other": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "physical_health": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "relationships": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1": 0.9333,
+          "support": 21
+        },
+        "work_academic": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "daily_routine",
+          "emotional",
+          "existential",
+          "other",
+          "physical_health",
+          "relationships",
+          "work_academic"
+        ],
+        "matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            18,
+            4,
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            21,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "bootstrap_ci": {
+        "accuracy": 0.8394,
+        "ci_lower": 0.74,
+        "ci_upper": 0.94,
+        "n_iterations": 1000
+      }
+    },
+    "risk_indicators": {
+      "field": "risk_indicators",
+      "n_samples": 50,
+      "n_errors": 0,
+      "accuracy": 0.62,
+      "precision_macro": 0.8127,
+      "recall_macro": 0.8365,
+      "f1_macro": 0.7883,
+      "cohens_kappa": 0.3462,
+      "per_class": {
+        "high": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "low": {
+          "precision": 0.3462,
+          "recall": 0.8182,
+          "f1": 0.4865,
+          "support": 11
+        },
+        "moderate": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        },
+        "none": {
+          "precision": 0.9048,
+          "recall": 0.5278,
+          "f1": 0.6667,
+          "support": 36
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "high",
+          "low",
+          "moderate",
+          "none"
+        ],
+        "matrix": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            9,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            17,
+            0,
+            19
+          ]
+        ]
+      },
+      "bootstrap_ci": {
+        "accuracy": 0.6169,
+        "ci_lower": 0.48,
+        "ci_upper": 0.74,
+        "n_iterations": 1000
+      }
+    }
+  },
+  "overall": {
+    "accuracy_macro": 0.856,
+    "precision_macro": 0.8484,
+    "recall_macro": 0.931,
+    "f1_macro": 0.8613
+  },
+  "exact_match": {
+    "exact_match_rate": 0.42,
+    "n_exact_match": 21,
+    "n_total": 50
+  },
+  "error_analysis": {
+    "misclassification_patterns": {
+      "risk_indicators": [
+        {
+          "pattern": "none → low",
+          "count": 17
+        },
+        {
+          "pattern": "low → none",
+          "count": 2
+        }
+      ],
+      "energy_level": [
+        {
+          "pattern": "medium → low",
+          "count": 5
+        },
+        {
+          "pattern": "low → medium",
+          "count": 3
+        },
+        {
+          "pattern": "medium → high",
+          "count": 1
+        }
+      ],
+      "dominant_theme": [
+        {
+          "pattern": "emotional → existential",
+          "count": 4
+        },
+        {
+          "pattern": "emotional → relationships",
+          "count": 3
+        },
+        {
+          "pattern": "emotional → work_academic",
+          "count": 1
+        }
+      ]
+    },
+    "high_error_samples": [
+      {
+        "id": "S009",
+        "n_errors": 2
+      },
+      {
+        "id": "S019",
+        "n_errors": 2
+      },
+      {
+        "id": "S035",
+        "n_errors": 2
+      },
+      {
+        "id": "S039",
+        "n_errors": 2
+      },
+      {
+        "id": "S048",
+        "n_errors": 2
+      }
+    ],
+    "api_errors": 0
+  },
+  "metadata": {
+    "n_samples": 50,
+    "n_fields": 5,
+    "model": "gpt-4o",
+    "annotation_model": "gpt-4o"
+  }
+}

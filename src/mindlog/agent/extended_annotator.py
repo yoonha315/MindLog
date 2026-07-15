@@ -40,7 +40,7 @@ Respond with a valid JSON object containing:
   "labels": {
     "medication_adherence": "taken | missed | not_applicable | not_mentioned",
     "somatic_symptoms": "1-2 sentence summary, or exactly 'not_mentioned'",
-    "interpersonal_status": "1-2 sentence summary, or exactly 'not_mentioned'"
+    "interpersonal_status": "summary (see definitions below), or exactly 'not_mentioned'"
   }
 }
 
@@ -59,7 +59,14 @@ somatic_symptoms:
 
 interpersonal_status:
   - Summarize anything about relationships (changes, conflict, support,
-    withdrawal) in 1-2 sentences.
+    withdrawal). This includes interactions with professionals such as
+    counselors or doctors (e.g. reluctance to discuss something with them,
+    trust issues) — but only the relational aspect of that interaction, not
+    the medication content itself (whether taken, dosage, etc.).
+  - Summarize not just what happened but, where possible, why it happened,
+    the relationship's background/context, and the speaker's emotional
+    nuance. Normally 1-2 sentences, but extend to 2-3 sentences if needed
+    to capture this.
   - If nothing interpersonal is mentioned, the label must be EXACTLY
     "not_mentioned".
 

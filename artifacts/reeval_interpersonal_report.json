@@ -1,0 +1,292 @@
+{
+  "field": "interpersonal_status",
+  "n_samples": 46,
+  "counts": {
+    "correct": 14,
+    "partial": 31,
+    "incorrect": 1
+  },
+  "percentages": {
+    "correct": 30.4,
+    "partial": 67.4,
+    "incorrect": 2.2
+  },
+  "cases": [
+    {
+      "id": "E004",
+      "extracted": "The user reflects on their past experiences with therapy, mentioning that they had counseling 2-3 times a week throughout their childhood and adolescence. However, they note that they have not been in counseling recently, suggesting a change in their support system. The user feels overwhelmed and is questioning whether they might be experiencing depression, indicating a need for support and possibly a return to counseling.",
+      "ground_truth": "The user mentions a troubled upbringing and feeling overwhelmed, indicating past and possibly ongoing interpersonal challenges.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E005",
+      "extracted": "The user is going through a divorce with their wife of three years, whom they have known since childhood. They have a seven-month-old baby but have not seen the child in a while. The user is heartbroken and feels hated, indicating emotional distress. They have returned to live with their mother, with whom they have a strained relationship, due to having nowhere else to go during the divorce. The user expresses a desire for help and to speak with someone, indicating a need for support and intervention.",
+      "ground_truth": "The user is going through a divorce, has not seen their child, and has conflicts with their mother, indicating significant interpersonal changes and stress.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E006",
+      "extracted": "The user expresses anxiety related to various aspects of their life, including relationships and family responsibilities, indicating stress in managing these interpersonal areas.",
+      "ground_truth": "The user has anxieties about relationships, indicating stress or concern in their interpersonal interactions.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E013",
+      "extracted": "The user feels unsupported by their mother, who dismisses their emotional struggles as attention-seeking or hypochondria. The user desires help and improvement, but their mother's refusal to acknowledge their needs creates a barrier to seeking therapy or medical assistance.",
+      "ground_truth": "The user describes a lack of support from their mother, who dismisses their emotional struggles.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E014",
+      "extracted": "The user is concerned about discussing medication dosage with their psychologist, fearing that a request to increase the dose might be perceived as drug abuse. They are worried that their psychologist might change their medication if they express dissatisfaction with the current dosage. This indicates a level of anxiety and mistrust in the relationship, as well as a need for effective communication about their treatment needs.",
+      "ground_truth": "The user is concerned about discussing medication dosage with their psychologist, fearing being taken off Xanax or being perceived as abusing the medication.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E015",
+      "extracted": "The user is concerned about discussing medication dosage with their psychologist, fearing that the psychologist might think they are abusing the medication. They are worried that the psychologist might change their prescription to something else if they request an increase in dosage. The user is experiencing anxiety attacks and is seeking a way to communicate their needs without jeopardizing their current treatment plan.",
+      "ground_truth": "The user is concerned about discussing medication dosage with their psychologist, fearing being taken off Xanax or having the dosage changed.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E016",
+      "extracted": "The user describes a situation where their fiancé is upset about someone entering their house unannounced to see his kids. The fiancé feels angry about this intrusion but seems afraid to confront the person, indicating a possible power imbalance or fear of conflict in the relationship.",
+      "ground_truth": "The user's fiancé is angry and uncomfortable with her ex-partner entering the house unannounced but is afraid to confront him, indicating conflict and communication issues.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E017",
+      "extracted": "The user is experiencing a significant breach of trust in a relationship, which has led to the other person crying and the user feeling deeply hurt and guilty. The emotional impact is profound, with the user feeling 'disgusting' and as if their heart has been 'stabbed,' indicating a strong sense of remorse and emotional turmoil over the situation.",
+      "ground_truth": "The user is experiencing a loss of trust in a relationship, which is causing emotional distress.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E018",
+      "extracted": "The user feels controlled by their mother, who insists on setting rules because the user lives in her house. This situation is causing tension as the user desires more autonomy but is financially dependent on their parents, leading to a conflict between independence and familial obligations.",
+      "ground_truth": "The user describes a conflictual relationship with their mother, who is trying to control their life by imposing rules because they live under her roof.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E019",
+      "extracted": "The user feels unable to invite friends over due to fear of being exposed about wearing a bra that makes their chest appear larger. This has created a barrier in their friendships, as they avoid situations where their parents and friends might discover the truth. The user is seeking a solution to this issue, indicating a desire to maintain their friendships while managing their self-image concerns.",
+      "ground_truth": "The user feels unable to invite friends over due to fear of them discovering the truth about her appearance, indicating concern about maintaining her social image.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E020",
+      "extracted": "The user feels unsupported by their family, who are against transgender people, which creates a conflict as the user wants to transition to feel like their true self. This lack of familial support contributes to the user's distress and desire to seek professional help to address their gender identity.",
+      "ground_truth": "The user experiences a lack of support from their family, who are against transgender people, creating a conflict regarding their gender identity.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E021",
+      "extracted": "The user is experiencing fear and self-doubt in their relationship, feeling that they might be with their partner out of fear of being alone rather than genuine affection. They express concern about not deserving their partner and a desire to avoid causing him harm.",
+      "ground_truth": "The user is concerned about being in a relationship to avoid loneliness and fears not deserving her partner, which may lead to hurting him.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E022",
+      "extracted": "The user is contemplating whether to end their relationship with their boyfriend, indicating uncertainty or dissatisfaction in the relationship. No further details about the nature of the relationship or specific issues are provided.",
+      "ground_truth": "The user is contemplating whether to end their relationship with their boyfriend, indicating they are experiencing uncertainty or conflict in their interpersonal relationship.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E023",
+      "extracted": "The user is experiencing deep emotional pain and heartbreak due to their partner leaving them a year ago when their son was two months old. They express a strong sense of loss and longing for their partner, indicating ongoing emotional distress and difficulty moving on from the relationship.",
+      "ground_truth": "The user is heartbroken after their partner left them a year ago, and they miss her deeply. This event has affected their emotional state and their relationship with their son.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E024",
+      "extracted": "The user is experiencing a conflict with their family due to their gender identity and religious beliefs. They feel unable to share their desire to transition from female to male because they anticipate a lack of acceptance from their family. This situation is causing distress as they navigate their identity in the context of familial and religious expectations.",
+      "ground_truth": "The user feels they cannot tell their family about their gender identity due to religious reasons and fear of non-acceptance.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E025",
+      "extracted": "The user is struggling with past trauma that is affecting their current relationship. They have met a loving and caring man but are pushing him away due to unresolved issues from their past. The user expresses a desire to move on and improve their relationship, indicating an awareness of the impact of their past on their present interpersonal connections.",
+      "ground_truth": "The user is in a relationship with a loving and caring man but is pushing him away due to unresolved past trauma.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E027",
+      "extracted": "The user's boyfriend is seeking therapy due to childhood issues. He has children from a previous marriage but is unable to see them, which may be affecting his emotional state and relationships.",
+      "ground_truth": "The user's boyfriend is seeking therapy for childhood issues and is unable to see his children from a previous marriage, indicating potential interpersonal conflict.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E028",
+      "extracted": "The user is in a long-term relationship with her boyfriend, who has been unfaithful and is now expecting a child with another woman. The relationship is characterized by physical and mental abuse, with the boyfriend refusing to communicate and often blaming the user for their issues. Despite her efforts to help him, he undermines her self-worth and discredits her, leaving her feeling hurt, lonely, and unhappy.",
+      "ground_truth": "The user is in a troubled relationship with her boyfriend, who is abusive and unfaithful. She feels unsupported and unhappy despite her efforts to help him and resolve issues.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E029",
+      "extracted": "The user is experiencing issues in their relationship with their partner, who they believe has a masturbation and porn problem. The partner's behavior during sex is described as rough and self-centered, with a lack of attention to the user's needs and desires. This has led to feelings of being objectified and treated like a porn star, indicating a significant strain and dissatisfaction in the relationship.",
+      "ground_truth": "The user is experiencing relationship issues with their partner, who they feel is more focused on their own sexual needs and treats them like a porn star.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E030",
+      "extracted": "The user is in a relationship with their boyfriend of five months, who expresses love and care but has repeatedly lied about interactions with other women. Despite his assurances of wanting to change and do better, he has hidden text messages and used fake contact names, leading to trust issues. The user believes in his love but is troubled by his dishonesty, which has involved a girl he once found interest in and his ex-girlfriend.",
+      "ground_truth": "The user is in a relationship where trust is an issue due to her boyfriend's repeated lying about interactions with other women, despite his expressions of love and desire to change.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E031",
+      "extracted": "The user is experiencing a difficult time due to the loss of their grandpa and is seeking help to cope with the grief. They express concern about the affordability of counseling, indicating a need for support but facing financial constraints.",
+      "ground_truth": "The user is experiencing a rough time due to the loss of their grandpa, indicating a significant change in their interpersonal relationships.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E032",
+      "extracted": "The user spent the weekend with a friend who is an ex-partner, which upset their current boyfriend. The user is questioning whether their actions were wrong, indicating a potential conflict or tension in their current relationship due to this interaction.",
+      "ground_truth": "The user spent the weekend with a friend who was a former romantic partner, which upset their current boyfriend, indicating a potential conflict.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E033",
+      "extracted": "The user is in a relationship with someone they love and can see a long-term future with, despite having some problems. However, they also have feelings for another person who makes them feel excited and gives them butterflies, indicating a potential conflict in their romantic feelings.",
+      "ground_truth": "The user is in a relationship but also has feelings for another person, indicating a complex romantic situation.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E034",
+      "extracted": "The user describes a complex relationship with their male best friend, Tim, who is currently dating a senior girl named Sally. Tim is conflicted about his relationship with Sally due to her impending departure for college, and he has sought the user's advice on how to express his love for Sally. The user still has feelings for Tim but wants to support him through his emotional turmoil without pursuing a romantic relationship immediately. The user is concerned about how to help Tim cope with his belief that he will never love anyone again after Sally leaves, while also maintaining their friendship and being there for him.",
+      "ground_truth": "The user is concerned about her best friend Tim's relationship with his girlfriend Sally, who will be leaving for college. She wants to support Tim emotionally and is considering the possibility of a future relationship with him.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E035",
+      "extracted": "The user describes a conflict with their best friend due to a prank that led to unintended consequences, damaging the friend's relationship with another person. The user feels guilty and emotional because their friend won't forgive them, indicating a strain in their friendship.",
+      "ground_truth": "The user's actions led to a conflict between their best friend and her friend, resulting in a ruined friendship. The user feels guilty and mentions that their best friend won't forgive them.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E038",
+      "extracted": "The user mentions being happily married for almost 35 years, indicating a stable and supportive relationship. They also express uncertainty about seeking counseling for their issues, suggesting a potential openness to professional support but also a concern about the complexity or volume of their issues.",
+      "ground_truth": "The user has been happily married for almost 35 years, indicating a stable and supportive relationship.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E042",
+      "extracted": "The user feels a lack of trust and support from their parents, who do not take them seriously and tend to dismiss their concerns. The user also struggles with feeling unsupported by friends, who do not reciprocate the help the user provides. This has led to feelings of isolation and a lack of trust in others, contributing to the user's stress and anxiety.",
+      "ground_truth": "The user feels unsupported by their parents and friends, leading to a lack of trust and feeling isolated.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E043",
+      "extracted": "The user is grieving the loss of a loved one who passed away on their anniversary, a day that held significant personal meaning as they were planning to apply for an apartment together. The user has moved to a new town to start a new life, but is struggling to cope with the loss, indicating a deep emotional impact and difficulty in moving forward.",
+      "ground_truth": "The user experienced the loss of a loved one and has moved to a new town to start a new life.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E044",
+      "extracted": "The user expresses deep regret for past actions that hurt someone they care about deeply. They emphasize the importance of this person and their children in their life, expressing a strong desire to maintain their relationship and a fear of losing their role as a parent. The user conveys a sense of love and commitment, indicating that being with this person makes everything else seem insignificant.",
+      "ground_truth": "The user expresses regret for hurting someone important to them and emphasizes their love and desire to remain involved in their children's lives.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E045",
+      "extracted": "The user has a strained relationship with their bipolar mother, which causes significant stress. They are living with her but feel so overwhelmed by the situation that they have isolated themselves in their room. The user lacks friends or other family support and feels unable to afford therapy, which they believe is necessary before they can find employment.",
+      "ground_truth": "The user has a stressful relationship with their bipolar mother, leading to isolation. They have no friends or family support.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E046",
+      "extracted": "The user describes a complex relationship with their ex-boyfriend, marked by initial love and subsequent trust issues. After a breakup and a pregnancy loss, they stopped communicating for a few weeks. They are now talking again, with the ex-boyfriend expressing love but also fear of being hurt again. The user expresses a strong desire to reconcile and rebuild a happy family with him.",
+      "ground_truth": "The user is dealing with a complex relationship with her ex-boyfriend, involving past trust issues, a breakup, a pregnancy, and a loss. They are currently talking again, and she wants to reconcile and be happy together as a family.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E047",
+      "extracted": "The user is experiencing ongoing interpersonal conflict involving her ex-boyfriend, her husband, and her husband's ex-girlfriend. Despite efforts to maintain peace, disagreements arise, particularly around co-parenting logistics. The user feels caught in the middle of disputes, which she believes negatively impact the children involved. She expresses frustration and confusion about the constant drama and feels that her attempts to communicate and set boundaries are not respected, leading to emotional distress and a sense of helplessness.",
+      "ground_truth": "The user describes ongoing interpersonal conflict involving her ex-boyfriend, her husband, and her husband's ex-girlfriend. She mentions arguments and drama related to co-parenting and scheduling issues, which affect her children.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E048",
+      "extracted": "The user has been in therapy for five months but feels they are not receiving feedback from their therapist. They are seeking help for issues related to childhood abuse, addiction, and relationships with abusive men, indicating a need for support and guidance in these areas.",
+      "ground_truth": "The user has experienced abuse as a child and issues with abusive men, indicating significant interpersonal conflict and trauma.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E049",
+      "extracted": "The user is in a relationship with an older girlfriend who recently moved in with him due to having no place to go. They fight frequently, which the user attributes to his own insecurity and lack of trust. He struggles with jealousy and fears losing her to someone else, which he believes affects her happiness. Despite his love for her, he feels trapped because she has nowhere else to go, and he is conflicted about whether to end the relationship for her happiness.",
+      "ground_truth": "The user describes frequent fights with his girlfriend, his own insecurity and trust issues, and concerns about her happiness. He feels trapped in the relationship because she has nowhere else to go.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E050",
+      "extracted": "The user is deeply concerned about their fiancée's mental health and is actively involved in supporting her. They describe a strong emotional bond, as the fiancée clings to them for support in public and relies on them to interact with others, such as talking to cashiers. The user is opposed to medication, believing it would only mask her issues, and instead advocates for a psychiatric service dog, noting that their poodle has previously helped calm her and improve her mood.",
+      "ground_truth": "The fiancée is heavily reliant on the user for support in public situations and avoids interactions with strangers. Her fear of conflict and loud sounds is rooted in her upbringing, and she finds comfort in the presence of a service dog.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E051",
+      "extracted": "The user discovered that their boyfriend was messaging his ex-girlfriend, which has caused significant emotional distress. The user found a promise ring he had given to his ex, hidden in their son's room, which exacerbated feelings of betrayal and heartbreak. The user is preoccupied with thoughts about the nature of their boyfriend's communication with his ex, indicating a deep sense of hurt and mistrust in the relationship.",
+      "ground_truth": "The user is experiencing distress due to finding messages between her boyfriend and his ex-girlfriend, which has affected her emotionally and mentally.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E053",
+      "extracted": "The user is experiencing conflicting emotions about having had sex with a friend despite being married. They express feelings of guilt but also assert their autonomy over their own body, indicating a complex emotional state regarding their marital relationship and personal boundaries.",
+      "ground_truth": "The user is married but had sex with a friend, indicating potential conflict or change in their marital relationship. They express feelings of guilt and justification.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E054",
+      "extracted": "The user is concerned about a friend who is abusing prescription medication. The friend claimed to have no more pills, but the user discovered that she still has prescriptions for anxiety medications, indicating a lack of trust and potential deception in their relationship.",
+      "ground_truth": "The user is concerned about their friend's abuse of prescription medicine and the friend's dishonesty about having pills.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E055",
+      "extracted": "The user is concerned about a friend who is abusing prescription medication. The friend claimed to have no more pills, but the user discovered that she still has prescriptions for anxiety medications, indicating a possible trust issue or deception in their relationship.",
+      "ground_truth": "The user is concerned about their friend's abuse of prescription medicine and the friend's dishonesty about having pills.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E056",
+      "extracted": "The user is experiencing issues in their relationship with their partner, who they believe has a problem with masturbation and pornography. The partner's behavior during sex is described as rough and self-centered, with a lack of attention to the user's needs and desires. This has led to feelings of being objectified and treated like a porn star, indicating a significant strain and dissatisfaction in the relationship.",
+      "ground_truth": "The user is experiencing relationship issues, feeling neglected and objectified by their partner, who prioritizes his own needs and engages in daily masturbation.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E057",
+      "extracted": "not_mentioned",
+      "ground_truth": "The user mentions being able to go out or meet people sometimes, indicating some level of social interaction.",
+      "verdict": "incorrect"
+    },
+    {
+      "id": "E058",
+      "extracted": "The user sometimes struggles with social interactions, feeling nervous and needing time to gather courage before engaging in activities like entering a store alone.",
+      "ground_truth": "The user mentions variability in their ability to go out or meet people, indicating some level of social engagement.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E059",
+      "extracted": "The user experienced a breakup with their fiancé due to repeated infidelity. Despite forgiving him multiple times, the user continued to question his actions, which eventually led to the fiancé leaving the relationship. This indicates a pattern of mistrust and emotional turmoil in the relationship.",
+      "ground_truth": "The user describes a breakup with their fiancé due to infidelity. They mention forgiving him multiple times but also questioning his actions, which led to him leaving.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E061",
+      "extracted": "The user mentions having cheated on her boyfriend in the past while under the influence of alcohol, indicating a history of relationship strain due to her drinking habits. She expresses feelings of guilt after drinking, even when no embarrassing incidents occur, suggesting ongoing emotional turmoil and potential impact on her relationship with her boyfriend.",
+      "ground_truth": "The user has experienced relationship issues, including cheating on her boyfriend while drunk, indicating past interpersonal conflict related to alcohol use.",
+      "verdict": "correct"
+    },
+    {
+      "id": "E063",
+      "extracted": "The user sometimes feels fine and can go out or meet people, but on other days, they struggle with anxiety that affects their ability to interact socially.",
+      "ground_truth": "The user mentions variability in their ability to go out or meet people, indicating some level of social engagement.",
+      "verdict": "partial"
+    },
+    {
+      "id": "E066",
+      "extracted": "The user is struggling to let go of a relationship that ended about 7 years ago and is seeking ways to move on from that person.",
+      "ground_truth": "The user is struggling to let go of a relationship that ended 7 years ago and is seeking ways to move on.",
+      "verdict": "correct"
+    }
+  ]
+}

@@ -32,8 +32,14 @@ EXTENDED_FIELDS = {
         "type": "free_text",
         "description": (
             "1-2 sentence summary of interpersonal topics mentioned (relationship "
-            f"changes, conflict, support, withdrawal). Exactly '{NOT_MENTIONED}' "
-            "if none are mentioned."
+            "changes, conflict, support, withdrawal). This includes interactions "
+            "with professionals such as counselors or doctors (e.g. reluctance to "
+            "discuss something with them, trust issues) — but only the relational "
+            "aspect of that interaction, not the medication content itself (whether "
+            "taken, dosage, etc.). Summarize not just what happened but, where "
+            "possible, why it happened, the relationship's background/context, and "
+            "the speaker's emotional nuance — extend to 2-3 sentences if needed. "
+            f"Exactly '{NOT_MENTIONED}' if none are mentioned."
         ),
     },
 }

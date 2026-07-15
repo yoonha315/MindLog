@@ -17,6 +17,9 @@ build/
 # Environment variables
 .env
 
+# Local SQLite database
+*.db
+
 # Testing / linting caches
 .pytest_cache/
 .ruff_cache/

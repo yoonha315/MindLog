@@ -22,10 +22,11 @@ def _all_checklist_json(value: bool) -> str:
 def _valid_extended_json(
     somatic="Heart racing and shortness of breath.",
     interpersonal="not_mentioned",
+    medication="not_mentioned",
 ) -> str:
     return json.dumps(
         {
-            "medication_adherence": "not_mentioned",
+            "medication_adherence": medication,
             "somatic_symptoms": somatic,
             "interpersonal_status": interpersonal,
         }
@@ -81,6 +82,7 @@ def test_full_session_lifecycle_ends_on_timeout_and_saves_extraction(
         assert extraction_row.model
         assert extraction_row.somatic_symptoms == "Heart racing and shortness of breath."
         assert extraction_row.interpersonal_status == "not_mentioned"
+        assert extraction_row.medication_adherence == "not_mentioned"
 
 
 def test_session_does_not_end_before_min_turns_or_timeout(session_factory, make_fake_client):
@@ -194,6 +196,7 @@ def test_get_history_returns_extractions_most_recent_first(
     assert history[1]["session_id"] == first_session_id
     assert history[0]["somatic_symptoms"] == "Heart racing and shortness of breath."
     assert history[0]["interpersonal_status"] == "not_mentioned"
+    assert history[0]["medication_adherence"] == "not_mentioned"
 
 
 def test_create_conversation_manager_maps_config_sections(session_factory, make_fake_client):
@@ -264,7 +267,7 @@ def test_create_conversation_manager_checklist_call_uses_configured_model(
     assert sent["model"] == "gpt-4o-mini"
 
 
-def test_end_session_persists_somatic_symptoms_and_interpersonal_status(
+def test_end_session_persists_all_three_extended_fields(
     session_factory, make_fake_client, valid_extraction_json
 ):
     client = make_fake_client(
@@ -273,6 +276,7 @@ def test_end_session_persists_somatic_symptoms_and_interpersonal_status(
             _valid_extended_json(
                 somatic="Chest tightness and dizziness.",
                 interpersonal="Conflict with a close friend.",
+                medication="missed",
             ),
         ]
     )
@@ -289,8 +293,7 @@ def test_end_session_persists_somatic_symptoms_and_interpersonal_status(
         extraction_row = db.query(Extraction).filter(Extraction.session_id == session_id).one()
         assert extraction_row.somatic_symptoms == "Chest tightness and dizziness."
         assert extraction_row.interpersonal_status == "Conflict with a close friend."
-        # medication_adherence still isn't validated enough — no column exists
-        assert not hasattr(extraction_row, "medication_adherence")
+        assert extraction_row.medication_adherence == "missed"
 
 
 def test_end_session_stores_null_extended_fields_when_extended_extraction_fails(
@@ -320,3 +323,4 @@ def test_end_session_stores_null_extended_fields_when_extended_extraction_fails(
         assert extraction_row.affect_valence == "negative"
         assert extraction_row.somatic_symptoms is None
         assert extraction_row.interpersonal_status is None
+        assert extraction_row.medication_adherence is None

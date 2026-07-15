@@ -1,0 +1,897 @@
+{
+  "medication_adherence": {
+    "field": "medication_adherence",
+    "n_samples": 66,
+    "n_errors": 0,
+    "accuracy": 0.9545,
+    "precision_macro": 0.625,
+    "recall_macro": 0.6586,
+    "f1_macro": 0.6388,
+    "cohens_kappa": 0.6822,
+    "per_class": {
+      "missed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "not_applicable": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "not_mentioned": {
+        "precision": 1.0,
+        "recall": 0.9677,
+        "f1": 0.9836,
+        "support": 62
+      },
+      "taken": {
+        "precision": 0.5,
+        "recall": 0.6667,
+        "f1": 0.5714,
+        "support": 3
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "missed",
+        "not_applicable",
+        "not_mentioned",
+        "taken"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          60,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  "somatic_symptoms": {
+    "n_samples": 66,
+    "counts": {
+      "correct": 63,
+      "partial": 1,
+      "incorrect": 2
+    },
+    "percentages": {
+      "correct": 95.5,
+      "partial": 1.5,
+      "incorrect": 3.0
+    },
+    "cases": [
+      {
+        "id": "E001",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E002",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E003",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E004",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E005",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E006",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E007",
+        "extracted": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "ground_truth": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E008",
+        "extracted": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "ground_truth": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E009",
+        "extracted": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "ground_truth": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E010",
+        "extracted": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "ground_truth": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E011",
+        "extracted": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "ground_truth": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E012",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E013",
+        "extracted": "not_mentioned",
+        "ground_truth": "The user mentions experiencing panic attacks.",
+        "verdict": "incorrect"
+      },
+      {
+        "id": "E014",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E015",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E016",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E017",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E018",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E019",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E020",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E021",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E022",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E023",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E024",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E025",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E026",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E027",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E028",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E029",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E030",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E031",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E032",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E033",
+        "extracted": "not_mentioned",
+        "ground_truth": "The user experiences butterflies and a fast heartbeat when interacting with another person.",
+        "verdict": "incorrect"
+      },
+      {
+        "id": "E034",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E035",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E036",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E037",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E038",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E039",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E040",
+        "extracted": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "ground_truth": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E041",
+        "extracted": "The user mentions feeling nervous and shaky when attending therapy sessions.",
+        "ground_truth": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E042",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E043",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E044",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E045",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E046",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E047",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E048",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E049",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E050",
+        "extracted": "She experiences difficulty breathing, inability to move, stomach pain from holding in urine, and panic attacks in public places.",
+        "ground_truth": "The fiancée experiences severe anxiety symptoms, including difficulty breathing, inability to move, stomach pain, and panic attacks. She also avoids eating or drinking in public due to anxiety.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E051",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E052",
+        "extracted": "User experiences light-headedness, sweating, and trouble breathing in public or crowded situations.",
+        "ground_truth": "The user experiences light-headedness, sweating, and trouble breathing in public or big crowds.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E053",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E054",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E055",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E056",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E057",
+        "extracted": "The user experiences heart racing and difficulty speaking, which they describe as words physically not coming out of their mouth.",
+        "ground_truth": "The user experiences their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E058",
+        "extracted": "The user experiences heart racing and difficulty speaking, which they describe as words physically not coming out of their mouth.",
+        "ground_truth": "The user experiences their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E059",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E060",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E061",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E062",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E063",
+        "extracted": "The user experiences heart racing and difficulty speaking, feeling physically unable to speak.",
+        "ground_truth": "The user experiences their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E064",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E065",
+        "extracted": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "ground_truth": "The user experiences nervousness and shakiness when attending therapy sessions.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E066",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      }
+    ]
+  },
+  "interpersonal_status": {
+    "n_samples": 66,
+    "counts": {
+      "correct": 45,
+      "partial": 17,
+      "incorrect": 4
+    },
+    "percentages": {
+      "correct": 68.2,
+      "partial": 25.8,
+      "incorrect": 6.1
+    },
+    "cases": [
+      {
+        "id": "E001",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E002",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E003",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E004",
+        "extracted": "not_mentioned",
+        "ground_truth": "The user mentions a troubled upbringing and feeling overwhelmed, indicating past and possibly ongoing interpersonal challenges.",
+        "verdict": "incorrect"
+      },
+      {
+        "id": "E005",
+        "extracted": "The user is going through a divorce with their wife, whom they have known since the 4th grade and been involved with for seven years. They have a seven-month-old baby and are currently living with their mother due to the divorce. The user feels heartbroken and has not seen their child in a while, indicating significant interpersonal distress.",
+        "ground_truth": "The user is going through a divorce, has not seen their child, and has conflicts with their mother, indicating significant interpersonal changes and stress.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E006",
+        "extracted": "The user mentions having anxieties related to relationships and maintaining a household, indicating stress in these areas.",
+        "ground_truth": "The user has anxieties about relationships, indicating stress or concern in their interpersonal interactions.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E007",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E008",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E009",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E010",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E011",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E012",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E013",
+        "extracted": "The user mentions a lack of support from their mother, who believes the user is overly emotional and accuses them of faking symptoms for attention.",
+        "ground_truth": "The user describes a lack of support from their mother, who dismisses their emotional struggles.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E014",
+        "extracted": "not_mentioned",
+        "ground_truth": "The user is concerned about discussing medication dosage with their psychologist, fearing being taken off Xanax or being perceived as abusing the medication.",
+        "verdict": "incorrect"
+      },
+      {
+        "id": "E015",
+        "extracted": "not_mentioned",
+        "ground_truth": "The user is concerned about discussing medication dosage with their psychologist, fearing being taken off Xanax or having the dosage changed.",
+        "verdict": "incorrect"
+      },
+      {
+        "id": "E016",
+        "extracted": "The user describes a situation where their fiancé is upset about someone entering the house unannounced to see his kids, but she seems afraid to confront him about it.",
+        "ground_truth": "The user's fiancé is angry and uncomfortable with her ex-partner entering the house unannounced but is afraid to confront him, indicating conflict and communication issues.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E017",
+        "extracted": "The user mentions a loss of trust in a relationship, which has caused emotional distress and feelings of disgust.",
+        "ground_truth": "The user is experiencing a loss of trust in a relationship, which is causing emotional distress.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E018",
+        "extracted": "The user mentions living with their parents and feeling that their mother is trying to control their life by imposing rules.",
+        "ground_truth": "The user describes a conflictual relationship with their mother, who is trying to control their life by imposing rules because they live under her roof.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E019",
+        "extracted": "The user feels unable to invite friends over due to concerns about their appearance and how it might be perceived by their friends and parents.",
+        "ground_truth": "The user feels unable to invite friends over due to fear of them discovering the truth about her appearance, indicating concern about maintaining her social image.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E020",
+        "extracted": "The user mentions that their family is against transgender people and does not want anything to do with them, indicating a lack of support.",
+        "ground_truth": "The user experiences a lack of support from their family, who are against transgender people, creating a conflict regarding their gender identity.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E021",
+        "extracted": "The user is concerned about their relationship, feeling that they might be with their partner out of fear of being alone and expressing worry about potentially hurting him.",
+        "ground_truth": "The user is concerned about being in a relationship to avoid loneliness and fears not deserving her partner, which may lead to hurting him.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E022",
+        "extracted": "The user is contemplating whether to end their relationship with their boyfriend.",
+        "ground_truth": "The user is contemplating whether to end their relationship with their boyfriend, indicating they are experiencing uncertainty or conflict in their interpersonal relationship.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E023",
+        "extracted": "The user mentions that their partner left them a year ago, which has left them heartbroken and missing her. They also mention having a son who was two months old at the time of the separation.",
+        "ground_truth": "The user is heartbroken after their partner left them a year ago, and they miss her deeply. This event has affected their emotional state and their relationship with their son.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E024",
+        "extracted": "The user feels unable to share their gender identity with their family due to religious beliefs and anticipates a lack of acceptance.",
+        "ground_truth": "The user feels they cannot tell their family about their gender identity due to religious reasons and fear of non-acceptance.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E025",
+        "extracted": "The user mentions being in a relationship with a very loving and caring man but is pushing him away due to unresolved issues from the past.",
+        "ground_truth": "The user is in a relationship with a loving and caring man but is pushing him away due to unresolved past trauma.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E026",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E027",
+        "extracted": "The user mentions that their boyfriend is seeking therapy and has issues related to his childhood. He also has children from a previous marriage whom he is unable to see.",
+        "ground_truth": "The user's boyfriend is seeking therapy for childhood issues and is unable to see his children from a previous marriage, indicating potential interpersonal conflict.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E028",
+        "extracted": "The user describes a troubled relationship with their boyfriend, who has cheated and is abusive. The user feels unsupported and discredited, leading to feelings of loneliness and unhappiness.",
+        "ground_truth": "The user is in a troubled relationship with her boyfriend, who is abusive and unfaithful. She feels unsupported and unhappy despite her efforts to help him and resolve issues.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E029",
+        "extracted": "The user is experiencing issues in their relationship with their partner, who has a masturbation and porn problem. The partner is rough during sex, focuses on his own needs, and treats the user like a porn star, leading to dissatisfaction and concern.",
+        "ground_truth": "The user is experiencing relationship issues with their partner, who they feel is more focused on their own sexual needs and treats them like a porn star.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E030",
+        "extracted": "The user describes a relationship with their boyfriend, who expresses love and care but has lied multiple times about interactions with other women. Despite his claims of wanting to change, the user is dealing with trust issues due to his dishonesty.",
+        "ground_truth": "The user is in a relationship where trust is an issue due to her boyfriend's repeated lying about interactions with other women, despite his expressions of love and desire to change.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E031",
+        "extracted": "not_mentioned",
+        "ground_truth": "The user is experiencing a rough time due to the loss of their grandpa, indicating a significant change in their interpersonal relationships.",
+        "verdict": "incorrect"
+      },
+      {
+        "id": "E032",
+        "extracted": "The user mentions spending the weekend with a friend who was a former romantic partner, which upset their current boyfriend.",
+        "ground_truth": "The user spent the weekend with a friend who was a former romantic partner, which upset their current boyfriend, indicating a potential conflict.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E033",
+        "extracted": "The user is in a relationship with someone they love but also has feelings for another person, which causes excitement and a fast heartbeat when interacting with the latter.",
+        "ground_truth": "The user is in a relationship but also has feelings for another person, indicating a complex romantic situation.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E034",
+        "extracted": "The user discusses their close friendship with Tim, who is currently in a relationship with a senior girl named Sally. Tim is conflicted about the future of his relationship with Sally as she will be leaving for college soon. The user expresses a desire to support Tim through this situation and mentions having a crush on him, but wants to help him recover from his current relationship before considering a future relationship with him.",
+        "ground_truth": "The user is concerned about her best friend Tim's relationship with his girlfriend Sally, who will be leaving for college. She wants to support Tim emotionally and is considering the possibility of a future relationship with him.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E035",
+        "extracted": "The user describes a conflict with their best friend due to a prank that led to a misunderstanding and damaged their friend's relationship. The friend is upset and not forgiving the user, causing the user to feel guilty.",
+        "ground_truth": "The user's actions led to a conflict between their best friend and her friend, resulting in a ruined friendship. The user feels guilty and mentions that their best friend won't forgive them.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E036",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E037",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E038",
+        "extracted": "The user mentions being happily married for almost 35 years.",
+        "ground_truth": "The user has been happily married for almost 35 years, indicating a stable and supportive relationship.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E039",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E040",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E041",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E042",
+        "extracted": "The user feels unable to communicate effectively with their parents and perceives a lack of support and trust from both parents and friends. They express feeling unsupported by friends who do not reciprocate the help they provide, leading to feelings of isolation and mistrust.",
+        "ground_truth": "The user feels unsupported by their parents and friends, leading to a lack of trust and feeling isolated.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E043",
+        "extracted": "The user is grieving the loss of a loved one who passed away on their anniversary. They have moved to a new town and started a new life, but are struggling to cope with the loss.",
+        "ground_truth": "The user experienced the loss of a loved one and has moved to a new town to start a new life.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E044",
+        "extracted": "The user expresses regret for hurting someone important to them and emphasizes their love and commitment to this person and their children. They express concern about the possibility of another person being involved in raising their kids.",
+        "ground_truth": "The user expresses regret for hurting someone important to them and emphasizes their love and desire to remain involved in their children's lives.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E045",
+        "extracted": "The user has a bad relationship with their bipolar mother and is stressed from living with her. They have isolated themselves by locking themselves in their room and have no friends or other family for support.",
+        "ground_truth": "The user has a stressful relationship with their bipolar mother, leading to isolation. They have no friends or family support.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E046",
+        "extracted": "The user is experiencing relationship challenges with their ex-boyfriend, who has trust issues and fears being hurt again. They are currently talking and the user expresses a desire to reconcile and be happy together as a family.",
+        "ground_truth": "The user is dealing with a complex relationship with her ex-boyfriend, involving past trust issues, a breakup, a pregnancy, and a loss. They are currently talking again, and she wants to reconcile and be happy together as a family.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E047",
+        "extracted": "The user is experiencing ongoing interpersonal conflict involving her ex-boyfriend, husband, and their respective partners. There is drama and arguments related to co-parenting and scheduling, which is causing stress and impacting the children involved.",
+        "ground_truth": "The user describes ongoing interpersonal conflict involving her ex-boyfriend, her husband, and her husband's ex-girlfriend. She mentions arguments and drama related to co-parenting and scheduling issues, which affect her children.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E048",
+        "extracted": "The user mentions needing help with issues related to abuse as a child and abusive men, indicating past or ongoing interpersonal challenges.",
+        "ground_truth": "The user has experienced abuse as a child and issues with abusive men, indicating significant interpersonal conflict and trauma.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E049",
+        "extracted": "The user describes a complex relationship with their girlfriend, highlighting both positive aspects and significant conflicts. They mention frequent fights, largely due to the user's insecurity and trust issues, and express concern about the girlfriend's happiness and her lack of alternative living arrangements.",
+        "ground_truth": "The user describes frequent fights with his girlfriend, his own insecurity and trust issues, and concerns about her happiness. He feels trapped in the relationship because she has nowhere else to go.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E050",
+        "extracted": "The user describes their fiancée's reliance on them for support in public situations, indicating a close and supportive relationship. The fiancée avoids public interactions and relies on the user to communicate with others, such as cashiers.",
+        "ground_truth": "The fiancée is heavily reliant on the user for support in public situations and avoids interactions with strangers. Her fear of conflict and loud sounds is rooted in her upbringing, and she finds comfort in the presence of a service dog.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E051",
+        "extracted": "The user discovered their boyfriend messaging his ex-girlfriend, which has caused significant emotional distress. The user is struggling with feelings of betrayal and cannot stop thinking about the situation.",
+        "ground_truth": "The user is experiencing distress due to finding messages between her boyfriend and his ex-girlfriend, which has affected her emotionally and mentally.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E052",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E053",
+        "extracted": "The user mentions being married but having sex with a friend, which suggests a potential conflict or change in their marital relationship. They express mixed feelings of guilt and justification about their actions.",
+        "ground_truth": "The user is married but had sex with a friend, indicating potential conflict or change in their marital relationship. They express feelings of guilt and justification.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E054",
+        "extracted": "The user mentions a concern about a friend abusing prescription medicine and having prescriptions for anxiety medications despite claiming otherwise.",
+        "ground_truth": "The user is concerned about their friend's abuse of prescription medicine and the friend's dishonesty about having pills.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E055",
+        "extracted": "The user mentions a friend who is abusing prescription medicine and has prescriptions for anxiety medications despite claiming not to have any more pills.",
+        "ground_truth": "The user is concerned about their friend's abuse of prescription medicine and the friend's dishonesty about having pills.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E056",
+        "extracted": "The user is experiencing issues in their relationship with their partner, who they believe has a masturbation and porn problem. The partner is described as rough and focused on his own needs during sex, leading to feelings of being treated like a porn star.",
+        "ground_truth": "The user is experiencing relationship issues, feeling neglected and objectified by their partner, who prioritizes his own needs and engages in daily masturbation.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E057",
+        "extracted": "The user mentions variability in their ability to go out or meet people, indicating some days are better than others.",
+        "ground_truth": "The user mentions being able to go out or meet people sometimes, indicating some level of social interaction.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E058",
+        "extracted": "The user mentions variability in their ability to go out or meet people, indicating some days are better than others.",
+        "ground_truth": "The user mentions variability in their ability to go out or meet people, indicating some level of social engagement.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E059",
+        "extracted": "The user mentioned a breakup with their fiancé due to infidelity. They expressed feelings of forgiveness and questioning, which led to the fiancé leaving.",
+        "ground_truth": "The user describes a breakup with their fiancé due to infidelity. They mention forgiving him multiple times but also questioning his actions, which led to him leaving.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E060",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E061",
+        "extracted": "The user mentions having cheated on their boyfriend in the past while under the influence of alcohol, indicating potential relationship issues related to drinking.",
+        "ground_truth": "The user has experienced relationship issues, including cheating on her boyfriend while drunk, indicating past interpersonal conflict related to alcohol use.",
+        "verdict": "correct"
+      },
+      {
+        "id": "E062",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E063",
+        "extracted": "The user mentions variability in their ability to go out or meet people, indicating some social engagement but also challenges due to anxiety.",
+        "ground_truth": "The user mentions variability in their ability to go out or meet people, indicating some level of social engagement.",
+        "verdict": "partial"
+      },
+      {
+        "id": "E064",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E065",
+        "extracted": "not_mentioned",
+        "ground_truth": "not_mentioned",
+        "verdict": "correct"
+      },
+      {
+        "id": "E066",
+        "extracted": "The user mentions difficulty in letting go of a past relationship that ended about 7 years ago and is seeking ways to move on.",
+        "ground_truth": "The user is struggling to let go of a relationship that ended 7 years ago and is seeking ways to move on.",
+        "verdict": "correct"
+      }
+    ]
+  },
+  "metadata": {
+    "n_samples": 66
+  }
+}

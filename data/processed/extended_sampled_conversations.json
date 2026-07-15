@@ -1,0 +1,530 @@
+[
+  {
+    "id": "E001",
+    "context": "I have been dealing with depression and anxiety for a number of years. I have been on medication, but lately my depression has felt worse. Can counseling help?",
+    "response": "My initial response:  consider a more comprehensive MH assessment to determine other factors. A medical evaluation is warranted to rule out poor health issues. Blood work is helpful. Review what hadn't helped.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E002",
+    "context": "I have been dealing with depression and anxiety for a number of years. I have been on medication, but lately my depression has felt worse. Can counseling help?",
+    "response": "From whom do you get anti-depressants?This person should be talking with you to know whether the pills are helping or not.Trust your own instinct that the pills aren't helping you.Pills work differently for everyone and not all people feel better from them.It is also possible the particular pills have lost their effectiveness because after around six to eight months, this usually happens.Try to understand what is depressing you.  This is slow work since you may have many theories.Just by addressing your own emotional needs and life structure in a caring and respectful way, may improve your mood so that you'll feel less depressed.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E003",
+    "context": "I'm currently struggling with diagnosed depression, anxiety, and Misophonia. Also, I am 99% sure I have Borderline Personality Disorder and Avoidant Personality Disorder. I read the DSM-IV, taken college psychology, etc. I know it in my heart I have them. Is self-diagnosing okay with the right research?",
+    "response": "Any diagnosis is limited in its usefulness.Knowing the name of some typical ways you may feel, think and behave, doesn't help you or anyone to understand why the person is the way they are and how to change any of these characteristics.Both self-diagnosing and being diagnosed are equally unhelpful to know why you are the way you are and what to do about it.Consider yourself a person who wants to find a better way to be who you are, and this will get you further with better results than to read a list of descriptions which all are very indicting and negative sounding.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E004",
+    "context": "I had a very troubled up bringing and I'm currently dealing with alot right now. I know some people may not think so, but to me its a lot. I feel overwhelmed. Could this be depression?\r\n   I use to be in therapy as a child. Alll throughout elementry, middle, and high school I had counseling 2-3 times a week. I haven't be in counseling lately though.",
+    "response": "What matters most is how you feel and what you're doing, with whom you're interacting, whether you feel you've got enough interaction to be happy.Whether or not a clinician would decide to identify you as \"depressed\" matters much less than how you actually are feeling, if you have some ideas as to what might improve your sense of being, and how to go about reaching your goals.If therapy during your childhood made you feel better and you feel you may be depressed, then trying therapy at this point in your life, makes sense.The worst that can happen is you find you feel better than you first understood.The best that can happen is you find a caring therapist who helps you find faith in yourself again.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E005",
+    "context": "I'm going through a divorce with my wife of three years, who I've known since the 4th grade and been involved with for seven years! We just had a baby seven months ago and never got along with my mother, who I've lived with for years. I am now back with my mother because I have nowhere to go with this divorce looming. I'm heart broken because I fell into a depression, I haven't seen my child in a while, I'm having good and bad dreams, and I feel hated. Can you help? Can you intervene? Can I speak with someone?",
+    "response": "It's hard to accept the end of a marriage when it's not your choice; you feel powerless, abandoned and unwanted. Your wife has the right to decide not to be in a marriage with you, and a therapist can help you accept and move through this change that has broken your heart and left you lost. You don't indicate why you haven't seen your child, and you may want to consult with a lawyer about the laws in your area and how to gain access to your baby. Therapists don't intervene in these ways. The marriage may be ending, but your role as a loving father is only beginning.  You can focus on giving your child the gift of two parents who respect each other.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E006",
+    "context": "I have anxieties about everyday stressors, i.e. finances, work, relationships, kids, and maintaining a household.",
+    "response": "Since it is clear that people react differently to the same stressors, we know that the stressors are not causing the anxiety, our thoughts about the stressors are. Often, cognitive distortions are the problem. Some common cognitive distortions include catastrophizing (predicting the worst), future telling, black and white thinking (if it's not perfect, it's terrible), mind-reading (I just know he is angry at me) and can't-standitis (I can't stand this situation). There are more, but the list is long, and if some of these are resonating with you, I would advise looking up CBT (cognitive behavioral therapy) tips, worksheets, booklets etc. on line, or contact a local CBT therapist. Another helpful piece of info on anxiety, is that it is prone to something called \"symptom stress\" - being anxious about anxiety. If we could hear this symptom stress it might sound like, \"Oh no I'm getting nervous about this, I'm getting uptight, I look nervous, what if I have a panic attack!\" followed by  more cognitive distortions such as \"I can't stand being anxious!\" and \"this is horrible!\" The antidote to this is acceptance.  Kind of like not stopping the waves but learning to surf instead (Jon Kabat-Zinn). If you happen to feel anxious, say to yourself - this is just a reaction I'm having that is unpleasant, but not horrible. I can tolerate and survive some anxiety, I can breathe deeply, and I'll be OK because panic attacks never killed anyone. I can stand this and it is temporary. You get the idea.We can increase our awareness of anxiety-provoking self-talk, and counteract it with calming and reassuring self-talk. We have the ability to think about our thinking, decide which thoughts are healthy and which are unhealthy, and choose which to focus on. We brainwash ourselves with our thinking, and according to self-perception theory, \" we learn what we believe when we hear ourselves speak,\" so we may as well be a calming, reassuring presence in our own minds. :)",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E007",
+    "context": "I've gone to a couple therapy sessions so far and still everytime I walk in I get nervous and shaky. Is this normal? Should I still be feeling like this?",
+    "response": "Hi there, Thank you for your question. It's absolutely ok to feel nervous going to therapy. I have experienced anxiety going to see my own therapist. There can be a few reasons why you might feel this way. First, it is always unnerving to see a person who is a stranger and to share intimate things with that stranger. You mentioned it has only been a couple of sessions. Your anxiety might subside as you continue to see your therapist and grow more comfortable with him/her. Another reason why you might feel particularly nervous is perhaps you are not comfortable sharing things. As children, we might have bad experiences opening up to others. Someone might bully or ridicule us, and that experience can stay with us for a long time, making it extra scary to share our intimate feelings and thoughts with others. If this the case, as you continue with your sessions and have positive interactions with your therapists, this anxiety will subside with time and you will re-learn that it is safe to share. And the last thought why you might feel the shakes is perhaps you know that you need to talk about some past experiences or memories that are uncomfortable and difficult. Regardless of the reason, it might help you to bring up your nervousness in your session and share how you feel with your therapist. Having an open dialogue about your anxiety with your therapist can help you resolve some of that anxiety and built greater trust with your therapist.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E008",
+    "context": "I've gone to a couple therapy sessions so far and still everytime I walk in I get nervous and shaky. Is this normal? Should I still be feeling like this?",
+    "response": "Thank you for your question. It's completely normal and natural to feel nervous before a therapy session. Many people report having felt this way. I can't say enough regarding the amount of courage it takes to reach out and attend a therapy session. For many people, it can take weeks, months, or even years of contemplating whether to see a therapist or not before actually contacting one and attending the first session. It takes courage to want to work through any struggles you may be having or personal growth you aspire toward. In your question, you mentioned that you've \"gone several times and are still feeling nervous and shaky.\" If you feel comfortable with your therapist and it's a good fit for you, I would suggest talking about this with your therapist. You don't have to struggle each time you have your appointment. Together, you and your therapist can work toward helping you have a different experience.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E009",
+    "context": "I've gone to a couple therapy sessions so far and still everytime I walk in I get nervous and shaky. Is this normal? Should I still be feeling like this?",
+    "response": "It’s very normal to be nervous going into therapy. You are being vulnerable and honest, which is always scary, no matter how many times you do it. The best part about therapy is that the more you go, the more confident you are in your ability to work through those difficult feelings, and while you still may sometimes get nervous, you will have confidence too!",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E010",
+    "context": "I've gone to a couple therapy sessions so far and still everytime I walk in I get nervous and shaky. Is this normal? Should I still be feeling like this?",
+    "response": "Therapy can feel very weird to begin with - think about it, how often do we go and tell a relative stranger our deepest, darkest thoughts in the rest of our life? So I think its reasonable to expect a certain level of nerves as you get used to your therapist and to the whole process of talking about yourself and vulnerable topics. That said, its definitely worth bringing to the attention of your therapist (if you haven't already) to see if there is anything that they can do, or that the two of you can explore together, that might make the process feel less intimidating to you.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E011",
+    "context": "I've gone to a couple therapy sessions so far and still everytime I walk in I get nervous and shaky. Is this normal? Should I still be feeling like this?",
+    "response": "Well, it's generally okay to feel anxious or nervous about going into therapy, particularly in the beginning because the process of being open about what you are going through, much less to someone who you don't know well, can be anxiety-producing. It's also common to feel anxious when you are discussing something that is important, difficult to discuss, or you are making changes that are very difficult for you.The most important thing I can tell you, though, is to discuss with your therapist this idea that you feel nervous and shaky. Some anxiety can actually help to motivate or lead you toward change. There are also level of anxiety that can be counterproductive, so it's a good thing to discuss. Personally, I can tell you that I would want my clients to tell me about anxiety they feel 100% of the time. That opens the dialog to discuss whether it is the level of anxiety that they want to sit with and learn about in discovering more about themselves and their experiences and/or whether they would like to do something to lessen the feeling of anxiety.Thanks for writing here. If it caused anxiety for you to do so, I hope that feeling is diminishing for you, at least related to writing here.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E012",
+    "context": "I start counseling/therapy in a few days (I'm freaking out) but my main fear is that I'll cry and embarrass myself, is it something to worry about?",
+    "response": "Please feel free to cry during therapy if you suddenly feel painful emotions arising when you describe some of your unsatisfying and unfulfilling relationships and situations.Crying when realizing the emotional hurt and unfairness between you and someone, clears you for new ways of handling interactions.As a therapist, I always have a box of tissues on the table next to the couch where people who utilize my therapy, sit.I hope you will soon discover that once your tears unlock your awareness of harmful relationships in your life, you will quickly see the freedom to establish new and happier patterns of relating.Have a good therapy!",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E013",
+    "context": "I've been dealing with this for years. My mom thinks I'm overly emotional and refuses to offer any help, like therapy or seeing a doctor. She's seen me when I'm having a panic attack and just said I was faking for attention or that I'm a hypochondriac. I just want to get better.",
+    "response": "I don't know how old you are, but in Pennsylvania, if you are over 14, you can have therapy without your parents' consent. If you are young enough to use their insurance, that could be complicated, but depending on the state, there may be ways to work around that as well. If transportation is a problem, call a local mental health agency and see if they can connect you with assistance.In the meantime, try searching for a phone helpline in the county where you live. They may be able to help you figure out where you can get help.Another idea is that if you are in school, your guidance counselor may be able to provide links to where you can go for help. He or she may also be able to give you more specific ideas to help with your panic attacks.I know you said your mom refuses to offer help, which included seeing a doctor, but I wonder if she trusts the doctors that is your primary care physician (also called a family doctor) who you see when you have a minor medical ailment that may need medication. That doctor may be able to help you as well.Some of the information here may be helpful to you because it explains some of what anxiety is and there are some quizzes there that may give you information to discuss with a doctor or therapist when you get connected with one. http://www.webmd.com/anxiety-panic/guide/mental-health-anxiety-disorders This may give you other information to speak with your mom about. Remember that I'm not asking you to actually diagnose yourself with one of these things, but just offering some basic information that may help you be able to talk about what is going on.If you are having a panic attack or having a moment of anxiety, try focusing on different things in the room around you. It may help to shift your focus briefly outside of what you are feeling and that may lessen the feeling a bit. Also remember that sometimes anxiety leads to more anxiety about having a panic attack in the future. Remember that they usually and after a few minutes.It would also be helpful for you to keep track of what leads up to your anxiety.Best wishes to you and keep trying until you get connected to someone.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E014",
+    "context": "I’ve been on 0.5 mg of Xanax twice a day for the past month. It hasn't been helping me at all, but when I take 1 mg during a big anxiety attack, it calms me down. I was wondering how I can ask my psychologist to up the dose to 1 mg twice a day without her thinking I'm abusing them. I just have very big anxiety attacks. Should I stay on the 0.5mg and deal with the attacks or should I ask to up the dose? I'm afraid she will take me off them and put me on something else.",
+    "response": "Do you think you're abusing xanax?It is a highly addictive drug so maybe one reason you feel compelled to take more is bc you already are addicted.Drugs don't do anything helpful in solving life's problems.   Once the effect wears off, the stressful situation is once again waiting for you to address it.Think over your reason for not directly asking your psychologist about upping your dose.Also, do you ever talk about your life problems with this psychologist or only your need for drugs?    The more gradual path to a better life is to not need drugs in the first place. This consists of your willingness to face the matters that are creating such terrible feelings inside you.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E015",
+    "context": "I’ve been on 0.5 mg of Xanax twice a day for the past month. It hasn't been helping me at all, but when I take 1 mg during a big anxiety attack, it calms me down. I was wondering how I can ask my psychologist to up the dose to 1 mg twice a day without her thinking I'm abusing them. I just have very big anxiety attacks. Should I stay on the 0.5mg and deal with the attacks or should I ask to up the dose? I'm afraid she will take me off them and put me on something else.",
+    "response": "Hello, and thank you for your question. While counselors work closely with medical providers, and sometimes have discussions about medications with people, we rarely make recommendations about how much or what type of medication a person should be taking. This is because prescribing and advising on medication is out of our scope of practice. The only exception would be if a counselor is also a physician, nurse practitioner, physician's assistant, etc. Having said that, I certainly understand that anxiety is a real serious problem that many folks struggle with. If you are currently not in therapy to help you with these panic attacks, you should consider it. Medications can be helpful for anxiety, and medications like Xanax may help for immediate relief, but they do nothing to deal with the root of anxiety and may not help with anxiety long-term. Therapists who have experience in exposure therapies would be good people to start with. Exposure therapy has good outcomes for people with anxiety disorders and panic attacks. If you are interested in speaking with your provider about the Xanax, I think explaining it the way you did on here is just fine. The provider will then decide if they feel comfortable increasing your medication. Please remember that medical providers are not trying to give people a hard time. Medications like Xanax really are highly addictive. The more you take, the more you may feel you need. The more often you may feel you need to use it. Depending on the frequency and amount of use, some people suffer serious withdrawal symptoms when they do not take the medication. It is a good idea to talk to medical provider about all of those things so that you can partner on right course of action to manage this anxiety. I certainly hope that you get some relief.... I know anxiety is awful.Robin J. Landwehr, DBH, LPC, NCC",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E016",
+    "context": "he just walks in the house whenever he wants to see his kids. My fiancé tells me it makes her angry and doesn't like it, but she seems afraid to say anything to him about it for some reason. Is it okay for him to do this?",
+    "response": "The obvious answer is no, it's not okay.  There are other you should be asking though.  You said your fiance \"seems afraid\" of her ex.  Did you ask her about that?  Is there a reason he still has a key to the  home?  Has there been any discussion of appropriate boundaries?  I work with a lot of people parenting from different households and the stickiest spots are the ones that have not been discussed.  There is obviously conflict there or they wouldn't have split, but your fiance and her ex do need to stay aligned for the kids and that can't happen if she feels fearful or resentful.  If she doesn't have a problem with his barging in, clearly you do (and who wouldn't?  He's not YOUR ex!), so you and she need to have some agreements around his access to the home.  If she is afraid to bring up the discussion then I strongly recommend that she and the ex get some help with a good therapist.  The kids health, your health and hers, and the health of your relationships in the family depend on it!",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E017",
+    "context": "She cried because she lost all trust in me. Now I feel disgusting and like my heart just got stabbed, what do I do?",
+    "response": "Hey! Sounds like the part of you that knows the RIGHT thing to do won here! I am so proud of you for admitting that you lied to your Mom! Sometimes lies come out of our mouths before we can even catch them because we are trying to say what the other person wants to hear. I bet that, as you begin to show her that you are not going to lie any more, she will begin to gain trust in you again! Be open with your feelings with you Mom - she is there to support you, guide you and love you! Give her lots of hugs - and give yourself one too for being so brave! Be Wise!",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E018",
+    "context": "I am in my early 20s and I still live with my parents because I can't afford to live alone.\r\n   My mother says that if I live under her roof I have to follow her rules. She is trying to control my life. What should I do?",
+    "response": "You're among many millennials who live with their parents due to financial reasons.Does your mother mean rules pertaining to the way your family household organizes its daily or does she mean something else?Every household needs rules as responsibilities to keep the house clean, who does the grocery shopping, the way costs are distributed for this and all the other carrying charges  and tasks of maintaining the house in decent order, as well as respecting the privacy and noise level requests of others who live in the home.This set of responsibilities applies whenever more than one person lives with another person.Have you tried simply telling your mom that you're willing to be a responsible household member and that you prefer to keep the details of the way you live the rest of your life, to yourself?This would show respect to your mom and start the discussion as to the areas of your life you feel deserve privacy and how you would like to handle when your right to run your own life overlaps with any household duties.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E019",
+    "context": "On the first day of school I wore a bra that was too big so that it would look like I had bigger boobs. I did that the whole school year and my parents never found out. But now I can never hang out with my friends at my house or invite them over because it would be around my parents and my friends would see there is nothing there on my chest.    How do I fix this?",
+    "response": "Sometimes we let our insecurities get the best of us, causing us to make some interesting choices. Honesty is always the best policy, but honesty comes with risk.  Perhaps you may want to start with your family first, explaining to them what you have done and why.  Perhaps they can help you to practice talking about your insecurities with your friends. Another way is to start, slowly, to dress more and more like yourself and your true body shape. Some of your \"friends\" may make fun of you, true, but then you must ask yourself...why do you want to be friends with people like that?",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E020",
+    "context": "I feel like I was born in the wrong body I feel like I should be a girl not a boy\r\n Ever since I was young, I have wanted to be a girl. I felt like what I was wasn’t me. I want to know what I can do about it. My family is against transgender people and don't want anything to do with them. I want to be “me.” I feel as if I'll be happy then. I don't look in mirrors, and I don't like my reflection. Recently, I have been taking things to help even though they were not prescribed. I know I should have this handled by a professional.",
+    "response": "Hi. Do you have any opportunity to work with a therapist?  It sounds like it might be really great to explore these feelings. If you aren't able to, there are many awesome gender work books available that you could use to explore your thoughts and feelings. Also - google \"ask a gender therapist\" - so many amazing video blogs to answer many questions!  Good luck!",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E021",
+    "context": "I'm scared that I am with this man so I won't be alone. He should be with somebody who deserves him if this is the case, and I don’t want to hurt him.",
+    "response": "While not wanting to be alone may not be the best reason to be in a relationship, it is probably more common and normal a reason than you think.  Since you seem to care about your friend (\"don't want to hurt him\"), I imagine there are many other reasons that you are together.  I suggest that you talk about this open-heartedly with each other.  The idea of being afraid of being alone sounds like an honest starting place.  Don't try to \"figure out\" whether you should be with him.  Just talk.  The communication is likely to shine light on deepening connection for BOTH OF YOU.In the meantime, your idea that you don't deserve him is rooted in a \"core lie\" that you are telling yourself.  You can read about \"core lies\" and much more in my book, Living Yes, a Handbook for Being Human.  Check out www.LivingYes.org.Be easy on yourself.  You are deserving!~Mark",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E022",
+    "context": "How do I decide if I should end my relationship with my boyfriend?",
+    "response": "The decision to end a relationship is difficult. There are a few questions you might want to ask yourself like, \"Why am I asking myself if i should end it?\", \"What else am I looking for in a relationship that this one doesn't give me?\", \"is my boyfriend willing to discuss my doubts and willing to work at making this relationship better?\", \"Is he abusive in any way?\" These are just a few questionsto think through in order to make this decision. Also talk to a trusted friend and see they're point of view of your relationship. Sometimes talking it over can help you think out loud and you're friend can point out details you can't thought about. Talking to a therapist is also a good option as a therapist can hello you figure out what you are looking for and address any issues that need to be addressed.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E023",
+    "context": "A year ago, the love of my life left me and never looked back. Our son was two months old at the time and it broke my heart. I miss her so much and can't seem to get over being so heartbroken.",
+    "response": "Who takes care of your son, is a significant part of getting over your heartbreak.If you made reasonable custody terms re your son then the relationship heartache is much easier to recover from than if your son’s mother vanished from his life, or if the mother wants nothing to do w him.Re the actual relationship, let yourself feel sad and hurt since this is the truth.Usually life gradually fills in new people, including a relationship once you feel strong enough from having endured such sadness and loss.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E024",
+    "context": "I was born a girl, but I want to be a boy. Because of my religion I can't tell my family. I know they won't accept me. What do I do?",
+    "response": "Ultimately, to suppress your natural identity will work against you.However difficult, painful, frightening, it is to tell your family about your discovery about who you are, trying to avoid your own truth will do you harm eventually.One way to make this conversation easier for yourself is to prepare yourself for the outcomes you expect and know will be difficult.Take as much time as you need to accept the potential rejection because this way iff and when it comes you will be better able to handle it.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E025",
+    "context": "There are issues from my past that have me very heavily burdened in my heart. I've been torn for so many years and I need help so I can move on with my life.\r\n   I experienced trauma when I was 8 years old and I did come out about it until I was 40.\r\n   Now I know this is what's holding me back on my happiness. I've met a very loving and caring man but because I'm holding on to these things from my past I’m pushing him away.\r\n   How can I get my life back?",
+    "response": "Have you explained to your prospective partner about the feeling of vulnerability which you've got?Disclosing one's truth to a trusted person will improve your sense of feeling safe and loved.  It may also take off the pressure you feel to complete your own trajectory of making peace with your past burdens of ilife.If you find your possible new partner is patient and understanding, then you've both removed pressure off yourself and will feel validated and loved for speaking your plain truth and finding it well accepted.If you continue to hide your deeper complexity, or if you explain yourself and ask for the person's patience and understanding, and he avoids giving this to you, then you're better off knowing sooner than later the limits of understanding which this potential partner has.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E026",
+    "context": "I have been diagnosed with posttraumatic stress disorder due to my military experiences. Not a year ago, I had a car accident. Could this experience add more problems?",
+    "response": "A car accident can be scary and possibly trigger your symptoms of PTSD. It is good that you recognize the possibility of this occurring.Not everyone who experiences a car accident develops PTSD. The chances are definitely increased due to your prior diagnosis during military service.Some of the things to be mindful of for yourself include:1. Feelings of anxiety and increased heart rate when you're faced with reminders of the event.2. Feeling a little more on edge when you're driving.3.Being more watchful. You're more likely to scan your environment for potential sources of threats.4. Avoidance. Because of the anxiety that often follows an accident, it's natural that you may want to avoid some situations or experience hesitation at times.If you experience any of these symptoms or feel other symptoms of PTSD it would be advisable to seek help possibly through your local VA Medical Clinic or a private practitioner. There are certain modalities such as EMDR that can help with your symptoms.",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E027",
+    "context": "My boyfriend is seeking therapy. He is in his 40s and has some childhood issues. He has kids from his previous ex-wife and is unable to see them.",
+    "response": "Probably the more important questions to answer concern how much confidence you have in you and your boyfriend becoming parents, how you each feel about the influence of his being banned from seeing his current children, and be clear about the circumstances that led up to the decision of him not being permitted to see his kids.Don't allow some random professional to pronounce your boyfriend as cured.  A relatively qualified therapist would never make this call.Psychological and emotional tensions emerge from our relationships within families.  You and your boyfriend are in a position to set a strong foundation for having children, assuming each of you wants children.Childhood issues, your boyfriend's, anyone's, are more likely to go away when new patterns of interacting emerge.If the two of you are engaged in setting a secure relationship as future parents, the disappointments and hurt from the very early years, will be replaced by better ways of interacting.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E028",
+    "context": "I've been with my boyfriend over 3 years. He cheated on me and the woman is now pregnant. He is physically and mentally abusive towards me. I have attempted to talk with him in order to resolve our issues; however, he never wants to talk and often blames me for everything. I’m always there when he needs my help. He tells me although I help him doesn’t mean that I am a good person. He always discredits me as a woman and it’s hurtful. I spend most day crying and feeling lonely. I am unhappy and unsure of what I need to do.",
+    "response": "That sounds like a very hurtful situation. Unfortunately, without a batterers intervention course or a desire to change, the abuse cycle is unlikely to stop. I do not recommend that you try to leave on your own due that being the most dangerous time when in an abusive relationship. As an abuser, his goal is to control you whether it's through mental or verbal means. I recommend that you contact a domestic violence shelter in your area. I have worked closely with Harbor House of Central Florida and know they provide housing, transportation, and any other needed resources to women leaving an abusive relationship. There is help out there and you are not alone. If you need any additional resources in your area, please don't hesitate to contact me.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E029",
+    "context": "I believe my partner has a masturbation and porn problem. He masturbates daily, even when I am lying in bed sleeping beside him. We have sex once a week. He is rough and worries about his needs. He never touches me, and treats me like a porn star, wanting to finish on my face or chest.",
+    "response": "The comments here from the other therapists are \"spot on\". As a Certified Sex Addiction Therapist-Candidate I'm convinced your partner's acting out creates trauma for you. Your partner's addiction is NOT your fault and his recovery IS his responsibility. What's paramount is for you to get immediate help from an experienced therapist who understands trauma as result of the partner's/spouse's problematic sexual behaviors. Your needs, safety, and the establishment of reasonable boundaries is vital to your well-being. I wish you the very best.Resources for Your Consideration: 1) https://www.iitap.com/, 2) https://www.sanon.org/, 3) http://www.cosa-recovery.org/",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E030",
+    "context": "My boyfriend of five months expresses how much he cares for me and loves me, and I believe it. It has been one of the best relationships I have been in for a short period of time, but he has lied to me so much. He’ll tell me that he'll stop lying, and while he’s saying that, he's hiding something or lying about something. First, it was about a girl. He hid text messages and claimed she was a friend and it was a friendly conversation when it was a girl he once found interest in. Next was his ex-girlfriend. He put a fake contact name, and it was just friendly, but he lied to my face. All the time, he claims he never cheated and still expresses his love the same way and that he wants to change and do better.",
+    "response": "New York, New York...it's not your boyfriend's lying that concerns me the most; it's the lies you tell yourself. Verbal expressions are easy, but it's walking the walk that's more important in the end. When someone shows you what they're capable of, you can believe them. He's capable of being manipulative and deceitful, and he even lies as he's telling you he'll stop lying. What you're doing is called denial; when you see evidence of something but you choose not to believe the evidence. He might love you with his heart, but love, in the end, is a verb and is based on respectful, loving behaviours. My wish is that you start by believing in what you deserve.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E031",
+    "context": "I just lost my grandpa and i'm having a rough time with it.    I need some help to deal with the loss, but I don’t think I can pay for counseling. Where Can I get help?",
+    "response": "I'm sorry you lost your grandpa.  Some things that may help you through this tough time are to journal or write about special memories you have of your grandpa.  You could also journal about your feelings of loss and how you miss him.  Another thing that might help is to talk with a friend or family member.  Sharing special memories of the person you lost can help you to grieve.If you would like to pursue counseling I would suggest doing an internet search for grief groups in your area.  Sometimes hospitals or hospice centers will offer them for free or low cost.  You can also do an internet search for non-profit counseling clinics in your area.  Many cities and towns will have a non-profit clinic that can provide low cost counseling, it might be worth checking into.",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E032",
+    "context": "I have a friend that who I used to be in a relationship with. It was brief and turned into us being just good friends.\r\n   I spent the weekend with him and it upset my boyfriend. Was i wrong?",
+    "response": "Thank you for submitting this question. I think this type of situation can be common for many couples struggling with how to keep friendships with past relationships while being in a new relationship. For me, more information is needed here...but given the information provided, the way I interpret the question is...I'm assuming your boyfriend didn't know you were going to spend the weekend with your good friend?  Working off of this assumption, I would suggest beginning an open and honest dialogue with your boyfriend about what specifically upset him? And to talk about your point of view regarding spending the weekend with him. I would also suggest talking about how you both envision your relationship when it comes to spending time with others. If you feel like you can't have this conversation without it going off track, please consider seeing a couples therapist. They can help you begin these important conversations that can help shape and develop the relationship you and your boyfriend long for.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E033",
+    "context": "I'm dating a guy I really love. We have our problems, but I could see myself with him long term. But there's this other guy who I've had feelings for for awhile now. He gives me butterflies when we talk, and my heart beats fast when I see he's texted me, which i never felt with my current boyfriend.",
+    "response": "There are different types of attraction.  You said that you've never felt this sort of feeling of your heart beating faster with your current boyfriend. Depending on how long you've been together and if you're looking at different ways of making a life together and getting to know each other on a deeper level, that's a different stage in a relationship and sometimes it feels different. Some people look at it as a difference between levels of passion and compassion, but there are many different terms to try to talk about it.Perhaps with this guy that you really love, you could talk about ways to keep things new and different in the relationship. Maybe you can leave notes for each other during the day or have a small surprise at random intervals (maybe an invitation to a picnic, for example).As for the other guy who makes your heart beat faster, what do you see in him? You said you really love the other guy, which is why I'm asking.What do you look for in the person who you want to be with long-term (whoever that is)?",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E034",
+    "context": "I'm a female freshman in high school, and this question is for my male best friend. At the start of freshman year, we dated for about a week before his parents ended it because they said he is too young to date. He has been dating a really sweet senior girl for a month or two. I have nothing against her except for the fact that she has Tim's heart. He is convinced that they are in love, and maybe they are, but I don't really believe him.    Lately, Tim had been expressing concern about what is going to happen when Sally leaves for college at the end of term this year. He's been asking me to help him with Sally and what girls like to show her how much he loves her. But he's also been thinking about breaking up with her just so they won't have to deal with it when she leaves. He seems really torn up about it, and I want to know what to say to him and how to help him once she leaves.    He knows that I still crush on him. He doesn't rub it in my face. He's a good guy, but I want to actually help him out and recover before we think about maybe another relationship between us. How do I do that when the time comes? How do I support him and show him that I'm here without wanting to hook up? How do I make him feel better? He is convinced he's never going to be able to love anyone ever again, which I think is ridiculous.",
+    "response": "First off, I think it is great that you are willing and able to help out your friend with issues regarding his current relationship, despite the fact that you have feelings for him. I think that the best thing you can do is let him know that you are there for him if he wants to talk about things. You can also help by presenting options that he has and help him weigh out the pros and cons of his decision, but ultimately he has to decide what to do. Know that you won't be able to heal the pain he feels when his girlfriend leaves but you can be a friend to him by simply listening, validating his feelings, and understanding. Regarding your question about being there for him without wanting to hook up....I'm not sure if that is possible. If you care for him on more than a friendship level, then that desire will likey be there for you no matter what. Be careful that you take care of yourself and don't jeopardize your own happiness while trying to help him with his issues. Good luck to you!",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E035",
+    "context": "My best friend and I were pranking her friend, and I told her to tell him that she likes him. She said no, but I forced her. After she told him, he told her that he likes her too. Their friendship is ruined because of me. She won't forgive me, and I feel really guilty. I feel like crying.",
+    "response": "This takes time. I don't know how long it has been, but perhaps if your friend is willing to discuss other things with you for a little while, you could discuss this at some point in the future.Hopefully the true intentions will become apparent (in the idea that it was a prank).Also, I encourage you to look at how this is affecting you and how you feel about yourself as well. If it was meant to be a joke and it did not work, that is not entirely your fault.I wonder how you could forgive yourself for what happened?Are you able to seek what you meant to do compared to what actually happened?Do you notice that not everything that has happened here is in your control?Do you recognize that even though you would like things to be better, if your friend is not ready or willing, you are trying to do your part to make it right?Maybe everyone who is/was involved in this can talk together all at the same time to set straight what is truth and what was misunderstood.I wonder if you can think of your own positive attributes (for example: honesty, compassion, trustworthiness, friendship, good listener, caring) and look at what truly exists within you rather than just one your friend is able to see right now.This can be really difficult for multiple reasons, not the least of which is that it involves more than just you, so it's important to focus on the idea that you can ask these other people who were involved to discuss it, but that is ultimately up to them.Best wishes for looking at the positive parts of yourself and your friendships.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E036",
+    "context": "I'm currently struggling with diagnosed depression, anxiety, and Misophonia. Also, I am 99% sure I have Borderline Personality Disorder and Avoidant Personality Disorder. I read the DSM-IV, taken college psychology, etc. I know it in my heart I have them. Is self-diagnosing okay with the right research?",
+    "response": "Any diagnosis is limited in its usefulness.Knowing the name of some typical ways you may feel, think and behave, doesn't help you or anyone to understand why the person is the way they are and how to change any of these characteristics.Both self-diagnosing and being diagnosed are equally unhelpful to know why you are the way you are and what to do about it.Consider yourself a person who wants to find a better way to be who you are, and this will get you further with better results than to read a list of descriptions which all are very indicting and negative sounding.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E037",
+    "context": "Is it normal for people to cry during therapy, or is it just me?",
+    "response": "Of course! There are some people who will never cry during sessions and some that always cry. In counseling you may be talking about very vulnerable topics and experiences and it may even be the first time you are talking to someone about your concerns, thoughts, or feelings. It is perfectly natural to cry if you are so moved.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E038",
+    "context": "I have so many issues to address. I have a history of sexual abuse, I’m a breast cancer survivor and I am a lifetime insomniac.    I have a long history of depression and I’m beginning to have anxiety. I have low self esteem but I’ve been happily married for almost 35 years.\r\n   I’ve never had counseling about any of this. Do I have too many issues to address in counseling?",
+    "response": "This is a great question! I personally don't believe that any client could ever have too many issues for counseling. In fact, that type of thinking may be stopping you from seeking counseling, so it may be hindering you from getting the help you need. In fact, all of what you described points to the importance of you seeking help in order to cope with the many challenges in your life. If you seek counseling, it will be important for you to understand that you may need to remain in counseling for a sustained period of time in order to work through each of these issues. All of these issues won't be able to be solved right away or in a brief period of time. Counseling will take commitment and hard work, but it is possible for you to recover and heal from all of the issues you described.Many clients come into counseling with numerous issues rather than just one particular thing. Most of the time, the issues relate to and exacerbate each other. We call these \"comorbid\" conditions, which means that two or more mental health problems exist at one time. A lot of the times, when you start to work on one issue, the other issues get better as a result.I encourage you to find a professional therapist that can help you learn how to cope with all of the mental health difficulties that you described. You deserve the help just as much as anyone else.",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E039",
+    "context": "How does a counselor decide when to end counseling sessions or to terminate working with a client?",
+    "response": "To be able to identify a clear ending to a counseling relationship, we must have a clear understanding of the goals and limitations of treatment.  Usually, during the initial evaluation, I identify my client’s short term and long term therapy goals.  As therapy progress, we verify goals on a monthly to a quarterly basis, depending on the frequency of the appointments.  Once the therapy goals have been met, there is a closing session, the counseling relationship is ended, and the client can stop attending sessions.  In some cases, the client can also establish new goals and determine if I am a good fit for their therapy needs or if they need a new provider, in which case I provide multiple referrals.The counseling relationship could also end due to other factors like noncompliance= when a client is not committed to the agreed treatment process, or when the client’s or a counselor violates the counseling relationship.  Either the counselor or the client is able to end counseling.  Although, as mental health providers we need to provide a reason for terminating our therapeutic relationship and referral options, as a client no explanation is needed, a closing session is highly recommended.  ¿Cómo termina la terapia?¿Cómo un consejero decide cuando terminar las sesiones de consejería o terminar de trabajar con un paciente?Para poder determinar el final de la relación del consejero, debemos comprender las metas y parámetros de la terapia.  Usualmente durante la evaluación inicial se identifican metas a corto y largo plazo con el cliente, y se discute con el cliente como esas metas serán alcanzadas.  Durante el proceso de terapia el consejero revisa las metas mensual o trimestralmente dependiendo de la frecuencia de las citas.  Ya que las metas de terapia son alcanzadas, hay una sesión de cierre y el cliente puede terminar la terapia.   En algunos casos el cliente puede identificar nuevas metas para la terapia y determinar si el mismo consejero u otro consejero le pueden asistir. \r\nLa relación de consejería también puede terminar por no conformar o violentar los parámetros  establecidos para la terapia.   Tanto el consejero como el cliente pueden terminar la relación de terapia.  Como proveedores de salud mental los consejeros estamos obligados a proveer un razón para la conclusión del tratamiento y proveer referidos según aplique, los clientes no necesitan proveer una explicación, aunque es recomendable discutirlo en una sesión de cierre.",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E040",
+    "context": "I've gone to a couple therapy sessions so far and still everytime I walk in I get nervous and shaky. Is this normal? Should I still be feeling like this?",
+    "response": "It takes a lot of courage to go to therapy.  I have gone myself as a Counselor and know what that feeling is like. This is normal but hopefully you have become more comfortable with your therapist. This might be something to bring up to your Therapist and openly discuss (scary to do but its ok) this may even relieve some of your anxiety.  If it continues, you may want to consider trying another therapist as this one may not be the best fit for you.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E041",
+    "context": "I've gone to a couple therapy sessions so far and still everytime I walk in I get nervous and shaky. Is this normal? Should I still be feeling like this?",
+    "response": "\"Normal\" can be an insidious word to use because it can undermine your sense of worth.  It implies there's one particular way you should be behaving and can leave you feeling crappy and \"abnormal\" if you're not behaving according to that prescribed standard.  Instead, what I'd recommend is to pay attention to your emotional experiences when you're attending therapy.  Explore your feelings and thoughts without judgement and try to reflect and understand what's going on that's causing you anxiety.  Once you figure out the underlying meaning of the anxiety, you can figure out a way to handle it and action steps to take to diminish it.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E042",
+    "context": "I've never been able to talk with my parents. My parents are in their sixties while I am a teenager. I love both of them but not their personalities. I feel that they do not take me seriously whenever I talk about a serious event in my life. If my dad doesn’t believe me, then my mom goes along with my dad and acts like she doesn’t believe me either. I’m a pansexual, but I can’t trust my own parents.\r\nI've fought depression and won; however, stress and anxiety are killing me. I feel that my friends don't listen to me. I know they have their own problems, which I do my best to help with. But they don't always try to help me with mine, when I really need them. I feel as if my childhood has been taken from me. I feel as if I have no one whom I can trust.",
+    "response": "Hi there. Being 15 years old can be a very difficult time in your teenage life. I remember when I was 15 and how I often felt my parents weren’t listening to me. It’s even more difficult when you feel that you do not have a friend that you can confide in. Having depression in the past and being able to get through it shows me that you can get through anything! Depression alone is a very difficult problem to work through. In addition to the communication problem with your parents, it appears that you are also struggling with stress and anxiety. We all have stress and anxiety in our lives. If we didn’t, none of us would be living. Anxiety & stress keep us on our toes! Often, I have to remind myself of this as well. However, it is how we manage stress and anxiety, so it will not overcome our lives. Are you familiar with relaxation techniques, such as: deep breathing exercises, meditation or yoga? Relaxation Techniques can help you tremendously in reducing your stress and anxiety. Deep breathing exercises are helpful when you are on the go, such as school, shopping, out with friends or whatever extracurricular activities you engage in.  Most people do not take full advantage of their lung capacity. I know, that sounds silly. But, it’s true. You would be surprised how much air you lungs can hold. Imagine being in the Doctor’s office and taking deep breaths. This is what you want to do when you are feeling overwhelmed and/or stressed. Take a moment to take in at least 10 deep breaths and let them out slowly. You will be surprised how well you feel afterwards. Meditation and Yoga are also healthy forms to working through stress and anxiety. You will need a quiet place for your meditation. You want to be “in the moment” and take in the peace and serenity. All it takes is a quiet place, closing your eyes and thinking of your “happy place.” Some people use meditation music as well. If you have access to this type of music and or the internet for more ways to practice meditation, please go for it! Yoga on the other hand will take a little more work and practice. I would not suggest you learning this on your own, if you have never attempted yoga before. Find an experienced Yoga instructor to teach you the ropes and/or ask your school counselor about the possibility of getting someone to come to the school to teach the students. Lastly, in regards to your parents it is very important to be able to have a relationship where you feel comfortable communicating. I would recommend writing a letter to them, if you are unable to express how you feel in person. A letter is more intimate and requires a little more effort on their end. If they are open on working on this relationship, maybe suggest family counseling to fully work on this issue. I hope this was helpful for you and I wish you the best!",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E043",
+    "context": "I loved him more than anything. He passed away on our anniversary which was also the day I was going to apply for our apartment. I'm not handling it well. I moved to a new town and started a new life but nothing helps.",
+    "response": "I am so sorry to hear of your boyfriend's passing. Grief is something that can take a long time to recover from. Have you considered speaking with a grief counselor? Being able to speak with someone that specializes in grief would be very beneficial. Do not get down on yourself for not recovering quickly. This is one of the hardest aspects to deal with in life but eventually you will be able to move forward. In the mean time, immerse yourself with positivity (i.e. Good friends, hobbies, exercise) and try to schedule a time with a counselor. Perhaps there will be a support group you could also join. Oftentimes, it is comforting to meet others who share the same experience as you.Good luck to you. I hope you will find peace and comfort soon.",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E044",
+    "context": "I regret ever hurting her and they mean the world to me. But it feels like nothing I do seem to work.\r\nI'll always love them no matter what and when I'm with them nothing else matters. I love them more then anything. I don't want another guy raising my kids.",
+    "response": "How you you expressed your regret and taken responsibility for the pain thus far? Repair is a very essential skill in and part of developing healthy relationships. Your love sounds deep, sit with that. Also sit with how she's been hurt. You get to feel your hurt too and your kids. In feeling all this you may also find our way to the repair. If feeling all this is tough to take on, seek out a local therapist to support your process.",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E045",
+    "context": "This is preventing me from getting a job. I have bad relationship with my bipolar mother. I am living with her but it stresses me out so much to be around her that I have locked myself in my room. I have no friends or other family to help me. I have no money for therapy, but I think I need therapy before I can secure a job.",
+    "response": "A good first step would be to make an appointment with your primary care provider & discuss your concerns.  They would have resources available to help in your particular situation.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E046",
+    "context": "My ex-boyfriend and I met over a year ago. We hit it off and fell in love pretty quick. However, he has trust issues and assumed I was cheating. When I found out I was pregnant, we had just broken up. Five months later, I lost the baby, and we did not speak for a few weeks. Now we are talking, and he says he loves me but is afraid I will hurt him \"again.\" I just want to know where to go with this because I love him so much, and I want to get back to us being happy and a family.",
+    "response": "Trust is essential in romantic relationships and it is common to have trust issues - because the stakes are so high. If both of you are committed and willing to be fully honest with each other, trust can be repaired and become stronger than ever. I would encourage you to seek out professional help as it easy to get derailed by fear when trying to work things out in the absence of trust. When fear takes over - we tend to become defensive and act in ways that makes it harder to trust one another. In addition to getting professional support I would encourage you to learn more about building trust in relationships and deepening connection through accessing various online resources on relationships.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E047",
+    "context": "I am constantly having problems with the same two people who will always be in my life. I had a daughter with my ex-boyfriend. I am now married, and my husband’s ex-girlfriend is involved with my ex-boyfriend.  They also have a daughter together. My issue is that there is always drama. I am pregnant, and I told my ex-boyfriend that I don't want any drama or arguments. I want to get along as much as possible, and he agreed. However, we just had an incident where my ex-boyfriend started discussing drop-off details about my stepdaughter. I told him that he needed to ask my husband because I can't make decisions about my stepdaughter regarding the matter. That led to an argument. I told him all my concern is when I pick up my daughter. My stepdaughter’s pick-up details are between my husband and his ex-girlfriend. I especially told him I didn't want to be involved. Somehow, he turned it around and then wanted to change the schedule we agreed on. He threatened me and got ugly because I wouldn’t discuss my stepdaughter’s matters with him.\r\n\r\nThe point is there is so much drama. I try my best to get along with everyone. I don't understand where I went wrong (besides replying back to his question). I feel like I'm going crazy because this is a constant battle where everyone’s frustrations are taken out on each other, and it's the children that are hurting. I had a party planned for my daughter’s birthday, and my ex-boyfriend told me to cancel those plans because he wouldn’t let me have her. In my eyes, it’s the child that is hurting. I was throwing a party for her birthday, and because of the problem with stupid pick-up details about my stepdaughter, which I have no control over, he took it out on our daughter.",
+    "response": "Hi. I appreciate your mature instincts and strong efforts to draw clear boundaries in this very complex situation. I agree that it sounds like the adult drama is unnecessary and potentially will affect the children. Children need adults around them to act maturely, cooperatively and peacefully even when they don't like each other; it helps them feel secure and lets them focus on learning and growing. Your ex-boyfriend seems more focused on his own needs. In fact, he demonstrates behaviours that are aggressive, controlling and manipulative, bordering on 'parental alienation'. I agree this is a problem.I also appreciate how protective you are of yourself at this vulnerable time with the pregnancy. It's not unusual for pregnancy to trigger a need to conserve energy and reduce stress. Honour this instinct you have. I will suggest a few things to you. First, to gather support around you, professionally if you need it, from family and friends, and certainly from your husband. If you two are on the same page regarding the children issues and your ex, that will help. He can help run interference when it comes to his daughter. It will help you feel supported.Know that your ex's behaviours aren't happening because you did anything wrong; it's the way he operates (and maybe this is why you're not with him?). You can't change him, but you can stop blaming yourself for his immaturity and aggression. You're correct that he will always be there, and you can both accept this fact and also find ways to manage the situation.Keep on defining clear boundaries! You might sound like a broken record (\"You'll have to talk to my husband about that\"), but that's okay. It's okay to ignore his efforts to pull you into an argument or power struggle. It's okay to not respond to texts or other communications that aren't vitally important. It's okay to not let him into your house if it makes you uncomfortable. It's okay to not engage with him more than is necessary.Regarding his manipulative behaviours that reflect a tendency to keep your daughter from you, I recommend you document these behaviours and incidents carefully and fully. Let him know what your expectations are, simply and clearly and in writing (\"our agreement states X, and you are not following our agreement\"). Your daughter doesn't have to be aware; I think you already understand that she needs to be protected from the adult conflict.A professional therapist can help you with all of this. I hope this helps get you started towards greater peace, at least within yourself. :)",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E048",
+    "context": "I have an eating disorder of binging. I've had gastric sleeve surgery. I need help with issues of abuse as a child, addiction, and abusive men. I have been in therapy for five months and get no feedback from my therapist.",
+    "response": "It can be really frustrating to feel like your counselor is not providing you with the help you need.My recommendation in a situation like this would be to let your counselor know how you feel. Specifically tell Your counselor that you don't seem to be getting the amount of feedback you would like.If this doesn't help, then you might want to look for another counselor who will be a better fit for you.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E049",
+    "context": "I'm a male in my 20s. My girlfriend is in her late 30s. She's great. She's funny and smart, she has a big heart, and we have an excellent sex life. She recently moved in with me partially because she wanted to and partially because she had no place to go. We fight a lot. It’s mostly my fault, I must admit. She doesn't like my insecurity and lack of trust I have for her. I have trust issues. Also, I can't fathom why a woman like her is with me, so I'm always dreading when a better dude will come along. I don't think she's happy. She's very submissive and she loves me very much, but also the fact that she has nowhere to go must be influencing her decision to stay. I love her so much, but my jealousy is not likely to diminish. I never believed in the whole \"If you love them, let them go,\" but I do now. I really want her to be happy. Should I end it with her? She has no place to go so I feel like I can’t break up with her. I’m literally trapped.",
+    "response": "It sounds like there are assumptions being made regarding how she feels about you and why she is with you. I would not suggest breaking up with her without first attempting to resolve your own issues. You may not only regret your decision, but might find that the exact same problem arises in future relationships. I would recommend seeing a therapist who can help you figure out what is at the root of all of this. By learning about your own insecurities and where they come from, you can expect to discover new ways of responding and relating to others, which will likely impact your relationship in a positive manner.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E050",
+    "context": "My fiancée suffers from severe anxiety and depression. She has had it most of her life. Her anxiety in public places is the worst. It gets to points where she can't breathe or move. Sometimes, she won't even go to the restroom, so she will hold in her pee until her stomach hurts or she pees herself. She curls up in corners at the mall and has panic attacks. She won't eat or drink in public. If she isn't having a panic attack or crying, she's clinging to me and avoiding everything and everyone. Her depression flares up out of nowhere and causes her to become very suicidal and self-harming. She get really sick from anxiety and scared to the point that I can't even get her to eat, drink, leave the bed, or go outside. She always tells me how she grew up around so much fighting and fear that it makes her scared of loud sounds, yelling, conflict, and even talking to strangers in public. She will refuse to go to a store unless I am with her to talk to the cashier for her. She is so scared that I can't even get her to drive. She doesn't want to get her license because she's scared of trying to drive.\r\n\r\nSome people have recommended medication, but I believe it's just going to cover up her illness and not solve it. I don't want my fiancée pumped with drugs. I believe a psychiatric service dog would be the best bet for her. When we first met my poodle, it would calm her down a lot. She took the dog out every time we went out, and she seemed much calmer and happier. She slowly would eat, and the dog seemed to make her feel a lot better. I am worried and want to help her without medication.",
+    "response": "It sounds like you have been a positive support for your fiancee. There is no doubt that this situation is a great challenge for the both of you. While it may feel like you are responsible for her health and happiness, it is important that you understand that you, on your own, won't be able to resolve her mental health issues. Based on what you have explained, it sounds like she needs to get a medical and/or psychiatric evaluation. Whether or not she decides to take medication is her (and your) decision, but keeping an open mind about treatment options is important. I suggest that she see a therapist on her own in order to better understand and cope with her anxiety and depression, especially given her suicidal thoughts. You would also likely benefit from therapy, individual or couple's therapy, in order to address how you are feeling and best learn how to support her and your relationship. I wish the very best for both of you and hope that things will improve sooner than later.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E051",
+    "context": "About a month ago, I went through my boyfriend’s phone and found him messaging his ex-girlfriend that he was dating before me. He gave her a promise ring when they were together, and he still had it hiding in his memory box in our son’s room. I found many things on his phone, but that broke my heart the most. He deleted all the messages but two. I can't help thinking they were talking about the old times together or something like that. It really kills me, and I can't stop thinking about it.",
+    "response": "Your sense of hurt is very understandable.Do you and your boyfriend have an agreement on looking through each other's phones?I ask because the overall problem sounds like lack of trust and that there may be a difference in what each of you wants and expects from your relationship.Probably if the two of you talk about these topics and you each become clear as to the commitment status of each of you to the other, you'll have more clarity as to what either of you would like from the other.With this new level of clarity, his  past relationship involvements will likely be less meaningful .Once you have clear definition of the two of you as a couple, who he was as a past partner to someone else, will matter very little.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E052",
+    "context": "Whenever I have to speak in public or be in big crowds, I freak out. I get light-headed, sweaty, and I have trouble breathing.",
+    "response": "As you do it more, it should get better or at less with less anxiety.  Anxiety is normal for most when speaking in public.  I hear this from even the best of facilitators who have been doing it for years.  I even experienced that when I first became a counselor and had to lead classes.  I asked myself why were I so anxious?  I admit at that time I didn't have confidence in myself.  The more I prepared and practiced, the more my confidence level increased.  Yours will too...",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E053",
+    "context": "I am married, but I had sex with my friend. I feel guilty, but I feel not guilty too. Do I need to feel guilty? It's my body, and I have full rights to do what I like.",
+    "response": "My questions to you would be:  Why did you get married?  Would it bother you if your spouse did the same to you?",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E054",
+    "context": "My friend is abusing her prescription medicine. Even though she told me she didn't have any more pills, I found she has prescriptions for anxiety medications.",
+    "response": "Hello! Thank you for your question. I have a worked with many people who have become addicted to benzodiazepines, like Clonazepam. It is a difficult road for people who are trying to become clean. It is also a very difficult road for those who love the person and are trying to be supportive. During those times, it is important to remember to take care of yourself, too. As for taking your friend's pills, my concern would be the legal ramifications that you could face should you ever be caught with someone else's prescription medication, and especially these types of medications. Our laws have become much more strict surrounding prescription drug sales and possession due to the increase in prescription drug abuse. In addition, people who are in active addiction are likely to find some other means to get their drug, so it would do little to help the overall problem. I don't know about your friend's family situation, but they may be a better route to take if you are concerned about your friend. They may already be involved, but with your help you may be able to convince your friend to go to treatment willingly. That is usually better. In many states, there are also involuntary committal processes where a person's family may be able to convince a court to force the person into treatment. This varies from state to state. If your friend's family is not aware of this option, it may be something to look into. It usually does take a relative, or a medical provider, to begin this process if it is available. I hope this was helpful, and I wish you and your friend well. Robin J. Landwehr, DBH, LPC, NCC",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E055",
+    "context": "My friend is abusing her prescription medicine. Even though she told me she didn't have any more pills, I found she has prescriptions for anxiety medications.",
+    "response": "First of all, where did you find the pills? Did you have to go into her private space or things to find them? If so, you might want to do some research on codependency. I recommend the book \"The Everything Guide to Codependency.\" You can find it here: https://www.amazon.ca/The-Everything-Guide-Codependency-codependent/dp/1440573905 . It's not honest to go searching through someone's things. You dislike the deceit in her, so why model it in yourself?If the pills were just left out, that's a different story. Again though, model honesty. Talk to about what you found. Avoid being accusitory. A good old \"I found these...what's going on with this?\" might be a good place to start. Tell her how it makes you feel. Have you ever heard of \"I statements?\" Google this....you will find a lot of good templates on how to frame this conversation. At the end of the day though, these are her choices. Not yours. All you can do is tell her how you feel, make a few gentle suggestions, and get back to taking care of you. If it gets to the point where seeing her downward spiral is too much for you, let her know this and tell her you can no longer be involved, for the sake of your own health and sanity. There is nothing wrong with trying to help, but ask yourself, are you really being helpful? If you are starting to feel resentful, know that you have crossed the line into codependency and back away.Hope this helps and all the best,Aleisha",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E056",
+    "context": "I believe my partner has a masturbation and porn problem. He masturbates daily, even when I am lying in bed sleeping beside him. We have sex once a week. He is rough and worries about his needs. He never touches me, and treats me like a porn star, wanting to finish on my face or chest.",
+    "response": "There is a lot of information out there right now about how porn is harmful...to a person's brain chemistry, to a relationship and one's ability to love, and to how men see women and sex in general. Your partner demonstrates a clear disregard for your needs. There is evidence, as you suggest, that there is addiction here. I recommend seeing a therapist who can help you sort out where to go from here.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E057",
+    "context": "Sometimes, I'm fine and can go out or meet people, but other days, my heart races and words physically cannot come out of my mouth. I've always thought it was normal and I was just nervous, but the other day, it took me almost 30 minutes of sitting in my car to find the courage to enter Target by myself.",
+    "response": "It is possible that you could have or be developing an anxiety disorder. There isn't really enough information provided here to suggest a particular disorder, but it might be worth meeting with a counselor or therapist to do a formal assessment. Some of the questions they might ask could be what other kinds of physical symptoms you experience, how frequently these physical symptoms happen, what's going on for you when they tend to happen, and how frequently/intensely you find yourself worrying in general. Anxiety itself is a really natural thing - it's just when it starts interfering with your ability to \"do life\" the way you want that we start to consider potential disorders. It might be that for the most part, the anxiety you feel is normal and you simply have some triggers that intensify it more than usual. Working on your own or with the support of a counselor/therapist to both address those triggers at the root and also to develop ways of managing the actual anxiety symptoms. This two-fold approach can be really helpful for not letting anxiety keep you from engaging in life the way you'd like.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E058",
+    "context": "Sometimes, I'm fine and can go out or meet people, but other days, my heart races and words physically cannot come out of my mouth. I've always thought it was normal and I was just nervous, but the other day, it took me almost 30 minutes of sitting in my car to find the courage to enter Target by myself.",
+    "response": "Your, sitting in your car for 30 minutes, story sounds so sad and frustrating.Yes, you're describing classic symptoms of anxiety.Anxiety itself is the indirect result of repeatedly being in positions of feeling helpless or frightened.Are you able to recall from your growing up years of feeling insecure?You may not have felt loved and nurtured as much as you needed.Some people develop anxiety from missing enough love.  They feel lacking in ability to take care of themselves, similar to the lack of being sufficiently taken care of when younger.Try understanding if you felt neglected emotionally.If \"yes\", then start the slow process of emotionally rewarding and acknowledging yourself.Progress will be slow.Eventually you'll stabilize the way you feel toward yourself.This will gradually result in decreased anxiety.",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E059",
+    "context": "My fiancé and I broke up. He cheated on me numerous times. I kept forgiving but questioning his every move. He got tired and left.",
+    "response": "if he as cheated on you multiple times it is not healthy for you to continue seeing him.  However It takes time to heal your pain. You are not a robot that can just switch off your emotions.  Please surround yourself with people who can support and empower you.",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E060",
+    "context": "I'm currently struggling with diagnosed depression, anxiety, and Misophonia. Also, I am 99% sure I have Borderline Personality Disorder and Avoidant Personality Disorder. I read the DSM-IV, taken college psychology, etc. I know it in my heart I have them. Is self-diagnosing okay with the right research?",
+    "response": "Hello, and thank you for your question. Self-diagnosing is something that we all do about one health issue or another. Taking a guess about what may or may not be happening to us is completely normal, however the actual clinical diagnoses of a mental health disorder requires a licensed mental health professional. Here are a few reasons for this: 1. Making a clinical diagnosis often requires other things besides matching up the symptoms of a disorder. To come to a diagnoses for any of the things you mentioned, a counselor would consult the DSM, but they may also use some type of screening tool, assessment or scale. Many disorders have similarities and it requires someone with training to tease out the differences in the symptoms. 2. Our judgement is sometimes off when it comes to assessing ourselves. We really can't be objective. Something as serious as determining a diagnosis really needs to be done by someone who has that objectivity. In addition, once you know your diagnosis, treating it usually requires help from a professional. 3. Sometimes the symptoms of a mental health disorder makes self-diagnoses impossible, in and of itself. For example, someone could be having hallucinations or delusions and not realize it. That would clearly make it impossible for them to diagnose themselves. There a many examples where something like this could happen with different mental health disorders. There are other reasons, but these are three important ones. Now, does this mean that you are wrong about your diagnosis? Maybe not. You may be correct. But, it is important to get this confirmed by a professional mental health clinician. If a disorder is then found, you can begin to talk about treatment. Hope this was helpful. Be well.Robin J. Landwehr, DBH, LPCC, NCC",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E061",
+    "context": "I'm a female in my mid 20s.  Lately I tend to over drink and I've become a very angry drunk. \r\n\r\nIn the past, I have even cheated on my boyfriend while I was under the influence of alcohol. \r\n\r\nBut now, even if I don't do anything wrong and don't embarrass myself, I still feel really guilty after a night of drinking. I don't understand why I'm feeling this way. Does this mean I have a problem?",
+    "response": "Usually when someone asks if they have a problem, they believe they do have a problem!The first step is to understand your own theory and definition as to what problem you feel you have.  Some possibilities are feeling unhappy in the relationship to your boyfriend, not having enough discussion between the two of you, not feeling cared about by your boyfriend, not liking your boyfriend.Did you grow up in a family in which the grownups drank to the point of excess at the times they felt stressed?Family modeling of how to handle problems may have left you no knowing how to handle stress except to drink to excess.Ask yourself what it is you feel guilty of doing?The guilt may point you in a good direction if it is your sense of self-esteem telling you to find better ways of managing your life.Do you drink alone or together with friends?Try defining your specific reasons for drinking because this is the first step to know how to handle the situation differently.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  },
+  {
+    "id": "E062",
+    "context": "After he got home from the hospital he was angry, then for a time wonderful.  Now he is depressed and hopeless again.",
+    "response": "Since as husband and wife your lives are closely joined, how your husband feels greatly influences the way you feel.Give yourself some time to concentrate on how you've been affected by your husband's suicide attempt.   Even if you decide against immediately telling him how you're feeling, knowing this about yourself will guide how and the topics you bring up with him.Is your husband talking easily with you?Do you have some ideas as to what is creating his feeling of hopelessness?The ideal approach would be if the two of you are able to discuss what bothers him and what bothers you.Depending on how far away you each are from such a position, you may benefit from speaking with a licensed professional therapist who can guide you and or you and your husband on opening up for discussion what feels stressful enough to merit taking one's own life.",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E063",
+    "context": "Sometimes, I'm fine and can go out or meet people, but other days, my heart races and words physically cannot come out of my mouth. I've always thought it was normal and I was just nervous, but the other day, it took me almost 30 minutes of sitting in my car to find the courage to enter Target by myself.",
+    "response": "Feelings of anxiety can be scary and sometimes we're not aware of the triggers that lead up to moments of anxiety, i. e., heart racing, sweaty palms, sweating, shortness of breath. It's important to realize that in moments of anxiety our body & mind are experiencing a reaction from our primal or reptilian brain that is signaling the flight or fight response within us, which kicks the hypothalamus into action flooding our body with chemicals, like adrenaline or cortisol.  So, one way to work with anxiety is to find out what the triggers are that lead to anxiety, such as fear, stress. negative thought patterns, not enough food or sleep. Keeping a daily journal can help you track the patterns and triggers and once you identify the triggers you can ameliorate them by learning new skills & techniques and by reducing stress and getting enough sleep. One quick way to reduce anxiety is by taking deeper breathes, sometimes this is called belly breathing. When you breath in make sure your belly rises and expands and as you breath out the belly deflates. Many of us do shallow breathing up in our chest which does not allow for a full breath, and getting a full breath is so important as a tool to help relax us in times of stress & anxiety .",
+    "match_categories": [
+      "somatic_symptoms"
+    ]
+  },
+  {
+    "id": "E064",
+    "context": "I have a fear of something and I want to face that fear to overcome it, but I don't know how. What can I do?",
+    "response": "Fear is a part of life. In fact, our five main emotions are joy, fear, sadness, shame, and anger. We tend to spend a lot of time and energy running away from or trying to get rid of most of those emotions and the more we do that, the more we set ourselves up for failure and disappointment. As a result of viewing our human emotions as \"bad\" or \"wrong,\" we often get caught up in a trap of thinking we have to overcome them or get rid of them before we can do what matters to us. In reality, you can do what is important to you while having your fears! My question for you is, what would you do if this fear was completely gone? What behaviors would you have if you were the ideal you? What skills, knowledge, or personal qualities would you develop? What kind of relationships would you have?I imagine your fear has kept you from achieving those goals because your mind tells you you can't do it until the fear is gone. I challenge you to do the following exercise:What is a goal you would like to achieve? Example: I would like to change careersWhat actions are necessary to complete this goal? Example: see a career counselor to determine my ideal career, go back to school/get a certification, network with others in my desired industryWhat thoughts, feelings, or urges might get in my way? Example: thoughts of \"What if I fail? I'm not smart enough. I can't do it. I'm too busy to put energy into this.\" Feelings of fear, shame, excitement. Urges to distract myself through drinking or watch tv instead of taking action.It would be helpful to remind myself that: example: It is natural to have these thoughts, feelings, and urges but I can take action anyway. I deserve to have a fulfilling life.The smallest and easiest step I can take now: example: research career counselors in my area and write down their phone numbersThe time, day and date that I will take that first step, is: example: Tonight at 7pm At least think through these answers but it is most beneficial to write them down. I hope this helps!",
+    "match_categories": [
+      "none"
+    ]
+  },
+  {
+    "id": "E065",
+    "context": "I've gone to a couple therapy sessions so far and still everytime I walk in I get nervous and shaky.  Is this normal? Should I still be feeling like this?",
+    "response": "Well, it's generally okay to feel anxious or nervous about going into therapy, particularly in the beginning because the process of being open about what you are going through, much less to someone who you don't know well, can be anxiety-producing. It's also common to feel anxious when you are discussing something that is important, difficult to discuss, or you are making changes that are very difficult for you.The most important thing I can tell you, though, is to discuss with your therapist this idea that you feel nervous and shaky. Some anxiety can actually help to motivate or lead you toward change. There are also level of anxiety that can be counterproductive, so it's a good thing to discuss. Personally, I can tell you that I would want my clients to tell me about anxiety they feel 100% of the time. That opens the dialog to discuss whether it is the level of anxiety that they want to sit with and learn about in discovering more about themselves and their experiences and/or whether they would like to do something to lessen the feeling of anxiety.Thanks for writing here. If it caused anxiety for you to do so, I hope that feeling is diminishing for you, at least related to writing here.",
+    "match_categories": [
+      "medication_adherence"
+    ]
+  },
+  {
+    "id": "E066",
+    "context": "Our relationship ended about 7 years ago, but don't know how to let go. How can I get over that person and move on?",
+    "response": "What you're most likely trying to get over is to be attracted to the qualities which you felt attracted to in the person.The problem isn't releasing yourself from the person, per se.   Letting go of a person means separating yourself from the qualities in a partner which you value.Two possibilities exist.Either you continue to feel strongly that the qualities in the past relationship are still meaningful and you'd like to base your next relationship on these qualities.Or, the person had qualities which are no longer relevant or necessary in your life and this is the reason the relationship ended.It is possible that even if you had an adequate exposure to certain qualities in someone that you simply miss the companionship of a relationship.See if you can figure out whether you need the qualities this person gave you or whether you simply like being part of a couple.If you like the particular qualities of your previous parter and these are still relevant to your life, you'll attract a partner who has similar qualities.Basically people attract what they need.The more open you are to attracting what you need in a partner, the more likely your next partner will have these qualities.In this way, you'll get over the particular person and still have the satisfaction to be in a relationship.",
+    "match_categories": [
+      "interpersonal_status"
+    ]
+  }
+]

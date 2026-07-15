@@ -1,0 +1,530 @@
+[
+  {
+    "id": "E001",
+    "extraction": {
+      "medication_adherence": "taken",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E002",
+    "extraction": {
+      "medication_adherence": "taken",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E003",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E004",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E005",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is going through a divorce with their wife, whom they have known since the 4th grade and been involved with for seven years. They have a seven-month-old baby and are currently living with their mother due to the divorce. The user feels heartbroken and has not seen their child in a while, indicating significant interpersonal distress."
+    }
+  },
+  {
+    "id": "E006",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions having anxieties related to relationships and maintaining a household, indicating stress in these areas."
+    }
+  },
+  {
+    "id": "E007",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences nervousness and shakiness when attending therapy sessions.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E008",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences nervousness and shakiness when attending therapy sessions.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E009",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences nervousness and shakiness when attending therapy sessions.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E010",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences nervousness and shakiness when attending therapy sessions.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E011",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences nervousness and shakiness when attending therapy sessions.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E012",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E013",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions a lack of support from their mother, who believes the user is overly emotional and accuses them of faking symptoms for attention."
+    }
+  },
+  {
+    "id": "E014",
+    "extraction": {
+      "medication_adherence": "taken",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E015",
+    "extraction": {
+      "medication_adherence": "taken",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E016",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a situation where their fiancé is upset about someone entering the house unannounced to see his kids, but she seems afraid to confront him about it."
+    }
+  },
+  {
+    "id": "E017",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions a loss of trust in a relationship, which has caused emotional distress and feelings of disgust."
+    }
+  },
+  {
+    "id": "E018",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions living with their parents and feeling that their mother is trying to control their life by imposing rules."
+    }
+  },
+  {
+    "id": "E019",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unable to invite friends over due to concerns about their appearance and how it might be perceived by their friends and parents."
+    }
+  },
+  {
+    "id": "E020",
+    "extraction": {
+      "medication_adherence": "missed",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions that their family is against transgender people and does not want anything to do with them, indicating a lack of support."
+    }
+  },
+  {
+    "id": "E021",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about their relationship, feeling that they might be with their partner out of fear of being alone and expressing worry about potentially hurting him."
+    }
+  },
+  {
+    "id": "E022",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is contemplating whether to end their relationship with their boyfriend."
+    }
+  },
+  {
+    "id": "E023",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions that their partner left them a year ago, which has left them heartbroken and missing her. They also mention having a son who was two months old at the time of the separation."
+    }
+  },
+  {
+    "id": "E024",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unable to share their gender identity with their family due to religious beliefs and anticipates a lack of acceptance."
+    }
+  },
+  {
+    "id": "E025",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions being in a relationship with a very loving and caring man but is pushing him away due to unresolved issues from the past."
+    }
+  },
+  {
+    "id": "E026",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E027",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions that their boyfriend is seeking therapy and has issues related to his childhood. He also has children from a previous marriage whom he is unable to see."
+    }
+  },
+  {
+    "id": "E028",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a troubled relationship with their boyfriend, who has cheated and is abusive. The user feels unsupported and discredited, leading to feelings of loneliness and unhappiness."
+    }
+  },
+  {
+    "id": "E029",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing issues in their relationship with their partner, who has a masturbation and porn problem. The partner is rough during sex, focuses on his own needs, and treats the user like a porn star, leading to dissatisfaction and concern."
+    }
+  },
+  {
+    "id": "E030",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a relationship with their boyfriend, who expresses love and care but has lied multiple times about interactions with other women. Despite his claims of wanting to change, the user is dealing with trust issues due to his dishonesty."
+    }
+  },
+  {
+    "id": "E031",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E032",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions spending the weekend with a friend who was a former romantic partner, which upset their current boyfriend."
+    }
+  },
+  {
+    "id": "E033",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is in a relationship with someone they love but also has feelings for another person, which causes excitement and a fast heartbeat when interacting with the latter."
+    }
+  },
+  {
+    "id": "E034",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user discusses their close friendship with Tim, who is currently in a relationship with a senior girl named Sally. Tim is conflicted about the future of his relationship with Sally as she will be leaving for college soon. The user expresses a desire to support Tim through this situation and mentions having a crush on him, but wants to help him recover from his current relationship before considering a future relationship with him."
+    }
+  },
+  {
+    "id": "E035",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a conflict with their best friend due to a prank that led to a misunderstanding and damaged their friend's relationship. The friend is upset and not forgiving the user, causing the user to feel guilty."
+    }
+  },
+  {
+    "id": "E036",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E037",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E038",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions being happily married for almost 35 years."
+    }
+  },
+  {
+    "id": "E039",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E040",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences nervousness and shakiness when attending therapy sessions.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E041",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user mentions feeling nervous and shaky when attending therapy sessions.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E042",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unable to communicate effectively with their parents and perceives a lack of support and trust from both parents and friends. They express feeling unsupported by friends who do not reciprocate the help they provide, leading to feelings of isolation and mistrust."
+    }
+  },
+  {
+    "id": "E043",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is grieving the loss of a loved one who passed away on their anniversary. They have moved to a new town and started a new life, but are struggling to cope with the loss."
+    }
+  },
+  {
+    "id": "E044",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user expresses regret for hurting someone important to them and emphasizes their love and commitment to this person and their children. They express concern about the possibility of another person being involved in raising their kids."
+    }
+  },
+  {
+    "id": "E045",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user has a bad relationship with their bipolar mother and is stressed from living with her. They have isolated themselves by locking themselves in their room and have no friends or other family for support."
+    }
+  },
+  {
+    "id": "E046",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing relationship challenges with their ex-boyfriend, who has trust issues and fears being hurt again. They are currently talking and the user expresses a desire to reconcile and be happy together as a family."
+    }
+  },
+  {
+    "id": "E047",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing ongoing interpersonal conflict involving her ex-boyfriend, husband, and their respective partners. There is drama and arguments related to co-parenting and scheduling, which is causing stress and impacting the children involved."
+    }
+  },
+  {
+    "id": "E048",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions needing help with issues related to abuse as a child and abusive men, indicating past or ongoing interpersonal challenges."
+    }
+  },
+  {
+    "id": "E049",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a complex relationship with their girlfriend, highlighting both positive aspects and significant conflicts. They mention frequent fights, largely due to the user's insecurity and trust issues, and express concern about the girlfriend's happiness and her lack of alternative living arrangements."
+    }
+  },
+  {
+    "id": "E050",
+    "extraction": {
+      "medication_adherence": "not_applicable",
+      "somatic_symptoms": "She experiences difficulty breathing, inability to move, stomach pain from holding in urine, and panic attacks in public places.",
+      "interpersonal_status": "The user describes their fiancée's reliance on them for support in public situations, indicating a close and supportive relationship. The fiancée avoids public interactions and relies on the user to communicate with others, such as cashiers."
+    }
+  },
+  {
+    "id": "E051",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user discovered their boyfriend messaging his ex-girlfriend, which has caused significant emotional distress. The user is struggling with feelings of betrayal and cannot stop thinking about the situation."
+    }
+  },
+  {
+    "id": "E052",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "User experiences light-headedness, sweating, and trouble breathing in public or crowded situations.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E053",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions being married but having sex with a friend, which suggests a potential conflict or change in their marital relationship. They express mixed feelings of guilt and justification about their actions."
+    }
+  },
+  {
+    "id": "E054",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions a concern about a friend abusing prescription medicine and having prescriptions for anxiety medications despite claiming otherwise."
+    }
+  },
+  {
+    "id": "E055",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions a friend who is abusing prescription medicine and has prescriptions for anxiety medications despite claiming not to have any more pills."
+    }
+  },
+  {
+    "id": "E056",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing issues in their relationship with their partner, who they believe has a masturbation and porn problem. The partner is described as rough and focused on his own needs during sex, leading to feelings of being treated like a porn star."
+    }
+  },
+  {
+    "id": "E057",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences heart racing and difficulty speaking, which they describe as words physically not coming out of their mouth.",
+      "interpersonal_status": "The user mentions variability in their ability to go out or meet people, indicating some days are better than others."
+    }
+  },
+  {
+    "id": "E058",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences heart racing and difficulty speaking, which they describe as words physically not coming out of their mouth.",
+      "interpersonal_status": "The user mentions variability in their ability to go out or meet people, indicating some days are better than others."
+    }
+  },
+  {
+    "id": "E059",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentioned a breakup with their fiancé due to infidelity. They expressed feelings of forgiveness and questioning, which led to the fiancé leaving."
+    }
+  },
+  {
+    "id": "E060",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E061",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions having cheated on their boyfriend in the past while under the influence of alcohol, indicating potential relationship issues related to drinking."
+    }
+  },
+  {
+    "id": "E062",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E063",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences heart racing and difficulty speaking, feeling physically unable to speak.",
+      "interpersonal_status": "The user mentions variability in their ability to go out or meet people, indicating some social engagement but also challenges due to anxiety."
+    }
+  },
+  {
+    "id": "E064",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E065",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences nervousness and shakiness when attending therapy sessions.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E066",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions difficulty in letting go of a past relationship that ended about 7 years ago and is seeking ways to move on."
+    }
+  }
+]

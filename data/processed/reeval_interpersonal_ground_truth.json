@@ -1,0 +1,600 @@
+[
+  {
+    "id": "E004",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence, nor do they discuss any prescriptions or treatments involving medication.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms such as heart racing, sweating, or dizziness.",
+      "interpersonal_status": "The user mentions having a troubled upbringing and feeling overwhelmed, which suggests a history of personal challenges. They also discuss their past involvement in therapy throughout their school years, indicating a long-term engagement with mental health professionals. However, they note that they haven't been in counseling lately, which may imply a change in their support system or access to professional help."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user had a troubled upbringing and was in therapy throughout their school years, indicating a history of engagement with mental health professionals. They currently feel overwhelmed and have not been in counseling lately, suggesting a change in their support system."
+    }
+  },
+  {
+    "id": "E005",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user mentions feeling heartbroken and having good and bad dreams, but does not describe any specific physical or bodily symptoms.",
+      "interpersonal_status": "The user is going through a divorce with their wife, whom they have known since the 4th grade and been involved with for seven years. They have a seven-month-old baby but have not seen the child in a while. The user also mentions a strained relationship with their mother, whom they have lived with for years and are now back with due to having nowhere else to go. The user feels heartbroken and hated, indicating emotional distress related to these interpersonal issues."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is going through a divorce with their wife, whom they have known since the 4th grade and been involved with for seven years. They have a seven-month-old baby but have not seen the child in a while. The user also mentions a strained relationship with their mother, whom they have lived with for years and are now back with due to having nowhere else to go. The user feels heartbroken and hated, indicating emotional distress related to these interpersonal issues."
+    }
+  },
+  {
+    "id": "E006",
+    "reasoning": {
+      "medication_adherence": "The user does not mention anything about medication in their self-report.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in their self-report.",
+      "interpersonal_status": "The user mentions having anxieties about relationships, which indicates some level of stress or concern in their interpersonal interactions. However, no specific details about these relationships or interactions are provided."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user has anxieties about relationships, indicating stress or concern in their interpersonal interactions."
+    }
+  },
+  {
+    "id": "E013",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user mentions experiencing panic attacks, which typically involve somatic symptoms such as heart racing, hyperventilating, or trembling, although specific symptoms are not detailed.",
+      "interpersonal_status": "The user describes a strained relationship with their mother, who dismisses their emotional struggles and accuses them of faking symptoms for attention. The mother refuses to support the user in seeking therapy or medical help, indicating a lack of understanding and support."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user mentions experiencing panic attacks.",
+      "interpersonal_status": "The user has a strained relationship with their mother, who dismisses their emotional struggles and refuses to support them in seeking therapy or medical help."
+    }
+  },
+  {
+    "id": "E014",
+    "reasoning": {
+      "medication_adherence": "The user mentions taking Xanax as prescribed, stating 'I’ve been on 0.5 mg of Xanax twice a day for the past month.' They also mention taking 1 mg during a big anxiety attack, indicating adherence to some extent but also adjusting the dose during severe episodes.",
+      "somatic_symptoms": "The user describes experiencing 'very big anxiety attacks,' which implies symptoms such as heightened anxiety, but no specific somatic symptoms like heart racing or sweating are mentioned.",
+      "interpersonal_status": "The user expresses concern about discussing medication adjustments with their psychologist, fearing judgment or a change in medication. They are worried about being perceived as abusing the medication and are afraid of being taken off Xanax, indicating a level of distrust or anxiety about the psychologist's response."
+    },
+    "labels": {
+      "medication_adherence": "taken",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about how their psychologist will perceive their request to increase the Xanax dosage, fearing judgment or a change in medication. This indicates anxiety about the psychologist's response and a potential lack of trust."
+    }
+  },
+  {
+    "id": "E015",
+    "reasoning": {
+      "medication_adherence": "The user mentions taking Xanax as prescribed, stating 'I’ve been on 0.5 mg of Xanax twice a day for the past month.' They also mention taking 1 mg during a big anxiety attack, which suggests adherence to the prescribed regimen with occasional adjustments during severe episodes.",
+      "somatic_symptoms": "The user describes experiencing 'very big anxiety attacks,' which implies symptoms associated with anxiety such as heightened arousal or panic, but no specific somatic symptoms like heart racing or sweating are mentioned.",
+      "interpersonal_status": "The user expresses concern about discussing medication adjustments with their psychologist, fearing judgment or a change in medication. They are worried about being perceived as abusing the medication and are afraid of being taken off Xanax. This indicates a level of anxiety and mistrust in the relationship with their psychologist, as well as a need for reassurance and understanding."
+    },
+    "labels": {
+      "medication_adherence": "taken",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about discussing medication adjustments with their psychologist, fearing judgment or a change in medication. They worry about being perceived as abusing the medication and are afraid of being taken off Xanax."
+    }
+  },
+  {
+    "id": "E016",
+    "reasoning": {
+      "medication_adherence": "The text does not mention any medication use or adherence, so there is no information to assess this field.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a situation involving their fiancé and her ex-partner, who enters the house unannounced to see his kids. The fiancé feels angry about this but is afraid to confront him, indicating a conflict and a possible power imbalance or fear in the relationship. The user is seeking validation or advice on whether this behavior is acceptable."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user's fiancé is upset about her ex-partner entering the house unannounced to see his kids but is afraid to confront him, indicating a conflict and possible fear in the relationship."
+    }
+  },
+  {
+    "id": "E017",
+    "reasoning": {
+      "medication_adherence": "The user does not mention anything about medication in the text.",
+      "somatic_symptoms": "The user describes feeling 'like my heart just got stabbed,' which suggests a metaphorical expression of emotional pain rather than a physical symptom.",
+      "interpersonal_status": "The user mentions a significant interpersonal issue, stating 'she lost all trust in me,' which indicates a breakdown in trust within a relationship. The emotional impact on the user is profound, as they describe feeling 'disgusting' and express distress over the situation."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing a breakdown in trust within a relationship, leading to feelings of disgust and emotional pain."
+    }
+  },
+  {
+    "id": "E018",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or related adherence issues in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a conflictual relationship with their mother, who is trying to control their life by imposing rules because they live under her roof. This indicates a struggle for autonomy and control within the family dynamic."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing conflict with their mother, who imposes rules and tries to control their life due to living at home. This reflects a struggle for autonomy."
+    }
+  },
+  {
+    "id": "E019",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence issues in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a situation where they feel unable to invite friends over due to fear of being exposed for wearing a bra that makes their chest appear larger. This indicates a concern about maintaining a certain image in front of friends and possibly a fear of judgment or embarrassment. The user is also hiding this from their parents, suggesting a lack of openness or fear of their reaction."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unable to invite friends over due to fear of being exposed for wearing a bra that makes their chest appear larger, indicating concern about maintaining an image and fear of judgment."
+    }
+  },
+  {
+    "id": "E020",
+    "reasoning": {
+      "medication_adherence": "The user mentions taking things to help with their situation, even though they were not prescribed, indicating they are self-medicating without professional guidance.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms such as heart racing, sweating, or dizziness.",
+      "interpersonal_status": "The user describes a conflict with their family, who are against transgender people and do not want anything to do with them. This indicates a lack of familial support and potential relational tension due to the user's gender identity. The user expresses a desire to be themselves and believes they will be happier if they can live as their true gender."
+    },
+    "labels": {
+      "medication_adherence": "missed",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user experiences conflict with their family, who are against transgender people, leading to a lack of support. The user desires to be themselves and believes they will be happier living as their true gender."
+    }
+  },
+  {
+    "id": "E021",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to a medication regimen in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user expresses fear about being in a relationship with a man possibly out of fear of being alone. They express concern that they might not deserve him and do not want to hurt him, indicating a sense of guilt and anxiety about the relationship's fairness and their own motivations."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about their relationship, feeling they might be with their partner out of fear of loneliness and worrying about not deserving him, which causes them anxiety about potentially hurting him."
+    }
+  },
+  {
+    "id": "E022",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication in their query about deciding whether to end their relationship.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in their query.",
+      "interpersonal_status": "The user is contemplating whether to end their relationship with their boyfriend, indicating a significant decision point in their interpersonal life. This suggests there may be underlying issues or dissatisfaction prompting this consideration."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is contemplating whether to end their relationship with their boyfriend, indicating a significant decision point in their interpersonal life."
+    }
+  },
+  {
+    "id": "E023",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to medication in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a significant interpersonal event: the departure of their partner a year ago, which has left them heartbroken. They express missing their partner deeply and struggling to move on, indicating ongoing emotional distress related to this relationship loss."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes the departure of their partner a year ago, which has left them heartbroken and struggling to move on. They express missing their partner deeply, indicating ongoing emotional distress related to this relationship loss."
+    }
+  },
+  {
+    "id": "E024",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or related adherence issues in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user expresses a significant interpersonal issue related to their gender identity and family. They feel unable to share their desire to transition from female to male due to religious constraints and fear of non-acceptance from their family. This indicates a conflict between their identity and familial/religious expectations."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unable to disclose their gender identity to their family due to religious constraints and fear of non-acceptance, indicating a conflict between their identity and familial/religious expectations."
+    }
+  },
+  {
+    "id": "E025",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to medication in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user discusses a relationship with a 'very loving and caring man' but notes that they are pushing him away due to unresolved issues from their past. This indicates a struggle with maintaining the relationship due to emotional burdens from past trauma."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is in a relationship with a loving and caring man but is pushing him away due to unresolved trauma from their past, which is affecting their ability to maintain the relationship."
+    }
+  },
+  {
+    "id": "E027",
+    "reasoning": {
+      "medication_adherence": "The user does not mention anything about medication in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user mentions that their boyfriend is seeking therapy, indicating a proactive step in addressing personal issues. The boyfriend has unresolved childhood issues and is unable to see his children from a previous marriage, which suggests potential relational conflicts or legal issues with his ex-wife. This situation may contribute to his need for therapy and indicates a complex interpersonal dynamic involving family relationships."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user's boyfriend is seeking therapy due to childhood issues and is unable to see his children from a previous marriage, indicating relational conflicts or legal issues with his ex-wife."
+    }
+  },
+  {
+    "id": "E028",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user describes emotional distress, such as crying and feeling lonely, but does not mention any physical or bodily symptoms.",
+      "interpersonal_status": "The user describes a troubled relationship with her boyfriend, who has cheated and is abusive both physically and mentally. She attempts to resolve issues through communication, but he is uncooperative and blames her. Despite her support, he discredits her, leading to feelings of hurt and loneliness. The relationship is characterized by a lack of support and emotional abuse."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is in a troubled relationship with her boyfriend, who is abusive and unfaithful. She feels unsupported and discredited, leading to emotional distress and uncertainty about her future."
+    }
+  },
+  {
+    "id": "E029",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes significant issues in their relationship with their partner. They express concern about their partner's masturbation and porn habits, which occur even when the user is present. The user feels neglected as their partner focuses on his own needs during sex, treating the user impersonally and with a lack of intimacy, as indicated by the phrase 'treats me like a porn star.'"
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about their partner's masturbation and porn habits, feeling neglected and treated impersonally during sex, which affects their relationship negatively."
+    }
+  },
+  {
+    "id": "E030",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to medication in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a relationship with her boyfriend, highlighting issues of trust due to his repeated lying. Despite expressing love and care, he has lied about interactions with other women, including hiding text messages and using fake contact names. The user feels conflicted as he continues to express a desire to change and improve, but his actions have caused trust issues."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is in a relationship where her boyfriend expresses love but has repeatedly lied about interactions with other women, causing trust issues. Despite his promises to change, the user is struggling with the impact of his dishonesty."
+    }
+  },
+  {
+    "id": "E031",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to medication in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms such as heart racing, sweating, or dizziness.",
+      "interpersonal_status": "The user mentions the loss of their grandpa, indicating a significant change in their personal relationships. They express a need for help to deal with the loss but mention financial constraints as a barrier to accessing counseling. This suggests a desire for support but also highlights a challenge in obtaining it due to financial limitations."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is dealing with the loss of their grandpa and is seeking help to cope with the loss, but financial constraints are a barrier to accessing counseling."
+    }
+  },
+  {
+    "id": "E032",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to medication in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user discusses a situation involving a friend who was previously a romantic partner and how spending time with this friend upset their current boyfriend. This indicates a potential conflict or tension in the user's current relationship due to past relationship dynamics."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user spent time with a friend who was a former romantic partner, which upset their current boyfriend, indicating tension in the current relationship."
+    }
+  },
+  {
+    "id": "E033",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to medication in the text.",
+      "somatic_symptoms": "The user describes physical symptoms such as 'my heart beats fast' when they see a text from the other guy, indicating a physiological response to emotional stimuli.",
+      "interpersonal_status": "The user is in a relationship with someone they love and can see a long-term future with, but they also have feelings for another person. This indicates a complex interpersonal situation involving romantic feelings for two individuals, leading to potential conflict or confusion in their current relationship."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences a fast heartbeat when they receive a text from the other guy, indicating excitement or nervousness.",
+      "interpersonal_status": "The user is in a committed relationship but is experiencing romantic feelings for another person, which causes emotional conflict and excitement."
+    }
+  },
+  {
+    "id": "E034",
+    "reasoning": {
+      "medication_adherence": "The text does not mention any medication or adherence to medication.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms such as heart racing, hyperventilating, sweating, trembling, or dizziness.",
+      "interpersonal_status": "The user describes a complex interpersonal situation involving her male best friend, Tim. They dated briefly, but his parents ended it. Tim is now dating a senior girl, Sally, and is conflicted about their future as she will leave for college. The user still has feelings for Tim and wants to support him through his relationship challenges without pursuing her own romantic interest in him. She is concerned about how to help him cope with the potential breakup and his belief that he won't love again."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a complex interpersonal situation involving her male best friend, Tim. They dated briefly, but his parents ended it. Tim is now dating a senior girl, Sally, and is conflicted about their future as she will leave for college. The user still has feelings for Tim and wants to support him through his relationship challenges without pursuing her own romantic interest in him. She is concerned about how to help him cope with the potential breakup and his belief that he won't love again."
+    }
+  },
+  {
+    "id": "E035",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user expresses feeling guilty and like crying, but does not mention any physical or bodily symptoms.",
+      "interpersonal_status": "The user describes a situation where they forced their best friend to confess feelings to another friend as a prank, which led to the ruin of their friendship. The user feels guilty and notes that their best friend won't forgive them, indicating a significant strain in their relationship."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user forced their best friend to confess feelings to another friend as a prank, which ruined their friendship. The best friend won't forgive the user, leading to feelings of guilt and emotional distress."
+    }
+  },
+  {
+    "id": "E038",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user mentions being a lifetime insomniac, which is a somatic symptom related to sleep disturbances.",
+      "interpersonal_status": "The user mentions being happily married for almost 35 years, indicating a stable and positive long-term relationship. They also express concern about whether they have too many issues to address in counseling, which suggests a potential openness to seeking professional help but also some apprehension about the process."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user reports being a lifetime insomniac.",
+      "interpersonal_status": "The user has been happily married for almost 35 years, indicating a stable and supportive relationship. They express concern about having too many issues for counseling, suggesting both openness and apprehension towards seeking professional help."
+    }
+  },
+  {
+    "id": "E042",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user mentions experiencing stress and anxiety but does not describe any specific physical or bodily symptoms associated with these feelings.",
+      "interpersonal_status": "The user describes a strained relationship with their parents, feeling that they are not taken seriously and cannot trust them, especially regarding their identity as a pansexual. The user also feels unsupported by friends, noting that while they help their friends with their problems, the friends do not reciprocate when the user needs help. The user expresses a sense of isolation and lack of trust in their relationships."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unsupported and not taken seriously by their parents, particularly in serious matters and regarding their identity as a pansexual. They also feel that their friends do not listen or provide support when needed, contributing to a sense of isolation and lack of trust in their relationships."
+    }
+  },
+  {
+    "id": "E043",
+    "reasoning": {
+      "medication_adherence": "The user does not mention anything about medication in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user expresses deep emotional pain over the loss of a loved one, indicating a significant relationship. They mention that he passed away on their anniversary, which was also a significant day for them as they were planning to apply for an apartment together. The user is struggling to cope with this loss, despite moving to a new town and trying to start a new life, suggesting the depth of their emotional connection and the impact of this loss on their life."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is grieving the loss of a loved one who passed away on their anniversary, a day that held future plans for them. They are struggling to cope with this loss despite efforts to start anew in a different town."
+    }
+  },
+  {
+    "id": "E044",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or related adherence issues in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user expresses regret for past actions ('I regret ever hurting her') and emphasizes the importance of their relationship ('they mean the world to me'). They express a deep, enduring love ('I'll always love them no matter what') and a desire to maintain their role in their children's lives ('I don't want another guy raising my kids'). This indicates a strong emotional attachment and concern about the potential impact of their actions on their relationship and family."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user expresses regret for past actions and emphasizes the importance of their relationship, expressing a deep, enduring love and a desire to maintain their role in their children's lives."
+    }
+  },
+  {
+    "id": "E045",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a 'bad relationship' with their bipolar mother, which causes significant stress. They are living with her but feel so stressed that they have locked themselves in their room. The user also mentions having no friends or other family to help, indicating a lack of social support."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user has a stressful relationship with their bipolar mother, leading them to isolate themselves in their room. They lack social support, as they have no friends or other family to assist them."
+    }
+  },
+  {
+    "id": "E046",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a complex relationship with her ex-boyfriend, highlighting trust issues and emotional challenges. She mentions that they fell in love quickly, but he assumed she was cheating, which led to a breakup. After losing a baby, they stopped speaking for a few weeks but have since resumed communication. The ex-boyfriend expresses love but also fear of being hurt again. The user expresses a strong desire to reconcile and be happy together as a family."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a complex relationship with her ex-boyfriend, highlighting trust issues and emotional challenges. She mentions that they fell in love quickly, but he assumed she was cheating, which led to a breakup. After losing a baby, they stopped speaking for a few weeks but have since resumed communication. The ex-boyfriend expresses love but also fear of being hurt again. The user expresses a strong desire to reconcile and be happy together as a family."
+    }
+  },
+  {
+    "id": "E047",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or related adherence issues in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes ongoing interpersonal conflict involving her ex-boyfriend, her husband, and her husband's ex-girlfriend. She expresses a desire to avoid drama and get along, but incidents such as arguments over child pick-up details and threats from her ex-boyfriend create tension. The user feels caught in a cycle of drama and expresses concern about the impact on the children, indicating a complex and strained relational dynamic."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes ongoing interpersonal conflict involving her ex-boyfriend, her husband, and her husband's ex-girlfriend. She expresses a desire to avoid drama and get along, but incidents such as arguments over child pick-up details and threats from her ex-boyfriend create tension. The user feels caught in a cycle of drama and expresses concern about the impact on the children, indicating a complex and strained relational dynamic."
+    }
+  },
+  {
+    "id": "E048",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to medication in their self-report.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms such as heart racing, hyperventilating, sweating, trembling, or dizziness.",
+      "interpersonal_status": "The user mentions being in therapy for five months but expresses dissatisfaction with the lack of feedback from their therapist. They also mention needing help with issues related to abuse as a child and abusive men, indicating a history of difficult interpersonal relationships."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is dissatisfied with their therapist due to a lack of feedback. They have a history of difficult relationships, including childhood abuse and abusive men."
+    }
+  },
+  {
+    "id": "E049",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or related adherence issues in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a complex relationship with his girlfriend, highlighting both positive aspects (she's funny, smart, has a big heart, and they have an excellent sex life) and significant challenges (frequent fights, his insecurity, and lack of trust). He acknowledges that his jealousy and trust issues contribute to the conflict and expresses concern about her happiness, noting that her lack of other housing options might influence her decision to stay. He feels trapped by the situation, torn between wanting her happiness and feeling unable to break up due to her circumstances."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a complex relationship with his girlfriend, highlighting both positive aspects (she's funny, smart, has a big heart, and they have an excellent sex life) and significant challenges (frequent fights, his insecurity, and lack of trust). He acknowledges that his jealousy and trust issues contribute to the conflict and expresses concern about her happiness, noting that her lack of other housing options might influence her decision to stay. He feels trapped by the situation, torn between wanting her happiness and feeling unable to break up due to her circumstances."
+    }
+  },
+  {
+    "id": "E050",
+    "reasoning": {
+      "medication_adherence": "The user mentions that some people have recommended medication for his fiancée, but he expresses a belief that medication would only cover up her illness and not solve it. He explicitly states that he does not want his fiancée to be 'pumped with drugs.' This indicates that medication is not being taken.",
+      "somatic_symptoms": "The user describes several somatic symptoms experienced by his fiancée due to anxiety, including difficulty breathing, inability to move, stomach pain from holding in urine, and panic attacks. These symptoms are indicative of severe anxiety and panic responses.",
+      "interpersonal_status": "The user describes a supportive relationship with his fiancée, where he is actively involved in helping her manage her anxiety and depression. He mentions that she clings to him in public and relies on him to interact with others, such as talking to cashiers. He also expresses a desire to help her without medication, suggesting a psychiatric service dog as a potential solution. This indicates a caring and supportive dynamic, with the user seeking non-medication-based solutions to support his fiancée."
+    },
+    "labels": {
+      "medication_adherence": "not_applicable",
+      "somatic_symptoms": "The fiancée experiences difficulty breathing, inability to move, stomach pain from holding in urine, and panic attacks due to anxiety.",
+      "interpersonal_status": "The user is supportive of his fiancée, helping her manage her anxiety and depression by being present in public and considering a psychiatric service dog as a non-medication solution."
+    }
+  },
+  {
+    "id": "E051",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a significant breach of trust in her relationship with her boyfriend. She found messages between him and his ex-girlfriend, which included a promise ring he had given her, hidden in their son's room. This discovery has caused her emotional distress, as she is unable to stop thinking about the possibility of them reminiscing about their past together."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user discovered messages between her boyfriend and his ex-girlfriend, leading to feelings of betrayal and emotional distress. She is troubled by the thought of them discussing their past, which has significantly impacted her trust in the relationship."
+    }
+  },
+  {
+    "id": "E053",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication or adherence to medication in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user discusses a complex interpersonal situation involving infidelity. They express mixed feelings of guilt and justification regarding their actions, indicating a conflict between their marital commitment and personal autonomy. The user is questioning their emotional response to the situation, which suggests an internal struggle with the implications of their actions on their marriage."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is married but has had sex with a friend, leading to mixed feelings of guilt and justification. They are questioning whether they should feel guilty, indicating a conflict between their marital commitment and personal autonomy."
+    }
+  },
+  {
+    "id": "E054",
+    "reasoning": {
+      "medication_adherence": "The user does not mention their own medication use, only their friend's situation. Therefore, there is no information about the user's medication adherence.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user discusses a situation involving their friend who is abusing prescription medicine. The user expresses concern about their friend's honesty, as the friend claimed not to have any more pills but actually has prescriptions for anxiety medications. This indicates a potential trust issue in their relationship."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about their friend's honesty regarding prescription medication, indicating a trust issue in their relationship."
+    }
+  },
+  {
+    "id": "E055",
+    "reasoning": {
+      "medication_adherence": "The user does not mention their own medication use, only their friend's situation. Therefore, there is no information about the user's medication adherence.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user discusses a situation involving their friend who is abusing prescription medicine. This indicates a concern about their friend's behavior and possibly a breach of trust, as the friend claimed not to have more pills but actually does. The user's emotional nuance suggests worry or disappointment."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about their friend's abuse of prescription medicine, indicating a breach of trust as the friend lied about not having more pills."
+    }
+  },
+  {
+    "id": "E056",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes significant issues in their relationship with their partner. They express concern about their partner's masturbation and porn habits, noting that he masturbates daily even when they are together in bed. The user also describes their sexual relationship as infrequent and unsatisfactory, with the partner being rough and focused on his own needs, treating the user like a porn star. This indicates a lack of emotional connection and mutual respect in the relationship."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about their partner's masturbation and porn habits, which affect their sexual relationship. The partner is described as rough and self-centered during sex, treating the user like a porn star, indicating a lack of emotional connection and respect."
+    }
+  },
+  {
+    "id": "E057",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user describes experiencing their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+      "interpersonal_status": "The user mentions variability in their ability to go out or meet people, indicating some level of social engagement. However, there is no specific mention of relationships or interactions with others, only the user's internal experience of anxiety in social situations."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E058",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user describes experiencing their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+      "interpersonal_status": "The user mentions variability in their ability to go out or meet people, indicating some level of social interaction. However, they also describe significant anxiety that affects their ability to engage in these activities, such as taking 30 minutes to enter a store alone."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+      "interpersonal_status": "The user experiences variability in their ability to go out or meet people, with significant anxiety affecting their social interactions, such as taking 30 minutes to enter a store alone."
+    }
+  },
+  {
+    "id": "E059",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in the text.",
+      "interpersonal_status": "The user describes a breakup with their fiancé due to repeated infidelity. They mention forgiving him multiple times but also questioning his actions, which led to him getting tired and leaving. This indicates a pattern of mistrust and emotional turmoil in the relationship."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a breakup with their fiancé due to repeated infidelity. They mention forgiving him multiple times but also questioning his actions, which led to him getting tired and leaving."
+    }
+  },
+  {
+    "id": "E061",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms such as heart racing, sweating, or dizziness.",
+      "interpersonal_status": "The user mentions having cheated on her boyfriend while under the influence of alcohol, indicating a past conflict in her relationship. She also expresses feelings of guilt after drinking, which suggests an ongoing emotional struggle that may affect her relationship with her boyfriend."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user has experienced conflict in her relationship due to cheating on her boyfriend while drunk, and she feels guilty after drinking, indicating an emotional struggle that may impact her relationship."
+    }
+  },
+  {
+    "id": "E063",
+    "reasoning": {
+      "medication_adherence": "The user does not mention any medication use or adherence in the text.",
+      "somatic_symptoms": "The user describes experiencing their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+      "interpersonal_status": "The user mentions variability in their ability to go out or meet people, indicating some level of social engagement. However, they also describe significant anxiety that affects their ability to interact socially, such as needing 30 minutes to gather courage to enter a store alone."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences their heart racing and an inability to speak, which are physical symptoms associated with anxiety.",
+      "interpersonal_status": "The user experiences variability in social engagement, sometimes being able to go out or meet people, but also facing significant anxiety that affects their ability to interact socially."
+    }
+  },
+  {
+    "id": "E066",
+    "reasoning": {
+      "medication_adherence": "The user does not mention anything about medication in their text.",
+      "somatic_symptoms": "The user does not mention any physical or bodily symptoms in their text.",
+      "interpersonal_status": "The user discusses a past relationship that ended 7 years ago and expresses difficulty in letting go and moving on. This indicates ongoing emotional attachment and struggle with closure, highlighting the impact of this past relationship on their current emotional state."
+    },
+    "labels": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user discusses a past relationship that ended 7 years ago and expresses difficulty in letting go and moving on."
+    }
+  }
+]

@@ -19,7 +19,7 @@ dataset from Kaggle, producing the evaluation table reported in the proposal.
 ### Step-by-step Setup
 
 ```bash
-# 1. Install the package (editable) + dev tools (pytest, ruff, black, isort)
+# 1. Install the package (editable) + dev tools (pytest, ruff)
 pip install -e ".[dev]"
 
 # 2. Set your OpenAI API key
@@ -57,7 +57,7 @@ python scripts/run_eval.py --skip-extraction
 python scripts/run_eval.py --sample-size 100
 ```
 
-Other Makefile targets: `make test` (pytest), `make lint` (ruff + black + isort checks).
+Other Makefile targets: `make test` (pytest), `make lint` (ruff check + ruff format checks).
 
 ### Output Files
 
@@ -255,7 +255,7 @@ mindlog/
 │   ├── integration/               # Real-API smoke tests (skipped w/o API key)
 │   └── conftest.py
 ├── .github/workflows/ci.yaml     # pytest + ruff on push/PR
-├── .pre-commit-config.yaml       # black, isort, ruff
+├── .pre-commit-config.yaml       # ruff check + ruff format
 ├── pyproject.toml                # Dependencies + tool config (replaces requirements.txt)
 ├── Makefile                      # test / run / eval / lint targets
 ├── .env.example

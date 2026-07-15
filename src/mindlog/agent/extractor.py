@@ -57,7 +57,7 @@ def extract_single(
                         value = value_clean
                     else:
                         raise ValueError(
-                            f"Invalid label for {field}: '{value}' " f"(allowed: {allowed})"
+                            f"Invalid label for {field}: '{value}' (allowed: {allowed})"
                         )
                 result[field] = value
 

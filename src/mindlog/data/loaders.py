@@ -66,7 +66,7 @@ def load_raw_csv(csv_path: str, required_cols: list[str]) -> pd.DataFrame:
     missing = set(required_cols) - set(df.columns)
     if missing:
         raise ValueError(
-            f"Missing required columns: {missing}\n" f"Available columns: {list(df.columns)}"
+            f"Missing required columns: {missing}\nAvailable columns: {list(df.columns)}"
         )
 
     return df

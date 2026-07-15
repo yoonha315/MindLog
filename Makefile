@@ -11,4 +11,4 @@ eval:
 
 lint:
 	ruff check .
-	black --check .
+	ruff format --check .

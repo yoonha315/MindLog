@@ -130,7 +130,9 @@ class ConversationManager:
         extraction = extract_single(client, context=context, **self.extraction_kwargs)
         model_name = self.extraction_kwargs.get("model", "gpt-4o")
 
-        somatic_symptoms = self._extract_somatic_symptoms(client, context)
+        somatic_symptoms, interpersonal_status = self._extract_somatic_and_interpersonal(
+            client, context
+        )
 
         with self._session_factory() as db:
             db.add(
@@ -142,6 +144,7 @@ class ConversationManager:
                     dominant_theme=extraction["dominant_theme"],
                     risk_indicators=extraction["risk_indicators"],
                     somatic_symptoms=somatic_symptoms,
+                    interpersonal_status=interpersonal_status,
                     model=model_name,
                 )
             )
@@ -149,25 +152,32 @@ class ConversationManager:
 
         return extraction
 
-    def _extract_somatic_symptoms(self, client, context: str) -> str | None:
-        """Extract only somatic_symptoms via the extended-field extractor —
-        medication_adherence/interpersonal_status from the same call are
-        intentionally discarded, since they haven't been validated enough
-        yet to persist. Never raises: a failure here must not block the
-        5-field extraction above from being saved.
+    def _extract_somatic_and_interpersonal(
+        self, client, context: str
+    ) -> tuple[str | None, str | None]:
+        """Extract somatic_symptoms and interpersonal_status via a single
+        extended-field extractor call — medication_adherence from the same
+        response is intentionally discarded, since it hasn't been validated
+        enough yet to persist. Never raises: a failure here must not block
+        the 5-field extraction above from being saved.
         """
         try:
             extended = extract_extended_single(client, context=context, **self.extraction_kwargs)
         except Exception:
-            logger.exception("somatic_symptoms extraction raised; storing null")
-            return None
+            logger.exception("extended-field extraction raised; storing null for both fields")
+            return None, None
 
-        value = extended.get("somatic_symptoms")
-        if value == "ERROR":
+        somatic_symptoms = extended.get("somatic_symptoms")
+        if somatic_symptoms == "ERROR":
             logger.warning("somatic_symptoms extraction returned ERROR; storing null")
-            return None
+            somatic_symptoms = None
 
-        return value
+        interpersonal_status = extended.get("interpersonal_status")
+        if interpersonal_status == "ERROR":
+            logger.warning("interpersonal_status extraction returned ERROR; storing null")
+            interpersonal_status = None
+
+        return somatic_symptoms, interpersonal_status
 
     def get_history(self, user_id: str, limit: int = 5) -> list[dict]:
         """Prior sessions' extractions for user_id, most recent first."""
@@ -190,6 +200,7 @@ class ConversationManager:
                     "dominant_theme": row.dominant_theme,
                     "risk_indicators": row.risk_indicators,
                     "somatic_symptoms": row.somatic_symptoms,
+                    "interpersonal_status": row.interpersonal_status,
                     "model": row.model,
                     "extracted_at": row.extracted_at,
                 }

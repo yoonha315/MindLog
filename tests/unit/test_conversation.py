@@ -19,12 +19,15 @@ def _all_checklist_json(value: bool) -> str:
     return json.dumps({field: value for field in CHECKLIST_FIELDS})
 
 
-def _valid_extended_json(somatic="Heart racing and shortness of breath.") -> str:
+def _valid_extended_json(
+    somatic="Heart racing and shortness of breath.",
+    interpersonal="not_mentioned",
+) -> str:
     return json.dumps(
         {
             "medication_adherence": "not_mentioned",
             "somatic_symptoms": somatic,
-            "interpersonal_status": "not_mentioned",
+            "interpersonal_status": interpersonal,
         }
     )
 
@@ -77,6 +80,7 @@ def test_full_session_lifecycle_ends_on_timeout_and_saves_extraction(
         assert extraction_row.affect_valence == "negative"
         assert extraction_row.model
         assert extraction_row.somatic_symptoms == "Heart racing and shortness of breath."
+        assert extraction_row.interpersonal_status == "not_mentioned"
 
 
 def test_session_does_not_end_before_min_turns_or_timeout(session_factory, make_fake_client):
@@ -188,6 +192,8 @@ def test_get_history_returns_extractions_most_recent_first(
     assert len(history) == 2
     assert history[0]["session_id"] == second_session_id
     assert history[1]["session_id"] == first_session_id
+    assert history[0]["somatic_symptoms"] == "Heart racing and shortness of breath."
+    assert history[0]["interpersonal_status"] == "not_mentioned"
 
 
 def test_create_conversation_manager_maps_config_sections(session_factory, make_fake_client):
@@ -258,16 +264,22 @@ def test_create_conversation_manager_checklist_call_uses_configured_model(
     assert sent["model"] == "gpt-4o-mini"
 
 
-def test_end_session_persists_somatic_symptoms_alongside_five_field_extraction(
+def test_end_session_persists_somatic_symptoms_and_interpersonal_status(
     session_factory, make_fake_client, valid_extraction_json
 ):
     client = make_fake_client(
-        [valid_extraction_json, _valid_extended_json(somatic="Chest tightness and dizziness.")]
+        [
+            valid_extraction_json,
+            _valid_extended_json(
+                somatic="Chest tightness and dizziness.",
+                interpersonal="Conflict with a close friend.",
+            ),
+        ]
     )
     manager = ConversationManager(session_factory, client=client, timeout_seconds=999, min_turns=1)
 
     manager.start_session("u1")
-    manager.add_turn("user", "My chest feels tight and I'm dizzy.")
+    manager.add_turn("user", "My chest feels tight after fighting with my friend.")
     session_id = manager.session_id
 
     extraction = manager.end_session("data_complete")
@@ -276,12 +288,12 @@ def test_end_session_persists_somatic_symptoms_alongside_five_field_extraction(
     with session_factory() as db:
         extraction_row = db.query(Extraction).filter(Extraction.session_id == session_id).one()
         assert extraction_row.somatic_symptoms == "Chest tightness and dizziness."
-        # medication_adherence/interpersonal_status aren't validated yet — no column exists
+        assert extraction_row.interpersonal_status == "Conflict with a close friend."
+        # medication_adherence still isn't validated enough — no column exists
         assert not hasattr(extraction_row, "medication_adherence")
-        assert not hasattr(extraction_row, "interpersonal_status")
 
 
-def test_end_session_stores_null_somatic_symptoms_when_extended_extraction_fails(
+def test_end_session_stores_null_extended_fields_when_extended_extraction_fails(
     session_factory, make_fake_client, valid_extraction_json
 ):
     # 5-field extraction succeeds; the extended call gets 3 malformed
@@ -307,3 +319,4 @@ def test_end_session_stores_null_somatic_symptoms_when_extended_extraction_fails
         extraction_row = db.query(Extraction).filter(Extraction.session_id == session_id).one()
         assert extraction_row.affect_valence == "negative"
         assert extraction_row.somatic_symptoms is None
+        assert extraction_row.interpersonal_status is None

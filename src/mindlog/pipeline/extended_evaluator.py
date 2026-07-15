@@ -100,13 +100,15 @@ def _judge_batch(
     field: str,
     judge_config: dict = None,
     logger=None,
-) -> list[str]:
+) -> list[dict]:
     """Run judge_text_agreement over every aligned (extraction, ground_truth)
-    pair for a single free-text field. Returns a list of verdicts."""
+    pair for a single free-text field. Returns per-sample case dicts (id,
+    extracted, ground_truth, verdict) so callers can inspect exactly which
+    samples were partial/incorrect, not just the aggregate counts."""
     judge_config = judge_config or {}
     gt_map = {g["id"]: g["labels"] for g in ground_truths}
 
-    verdicts = []
+    cases = []
     for i, ext in enumerate(extractions):
         sid = ext["id"]
         if sid not in gt_map:
@@ -116,30 +118,38 @@ def _judge_batch(
         ground_truth_text = gt_map[sid].get(field, "MISSING")
 
         if extracted_text == "ERROR":
-            verdicts.append("incorrect")
-            continue
+            verdict = "incorrect"
+        else:
+            verdict = judge_text_agreement(
+                client, extracted_text, ground_truth_text, field, **judge_config
+            )
 
-        verdict = judge_text_agreement(
-            client, extracted_text, ground_truth_text, field, **judge_config
+        cases.append(
+            {
+                "id": sid,
+                "extracted": extracted_text,
+                "ground_truth": ground_truth_text,
+                "verdict": verdict,
+            }
         )
-        verdicts.append(verdict)
 
         if logger and (i + 1) % 10 == 0:
             logger.info(f"  Judged {field}: {i + 1}/{len(extractions)}")
 
-    return verdicts
+    return cases
 
 
-def _summarize_verdicts(verdicts: list[str]) -> dict:
-    n = len(verdicts)
+def _summarize_verdicts(cases: list[dict]) -> dict:
+    n = len(cases)
     counts = {"correct": 0, "partial": 0, "incorrect": 0}
-    for v in verdicts:
-        counts[v] = counts.get(v, 0) + 1
+    for case in cases:
+        counts[case["verdict"]] = counts.get(case["verdict"], 0) + 1
 
     return {
         "n_samples": n,
         "counts": counts,
         "percentages": {k: round(100 * c / n, 1) if n > 0 else 0.0 for k, c in counts.items()},
+        "cases": cases,
     }
 
 
@@ -155,7 +165,10 @@ def generate_extended_evaluation_report(
       - medication_adherence: accuracy/precision/recall/f1/kappa, via the
         original evaluator's compute_field_metrics (categorical, reused as-is)
       - somatic_symptoms, interpersonal_status: correct/partial/incorrect
-        counts and percentages, via judge_text_agreement (free text)
+        counts and percentages, via judge_text_agreement (free text) — plus
+        a per-sample "cases" list (id/extracted/ground_truth/verdict) so
+        the specific partial/incorrect samples can be pulled out later
+        without re-running the judge
     """
     gt_map = {g["id"]: g["labels"] for g in ground_truths}
 
@@ -174,10 +187,10 @@ def generate_extended_evaluation_report(
 
     text_field_reports = {}
     for field in FREE_TEXT_FIELDS:
-        verdicts = _judge_batch(
+        cases = _judge_batch(
             client, extractions, ground_truths, field, judge_config=judge_config, logger=logger
         )
-        text_field_reports[field] = _summarize_verdicts(verdicts)
+        text_field_reports[field] = _summarize_verdicts(cases)
 
     return {
         "medication_adherence": medication_report,

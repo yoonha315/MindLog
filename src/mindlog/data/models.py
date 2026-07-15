@@ -77,9 +77,10 @@ class Extraction(Base):
     dominant_theme: Mapped[str] = mapped_column(String(32))
     risk_indicators: Mapped[str] = mapped_column(String(16))
     # Extended-field track (see mindlog.agent.extended_extractor) — only
-    # somatic_symptoms is validated enough to persist so far.
-    # medication_adherence/interpersonal_status intentionally have no column yet.
+    # somatic_symptoms and interpersonal_status are validated enough to
+    # persist so far. medication_adherence intentionally has no column yet.
     somatic_symptoms: Mapped[str | None] = mapped_column(Text, default=None)
+    interpersonal_status: Mapped[str | None] = mapped_column(Text, default=None)
     model: Mapped[str] = mapped_column(String(64))
     extracted_at: Mapped[datetime] = mapped_column(default=_utcnow)
 

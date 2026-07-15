@@ -19,6 +19,16 @@ def _all_checklist_json(value: bool) -> str:
     return json.dumps({field: value for field in CHECKLIST_FIELDS})
 
 
+def _valid_extended_json(somatic="Heart racing and shortness of breath.") -> str:
+    return json.dumps(
+        {
+            "medication_adherence": "not_mentioned",
+            "somatic_symptoms": somatic,
+            "interpersonal_status": "not_mentioned",
+        }
+    )
+
+
 @pytest.fixture
 def session_factory():
     engine = get_engine(":memory:")
@@ -35,7 +45,7 @@ def session_factory():
 def test_full_session_lifecycle_ends_on_timeout_and_saves_extraction(
     session_factory, make_fake_client, valid_extraction_json
 ):
-    client = make_fake_client([valid_extraction_json])
+    client = make_fake_client([valid_extraction_json, _valid_extended_json()])
     manager = ConversationManager(
         session_factory,
         client=client,
@@ -66,6 +76,7 @@ def test_full_session_lifecycle_ends_on_timeout_and_saves_extraction(
         extraction_row = db.query(Extraction).filter(Extraction.session_id == session_id).one()
         assert extraction_row.affect_valence == "negative"
         assert extraction_row.model
+        assert extraction_row.somatic_symptoms == "Heart racing and shortness of breath."
 
 
 def test_session_does_not_end_before_min_turns_or_timeout(session_factory, make_fake_client):
@@ -152,7 +163,14 @@ def test_checklist_check_uses_checklist_kwargs_not_extraction_kwargs(
 def test_get_history_returns_extractions_most_recent_first(
     session_factory, make_fake_client, valid_extraction_json
 ):
-    client = make_fake_client([valid_extraction_json, valid_extraction_json])
+    client = make_fake_client(
+        [
+            valid_extraction_json,
+            _valid_extended_json(),
+            valid_extraction_json,
+            _valid_extended_json(),
+        ]
+    )
     manager = ConversationManager(session_factory, client=client, timeout_seconds=999, min_turns=1)
 
     manager.start_session("u1")
@@ -238,3 +256,54 @@ def test_create_conversation_manager_checklist_call_uses_configured_model(
 
     sent = client.chat.completions.received_kwargs[-1]
     assert sent["model"] == "gpt-4o-mini"
+
+
+def test_end_session_persists_somatic_symptoms_alongside_five_field_extraction(
+    session_factory, make_fake_client, valid_extraction_json
+):
+    client = make_fake_client(
+        [valid_extraction_json, _valid_extended_json(somatic="Chest tightness and dizziness.")]
+    )
+    manager = ConversationManager(session_factory, client=client, timeout_seconds=999, min_turns=1)
+
+    manager.start_session("u1")
+    manager.add_turn("user", "My chest feels tight and I'm dizzy.")
+    session_id = manager.session_id
+
+    extraction = manager.end_session("data_complete")
+    assert extraction["affect_valence"] == "negative"  # unaffected by the extended call
+
+    with session_factory() as db:
+        extraction_row = db.query(Extraction).filter(Extraction.session_id == session_id).one()
+        assert extraction_row.somatic_symptoms == "Chest tightness and dizziness."
+        # medication_adherence/interpersonal_status aren't validated yet — no column exists
+        assert not hasattr(extraction_row, "medication_adherence")
+        assert not hasattr(extraction_row, "interpersonal_status")
+
+
+def test_end_session_stores_null_somatic_symptoms_when_extended_extraction_fails(
+    session_factory, make_fake_client, valid_extraction_json
+):
+    # 5-field extraction succeeds; the extended call gets 3 malformed
+    # responses in a row, exhausting its retries -> extract_extended_single
+    # returns its own internal "ERROR" sentinel rather than raising.
+    client = make_fake_client([valid_extraction_json, "not json", "still not json", "nope"])
+    manager = ConversationManager(
+        session_factory,
+        client=client,
+        timeout_seconds=999,
+        min_turns=1,
+        extraction_kwargs={"retry_delay": 0},
+    )
+
+    manager.start_session("u1")
+    manager.add_turn("user", "hello")
+    session_id = manager.session_id
+
+    extraction = manager.end_session("data_complete")
+    assert extraction["affect_valence"] == "negative"  # 5-field save is not blocked
+
+    with session_factory() as db:
+        extraction_row = db.query(Extraction).filter(Extraction.session_id == session_id).one()
+        assert extraction_row.affect_valence == "negative"
+        assert extraction_row.somatic_symptoms is None

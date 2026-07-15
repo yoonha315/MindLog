@@ -61,33 +61,37 @@ def make_fake_client():
 
 @pytest.fixture
 def valid_extraction_json():
-    return json.dumps({
-        "affect_valence": "negative",
-        "energy_level": "low",
-        "sleep_quality": "poor",
-        "dominant_theme": "emotional",
-        "risk_indicators": "low",
-    })
-
-
-@pytest.fixture
-def valid_annotation_json():
-    return json.dumps({
-        "reasoning": {
-            "affect_valence": "User says 'I feel awful lately'.",
-            "energy_level": "User says 'I can't get out of bed'.",
-            "sleep_quality": "User mentions waking up at 3am.",
-            "dominant_theme": "Primary concern is mood, not external events.",
-            "risk_indicators": "No explicit self-harm or crisis language.",
-        },
-        "labels": {
+    return json.dumps(
+        {
             "affect_valence": "negative",
             "energy_level": "low",
             "sleep_quality": "poor",
             "dominant_theme": "emotional",
             "risk_indicators": "low",
-        },
-    })
+        }
+    )
+
+
+@pytest.fixture
+def valid_annotation_json():
+    return json.dumps(
+        {
+            "reasoning": {
+                "affect_valence": "User says 'I feel awful lately'.",
+                "energy_level": "User says 'I can't get out of bed'.",
+                "sleep_quality": "User mentions waking up at 3am.",
+                "dominant_theme": "Primary concern is mood, not external events.",
+                "risk_indicators": "No explicit self-harm or crisis language.",
+            },
+            "labels": {
+                "affect_valence": "negative",
+                "energy_level": "low",
+                "sleep_quality": "poor",
+                "dominant_theme": "emotional",
+                "risk_indicators": "low",
+            },
+        }
+    )
 
 
 @pytest.fixture

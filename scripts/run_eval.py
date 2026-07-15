@@ -35,19 +35,24 @@ def main():
         description="MindLog Extraction Pipeline — Preliminary Validation"
     )
     parser.add_argument(
-        "--skip-annotation", action="store_true",
+        "--skip-annotation",
+        action="store_true",
         help="Skip annotation; load existing ground_truth_labels.json",
     )
     parser.add_argument(
-        "--skip-extraction", action="store_true",
+        "--skip-extraction",
+        action="store_true",
         help="Skip extraction; load existing extraction_results.json",
     )
     parser.add_argument(
-        "--evaluate-only", action="store_true",
+        "--evaluate-only",
+        action="store_true",
         help="Run evaluation only (both JSON files must exist)",
     )
     parser.add_argument(
-        "--sample-size", type=int, default=None,
+        "--sample-size",
+        type=int,
+        default=None,
         help="Override sample size from config (default: 50)",
     )
     args = parser.parse_args()

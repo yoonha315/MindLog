@@ -7,8 +7,13 @@ VALID_LABELS = {
     "energy_level": {"low", "medium", "high"},
     "sleep_quality": {"poor", "fair", "good", "not_mentioned"},
     "dominant_theme": {
-        "emotional", "relationships", "work_academic",
-        "physical_health", "existential", "daily_routine", "other",
+        "emotional",
+        "relationships",
+        "work_academic",
+        "physical_health",
+        "existential",
+        "daily_routine",
+        "other",
     },
     "risk_indicators": {"none", "low", "moderate", "high"},
 }

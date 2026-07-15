@@ -9,7 +9,6 @@ evaluation logic against mocked LLM responses without this dependency.
 import os
 
 import pytest
-
 from mindlog.agent.client import build_client
 from mindlog.agent.extractor import extract_single
 

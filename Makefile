@@ -12,4 +12,3 @@ eval:
 lint:
 	ruff check .
 	black --check .
-	isort --check-only .

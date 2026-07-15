@@ -8,11 +8,7 @@ import yaml
 def get_project_root() -> str:
     """Return project root — 4 levels up from this file (utils/mindlog/src/root)."""
     return os.path.dirname(
-        os.path.dirname(
-            os.path.dirname(
-                os.path.dirname(os.path.abspath(__file__))
-            )
-        )
+        os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     )
 
 
@@ -27,6 +23,7 @@ def load_env() -> None:
 
     try:
         from dotenv import load_dotenv
+
         load_dotenv(env_path)
     except ImportError:
         with open(env_path, "r", encoding="utf-8") as f:

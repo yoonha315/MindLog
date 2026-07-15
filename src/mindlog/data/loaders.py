@@ -37,19 +37,13 @@ def download_dataset(raw_dir: str, filename: str = "combined_data.csv") -> str:
 
     import kagglehub
 
-    downloaded_path = kagglehub.dataset_download(
-        "thedevastator/nlp-mental-health-conversations"
-    )
+    downloaded_path = kagglehub.dataset_download("thedevastator/nlp-mental-health-conversations")
 
     # kagglehub returns a directory — find the CSV inside it
-    candidates = glob.glob(
-        os.path.join(downloaded_path, "**", filename), recursive=True
-    )
+    candidates = glob.glob(os.path.join(downloaded_path, "**", filename), recursive=True)
     if not candidates:
         # fallback: grab any .csv in the downloaded dir
-        candidates = glob.glob(
-            os.path.join(downloaded_path, "**", "*.csv"), recursive=True
-        )
+        candidates = glob.glob(os.path.join(downloaded_path, "**", "*.csv"), recursive=True)
 
     if not candidates:
         raise FileNotFoundError(
@@ -72,8 +66,7 @@ def load_raw_csv(csv_path: str, required_cols: list[str]) -> pd.DataFrame:
     missing = set(required_cols) - set(df.columns)
     if missing:
         raise ValueError(
-            f"Missing required columns: {missing}\n"
-            f"Available columns: {list(df.columns)}"
+            f"Missing required columns: {missing}\n" f"Available columns: {list(df.columns)}"
         )
 
     return df
@@ -121,11 +114,13 @@ def sample_conversations(
     samples = []
     for rank, idx in enumerate(indices):
         row = df.iloc[idx]
-        samples.append({
-            "id": f"S{rank + 1:03d}",
-            "context": str(row[text_col]).strip(),
-            "response": str(row[response_col]).strip(),
-        })
+        samples.append(
+            {
+                "id": f"S{rank + 1:03d}",
+                "context": str(row[text_col]).strip(),
+                "response": str(row[response_col]).strip(),
+            }
+        )
 
     return samples
 

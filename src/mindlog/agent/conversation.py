@@ -15,6 +15,12 @@ class ConversationManager:
 
     A new instance (or a fresh start_session() call) is expected per active
     session; get_history() is the only method that looks across sessions.
+
+    Don't construct this directly outside of tests — use
+    create_conversation_manager(session_factory, cfg=load_config()) instead,
+    so the checklist scanner is wired to its own (cheaper) model from
+    configs/config.yaml rather than silently falling back to extraction's
+    gpt-4o default.
     """
 
     def __init__(
@@ -161,3 +167,41 @@ class ConversationManager:
                 }
                 for row in rows
             ]
+
+
+def create_conversation_manager(session_factory, cfg: dict, client=None) -> ConversationManager:
+    """
+    Build a ConversationManager wired to configs/config.yaml's `conversation`,
+    `llm`, and `checklist` sections. This is the supported way to construct
+    one outside of unit tests — it's the only path that guarantees the
+    checklist scanner actually uses its own (cheaper) model from `checklist:`
+    instead of silently falling back to extraction's gpt-4o default.
+
+    Pass cfg=load_config() (or an equivalent dict) from the caller.
+    """
+    conv_cfg = cfg.get("conversation", {})
+    llm_cfg = cfg.get("llm", {})
+    checklist_cfg = cfg.get("checklist", {})
+
+    extraction_kwargs = {
+        "model": llm_cfg.get("model", "gpt-4o"),
+        "temperature": llm_cfg.get("temperature", 0),
+        "max_tokens": llm_cfg.get("max_tokens", 512),
+        "retry_attempts": llm_cfg.get("retry_attempts", 3),
+        "retry_delay": llm_cfg.get("retry_delay_seconds", 2.0),
+    }
+    checklist_kwargs = {
+        "model": checklist_cfg.get("model", "gpt-4o-mini"),
+        "temperature": checklist_cfg.get("temperature", 0),
+        "max_tokens": checklist_cfg.get("max_tokens", 256),
+    }
+
+    return ConversationManager(
+        session_factory,
+        client=client,
+        timeout_seconds=conv_cfg.get("timeout_seconds", 600),
+        min_turns=conv_cfg.get("min_turns", 6),
+        checklist_check_interval=conv_cfg.get("checklist_check_interval", 3),
+        extraction_kwargs=extraction_kwargs,
+        checklist_kwargs=checklist_kwargs,
+    )

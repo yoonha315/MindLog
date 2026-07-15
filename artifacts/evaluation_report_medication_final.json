@@ -1,0 +1,218 @@
+{
+  "field": "medication_adherence",
+  "combined": {
+    "field": "medication_adherence",
+    "n_samples": 69,
+    "n_errors": 0,
+    "accuracy": 0.9565,
+    "precision_macro": 0.7917,
+    "recall_macro": 0.9086,
+    "f1_macro": 0.8388,
+    "cohens_kappa": 0.7969,
+    "per_class": {
+      "missed": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "support": 2
+      },
+      "not_applicable": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "not_mentioned": {
+        "precision": 1.0,
+        "recall": 0.9677,
+        "f1": 0.9836,
+        "support": 62
+      },
+      "taken": {
+        "precision": 0.5,
+        "recall": 0.6667,
+        "f1": 0.5714,
+        "support": 3
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "missed",
+        "not_applicable",
+        "not_mentioned",
+        "taken"
+      ],
+      "matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          60,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  "original_only": {
+    "field": "medication_adherence",
+    "n_samples": 66,
+    "n_errors": 0,
+    "accuracy": 0.9545,
+    "precision_macro": 0.625,
+    "recall_macro": 0.6586,
+    "f1_macro": 0.6388,
+    "cohens_kappa": 0.6822,
+    "per_class": {
+      "missed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "not_applicable": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "not_mentioned": {
+        "precision": 1.0,
+        "recall": 0.9677,
+        "f1": 0.9836,
+        "support": 62
+      },
+      "taken": {
+        "precision": 0.5,
+        "recall": 0.6667,
+        "f1": 0.5714,
+        "support": 3
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "missed",
+        "not_applicable",
+        "not_mentioned",
+        "taken"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          60,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  "new_only": {
+    "field": "medication_adherence",
+    "n_samples": 3,
+    "n_errors": 0,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "cohens_kappa": 1.0,
+    "per_class": {
+      "missed": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "not_applicable": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "not_mentioned": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "taken": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "missed",
+        "not_applicable",
+        "not_mentioned",
+        "taken"
+      ],
+      "matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "metadata": {
+    "n_original": 66,
+    "n_new": 3,
+    "n_combined": 69
+  }
+}

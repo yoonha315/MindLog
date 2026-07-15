@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M001",
+    "extraction": {
+      "medication_adherence": "missed",
+      "somatic_symptoms": "The user experiences a zombie-like haze, with no interests or ability to fully concentrate on anything.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "M002",
+    "extraction": {
+      "medication_adherence": "not_applicable",
+      "somatic_symptoms": "The user experiences anxiety that causes depression and a desire to vomit, especially in the context of potential relationships.",
+      "interpersonal_status": "The user struggles with anxiety that prevents them from forming relationships, leading to emotional distress. They have discussed these issues with their sister, who has faced similar problems, indicating a supportive relationship. The user is seeking to understand the root of their anxiety to improve future relationship prospects."
+    }
+  },
+  {
+    "id": "M003",
+    "extraction": {
+      "medication_adherence": "missed",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is dealing with a complex family situation involving their brother, who has been diagnosed with paranoid schizophrenia and is not taking his medication. The brother's substance abuse and erratic behavior are causing concern. The user's stepmother is not involved due to fear of financial responsibility, and the user's adoptive father has recently passed away, leaving the user uncertain about their rights to seek mental health care for their brother."
+    }
+  }
+]

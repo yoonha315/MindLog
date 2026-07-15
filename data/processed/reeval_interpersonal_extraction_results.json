@@ -1,0 +1,370 @@
+[
+  {
+    "id": "E004",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user reflects on their past experiences with therapy, mentioning that they had counseling 2-3 times a week throughout their childhood and adolescence. However, they note that they have not been in counseling recently, suggesting a change in their support system. The user feels overwhelmed and is questioning whether they might be experiencing depression, indicating a need for support and possibly a return to counseling."
+    }
+  },
+  {
+    "id": "E005",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is going through a divorce with their wife of three years, whom they have known since childhood. They have a seven-month-old baby but have not seen the child in a while. The user is heartbroken and feels hated, indicating emotional distress. They have returned to live with their mother, with whom they have a strained relationship, due to having nowhere else to go during the divorce. The user expresses a desire for help and to speak with someone, indicating a need for support and intervention."
+    }
+  },
+  {
+    "id": "E006",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user expresses anxiety related to various aspects of their life, including relationships and family responsibilities, indicating stress in managing these interpersonal areas."
+    }
+  },
+  {
+    "id": "E013",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unsupported by their mother, who dismisses their emotional struggles as attention-seeking or hypochondria. The user desires help and improvement, but their mother's refusal to acknowledge their needs creates a barrier to seeking therapy or medical assistance."
+    }
+  },
+  {
+    "id": "E014",
+    "extraction": {
+      "medication_adherence": "taken",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about discussing medication dosage with their psychologist, fearing that a request to increase the dose might be perceived as drug abuse. They are worried that their psychologist might change their medication if they express dissatisfaction with the current dosage. This indicates a level of anxiety and mistrust in the relationship, as well as a need for effective communication about their treatment needs."
+    }
+  },
+  {
+    "id": "E015",
+    "extraction": {
+      "medication_adherence": "taken",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about discussing medication dosage with their psychologist, fearing that the psychologist might think they are abusing the medication. They are worried that the psychologist might change their prescription to something else if they request an increase in dosage. The user is experiencing anxiety attacks and is seeking a way to communicate their needs without jeopardizing their current treatment plan."
+    }
+  },
+  {
+    "id": "E016",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a situation where their fiancé is upset about someone entering their house unannounced to see his kids. The fiancé feels angry about this intrusion but seems afraid to confront the person, indicating a possible power imbalance or fear of conflict in the relationship."
+    }
+  },
+  {
+    "id": "E017",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing a significant breach of trust in a relationship, which has led to the other person crying and the user feeling deeply hurt and guilty. The emotional impact is profound, with the user feeling 'disgusting' and as if their heart has been 'stabbed,' indicating a strong sense of remorse and emotional turmoil over the situation."
+    }
+  },
+  {
+    "id": "E018",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels controlled by their mother, who insists on setting rules because the user lives in her house. This situation is causing tension as the user desires more autonomy but is financially dependent on their parents, leading to a conflict between independence and familial obligations."
+    }
+  },
+  {
+    "id": "E019",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unable to invite friends over due to fear of being exposed about wearing a bra that makes their chest appear larger. This has created a barrier in their friendships, as they avoid situations where their parents and friends might discover the truth. The user is seeking a solution to this issue, indicating a desire to maintain their friendships while managing their self-image concerns."
+    }
+  },
+  {
+    "id": "E020",
+    "extraction": {
+      "medication_adherence": "missed",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels unsupported by their family, who are against transgender people, which creates a conflict as the user wants to transition to feel like their true self. This lack of familial support contributes to the user's distress and desire to seek professional help to address their gender identity."
+    }
+  },
+  {
+    "id": "E021",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing fear and self-doubt in their relationship, feeling that they might be with their partner out of fear of being alone rather than genuine affection. They express concern about not deserving their partner and a desire to avoid causing him harm."
+    }
+  },
+  {
+    "id": "E022",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is contemplating whether to end their relationship with their boyfriend, indicating uncertainty or dissatisfaction in the relationship. No further details about the nature of the relationship or specific issues are provided."
+    }
+  },
+  {
+    "id": "E023",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing deep emotional pain and heartbreak due to their partner leaving them a year ago when their son was two months old. They express a strong sense of loss and longing for their partner, indicating ongoing emotional distress and difficulty moving on from the relationship."
+    }
+  },
+  {
+    "id": "E024",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing a conflict with their family due to their gender identity and religious beliefs. They feel unable to share their desire to transition from female to male because they anticipate a lack of acceptance from their family. This situation is causing distress as they navigate their identity in the context of familial and religious expectations."
+    }
+  },
+  {
+    "id": "E025",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is struggling with past trauma that is affecting their current relationship. They have met a loving and caring man but are pushing him away due to unresolved issues from their past. The user expresses a desire to move on and improve their relationship, indicating an awareness of the impact of their past on their present interpersonal connections."
+    }
+  },
+  {
+    "id": "E027",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user's boyfriend is seeking therapy due to childhood issues. He has children from a previous marriage but is unable to see them, which may be affecting his emotional state and relationships."
+    }
+  },
+  {
+    "id": "E028",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is in a long-term relationship with her boyfriend, who has been unfaithful and is now expecting a child with another woman. The relationship is characterized by physical and mental abuse, with the boyfriend refusing to communicate and often blaming the user for their issues. Despite her efforts to help him, he undermines her self-worth and discredits her, leaving her feeling hurt, lonely, and unhappy."
+    }
+  },
+  {
+    "id": "E029",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing issues in their relationship with their partner, who they believe has a masturbation and porn problem. The partner's behavior during sex is described as rough and self-centered, with a lack of attention to the user's needs and desires. This has led to feelings of being objectified and treated like a porn star, indicating a significant strain and dissatisfaction in the relationship."
+    }
+  },
+  {
+    "id": "E030",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is in a relationship with their boyfriend of five months, who expresses love and care but has repeatedly lied about interactions with other women. Despite his assurances of wanting to change and do better, he has hidden text messages and used fake contact names, leading to trust issues. The user believes in his love but is troubled by his dishonesty, which has involved a girl he once found interest in and his ex-girlfriend."
+    }
+  },
+  {
+    "id": "E031",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing a difficult time due to the loss of their grandpa and is seeking help to cope with the grief. They express concern about the affordability of counseling, indicating a need for support but facing financial constraints."
+    }
+  },
+  {
+    "id": "E032",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user spent the weekend with a friend who is an ex-partner, which upset their current boyfriend. The user is questioning whether their actions were wrong, indicating a potential conflict or tension in their current relationship due to this interaction."
+    }
+  },
+  {
+    "id": "E033",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences a fast heartbeat when they see a text from someone they have feelings for.",
+      "interpersonal_status": "The user is in a relationship with someone they love and can see a long-term future with, despite having some problems. However, they also have feelings for another person who makes them feel excited and gives them butterflies, indicating a potential conflict in their romantic feelings."
+    }
+  },
+  {
+    "id": "E034",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a complex relationship with their male best friend, Tim, who is currently dating a senior girl named Sally. Tim is conflicted about his relationship with Sally due to her impending departure for college, and he has sought the user's advice on how to express his love for Sally. The user still has feelings for Tim but wants to support him through his emotional turmoil without pursuing a romantic relationship immediately. The user is concerned about how to help Tim cope with his belief that he will never love anyone again after Sally leaves, while also maintaining their friendship and being there for him."
+    }
+  },
+  {
+    "id": "E035",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a conflict with their best friend due to a prank that led to unintended consequences, damaging the friend's relationship with another person. The user feels guilty and emotional because their friend won't forgive them, indicating a strain in their friendship."
+    }
+  },
+  {
+    "id": "E038",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions being happily married for almost 35 years, indicating a stable and supportive relationship. They also express uncertainty about seeking counseling for their issues, suggesting a potential openness to professional support but also a concern about the complexity or volume of their issues."
+    }
+  },
+  {
+    "id": "E042",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user feels a lack of trust and support from their parents, who do not take them seriously and tend to dismiss their concerns. The user also struggles with feeling unsupported by friends, who do not reciprocate the help the user provides. This has led to feelings of isolation and a lack of trust in others, contributing to the user's stress and anxiety."
+    }
+  },
+  {
+    "id": "E043",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is grieving the loss of a loved one who passed away on their anniversary, a day that held significant personal meaning as they were planning to apply for an apartment together. The user has moved to a new town to start a new life, but is struggling to cope with the loss, indicating a deep emotional impact and difficulty in moving forward."
+    }
+  },
+  {
+    "id": "E044",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user expresses deep regret for past actions that hurt someone they care about deeply. They emphasize the importance of this person and their children in their life, expressing a strong desire to maintain their relationship and a fear of losing their role as a parent. The user conveys a sense of love and commitment, indicating that being with this person makes everything else seem insignificant."
+    }
+  },
+  {
+    "id": "E045",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user has a strained relationship with their bipolar mother, which causes significant stress. They are living with her but feel so overwhelmed by the situation that they have isolated themselves in their room. The user lacks friends or other family support and feels unable to afford therapy, which they believe is necessary before they can find employment."
+    }
+  },
+  {
+    "id": "E046",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user describes a complex relationship with their ex-boyfriend, marked by initial love and subsequent trust issues. After a breakup and a pregnancy loss, they stopped communicating for a few weeks. They are now talking again, with the ex-boyfriend expressing love but also fear of being hurt again. The user expresses a strong desire to reconcile and rebuild a happy family with him."
+    }
+  },
+  {
+    "id": "E047",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing ongoing interpersonal conflict involving her ex-boyfriend, her husband, and her husband's ex-girlfriend. Despite efforts to maintain peace, disagreements arise, particularly around co-parenting logistics. The user feels caught in the middle of disputes, which she believes negatively impact the children involved. She expresses frustration and confusion about the constant drama and feels that her attempts to communicate and set boundaries are not respected, leading to emotional distress and a sense of helplessness."
+    }
+  },
+  {
+    "id": "E048",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user has been in therapy for five months but feels they are not receiving feedback from their therapist. They are seeking help for issues related to childhood abuse, addiction, and relationships with abusive men, indicating a need for support and guidance in these areas."
+    }
+  },
+  {
+    "id": "E049",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is in a relationship with an older girlfriend who recently moved in with him due to having no place to go. They fight frequently, which the user attributes to his own insecurity and lack of trust. He struggles with jealousy and fears losing her to someone else, which he believes affects her happiness. Despite his love for her, he feels trapped because she has nowhere else to go, and he is conflicted about whether to end the relationship for her happiness."
+    }
+  },
+  {
+    "id": "E050",
+    "extraction": {
+      "medication_adherence": "not_applicable",
+      "somatic_symptoms": "The user describes their fiancée experiencing severe anxiety symptoms in public places, including difficulty breathing, inability to move, stomach pain from holding in urine, and panic attacks. She also experiences physical symptoms related to depression, such as not eating, drinking, or leaving the bed.",
+      "interpersonal_status": "The user is deeply concerned about their fiancée's mental health and is actively involved in supporting her. They describe a strong emotional bond, as the fiancée clings to them for support in public and relies on them to interact with others, such as talking to cashiers. The user is opposed to medication, believing it would only mask her issues, and instead advocates for a psychiatric service dog, noting that their poodle has previously helped calm her and improve her mood."
+    }
+  },
+  {
+    "id": "E051",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user discovered that their boyfriend was messaging his ex-girlfriend, which has caused significant emotional distress. The user found a promise ring he had given to his ex, hidden in their son's room, which exacerbated feelings of betrayal and heartbreak. The user is preoccupied with thoughts about the nature of their boyfriend's communication with his ex, indicating a deep sense of hurt and mistrust in the relationship."
+    }
+  },
+  {
+    "id": "E053",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing conflicting emotions about having had sex with a friend despite being married. They express feelings of guilt but also assert their autonomy over their own body, indicating a complex emotional state regarding their marital relationship and personal boundaries."
+    }
+  },
+  {
+    "id": "E054",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about a friend who is abusing prescription medication. The friend claimed to have no more pills, but the user discovered that she still has prescriptions for anxiety medications, indicating a lack of trust and potential deception in their relationship."
+    }
+  },
+  {
+    "id": "E055",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is concerned about a friend who is abusing prescription medication. The friend claimed to have no more pills, but the user discovered that she still has prescriptions for anxiety medications, indicating a possible trust issue or deception in their relationship."
+    }
+  },
+  {
+    "id": "E056",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is experiencing issues in their relationship with their partner, who they believe has a problem with masturbation and pornography. The partner's behavior during sex is described as rough and self-centered, with a lack of attention to the user's needs and desires. This has led to feelings of being objectified and treated like a porn star, indicating a significant strain and dissatisfaction in the relationship."
+    }
+  },
+  {
+    "id": "E057",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "heart races and words physically cannot come out of mouth",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "E058",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences heart racing and difficulty speaking, especially in social situations.",
+      "interpersonal_status": "The user sometimes struggles with social interactions, feeling nervous and needing time to gather courage before engaging in activities like entering a store alone."
+    }
+  },
+  {
+    "id": "E059",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user experienced a breakup with their fiancé due to repeated infidelity. Despite forgiving him multiple times, the user continued to question his actions, which eventually led to the fiancé leaving the relationship. This indicates a pattern of mistrust and emotional turmoil in the relationship."
+    }
+  },
+  {
+    "id": "E061",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user mentions having cheated on her boyfriend in the past while under the influence of alcohol, indicating a history of relationship strain due to her drinking habits. She expresses feelings of guilt after drinking, even when no embarrassing incidents occur, suggesting ongoing emotional turmoil and potential impact on her relationship with her boyfriend."
+    }
+  },
+  {
+    "id": "E063",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "The user experiences heart racing and an inability to speak in certain situations.",
+      "interpersonal_status": "The user sometimes feels fine and can go out or meet people, but on other days, they struggle with anxiety that affects their ability to interact socially."
+    }
+  },
+  {
+    "id": "E066",
+    "extraction": {
+      "medication_adherence": "not_mentioned",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user is struggling to let go of a relationship that ended about 7 years ago and is seeking ways to move on from that person."
+    }
+  }
+]

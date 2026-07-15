@@ -39,8 +39,15 @@ preamble.
    dizziness. If no physical symptoms are mentioned, respond with EXACTLY the
    string "not_mentioned" (no other text).
 
-3. "interpersonal_status": A 1-2 sentence summary of anything the user says
-   about their relationships — changes, conflict, support, or withdrawal. If
+3. "interpersonal_status": A summary of anything the user says about their
+   relationships — changes, conflict, support, or withdrawal. This includes
+   interactions with professionals such as counselors or doctors (e.g.
+   reluctance to discuss something with them, trust issues) — but only the
+   relational aspect of that interaction, not the medication content itself
+   (whether it was taken, the dosage, etc.). Summarize not just what
+   happened but, where possible, why it happened, the relationship's
+   background/context, and the speaker's emotional nuance. Normally 1-2
+   sentences, but extend to 2-3 sentences if needed to capture this. If
    nothing interpersonal is mentioned, respond with EXACTLY the string
    "not_mentioned" (no other text).
 

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "M001",
+    "reasoning": {
+      "medication_adherence": "The user mentions going on Wellbutrin and feeling its effects after the first week. However, they decided to stop taking it a month ago because they were worried it was making them complacent. This indicates that the user has missed their medication.",
+      "somatic_symptoms": "The user describes feeling a 'zombie-like haze' and having 'no interests or the ability to fully concentrate on anything.' These symptoms suggest a lack of mental clarity and focus, which can be considered somatic symptoms.",
+      "interpersonal_status": "The user does not mention any relationships or interactions with others, including professionals, in the text. The focus is on their internal struggle with depression and medication."
+    },
+    "labels": {
+      "medication_adherence": "missed",
+      "somatic_symptoms": "The user experiences a 'zombie-like haze' and has difficulty concentrating, indicating a lack of mental clarity.",
+      "interpersonal_status": "not_mentioned"
+    }
+  },
+  {
+    "id": "M002",
+    "reasoning": {
+      "medication_adherence": "The user explicitly states, 'I don’t take medications and have no desire to,' indicating that they are not on any medication.",
+      "somatic_symptoms": "The user mentions experiencing anxiety that 'makes me want to vomit' and having to leave a semi-relationship to 'avoid throwing up every time I made contact with my crush.' These are clear descriptions of somatic symptoms related to anxiety.",
+      "interpersonal_status": "The user discusses difficulties in forming relationships due to anxiety, stating that 'whenever I get close to being in a relationship, some kind of anxiety takes over.' They also mention discussing the issue with their sister, who has faced similar problems, indicating a supportive relationship. The user expresses a desire to understand these issues for a 'brighter future' in relationships."
+    },
+    "labels": {
+      "medication_adherence": "not_applicable",
+      "somatic_symptoms": "The user experiences anxiety that makes them want to vomit and has led them to leave semi-relationships to avoid this reaction.",
+      "interpersonal_status": "The user struggles with anxiety when approaching relationships, which prevents them from forming them. They have discussed these issues with their sister, who has faced similar problems, indicating a supportive relationship."
+    }
+  },
+  {
+    "id": "M003",
+    "reasoning": {
+      "medication_adherence": "The user mentions that their brother has not been taking his medication, which indicates a missed medication adherence.",
+      "somatic_symptoms": "There are no mentions of physical or bodily symptoms such as heart racing, hyperventilating, sweating, trembling, or dizziness in the text.",
+      "interpersonal_status": "The user describes a complex family situation involving their brother, who has paranoid schizophrenia and substance abuse issues. The brother's mother is unwilling to get involved due to fear of financial responsibility, and the user's adoptive father has passed away. This indicates a lack of support and potential conflict within the family regarding the brother's care."
+    },
+    "labels": {
+      "medication_adherence": "missed",
+      "somatic_symptoms": "not_mentioned",
+      "interpersonal_status": "The user's brother is not receiving support from his mother due to her fear of financial responsibility, and the user's adoptive father has passed away, leaving the user to question their rights to sign their brother into a mental health facility."
+    }
+  }
+]

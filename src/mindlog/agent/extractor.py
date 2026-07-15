@@ -57,8 +57,7 @@ def extract_single(
                         value = value_clean
                     else:
                         raise ValueError(
-                            f"Invalid label for {field}: '{value}' "
-                            f"(allowed: {allowed})"
+                            f"Invalid label for {field}: '{value}' " f"(allowed: {allowed})"
                         )
                 result[field] = value
 
@@ -102,10 +101,12 @@ def extract_batch(
             retry_delay=llm_config.get("retry_delay_seconds", 2.0),
         )
 
-        results.append({
-            "id": sample["id"],
-            "extraction": extraction,
-        })
+        results.append(
+            {
+                "id": sample["id"],
+                "extraction": extraction,
+            }
+        )
 
         if logger and (i + 1) % 10 == 0:
             logger.info(f"  Extraction progress: {i + 1}/{len(samples)}")

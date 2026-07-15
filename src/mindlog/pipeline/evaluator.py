@@ -32,10 +32,7 @@ def compute_field_metrics(
         return {"error": "No samples to evaluate"}
 
     # Filter out ERROR entries
-    valid_pairs = [
-        (t, p) for t, p in zip(y_true, y_pred)
-        if p != "ERROR" and t != "ERROR"
-    ]
+    valid_pairs = [(t, p) for t, p in zip(y_true, y_pred) if p != "ERROR" and t != "ERROR"]
     if not valid_pairs:
         return {"error": "All predictions are ERROR", "n_errors": n}
 
@@ -263,7 +260,8 @@ def generate_evaluation_report(
 
         if valid_yt:
             ci = bootstrap_accuracy_ci(
-                valid_yt, valid_yp,
+                valid_yt,
+                valid_yp,
                 n_iterations=eval_cfg.get("bootstrap_iterations", 1000),
                 confidence=eval_cfg.get("confidence_interval", 0.95),
             )
@@ -277,9 +275,9 @@ def generate_evaluation_report(
     overall = {
         "accuracy_macro": round(np.mean(overall_accuracies), 4) if overall_accuracies else 0.0,
         "precision_macro": round(
-            np.mean([
-                r["precision_macro"] for r in field_reports.values() if "precision_macro" in r
-            ]),
+            np.mean(
+                [r["precision_macro"] for r in field_reports.values() if "precision_macro" in r]
+            ),
             4,
         ),
         "recall_macro": round(
@@ -355,18 +353,14 @@ def _compile_error_analysis(
     top_patterns = {}
     for field, pats in patterns.items():
         sorted_pats = sorted(pats.items(), key=lambda x: -x[1])[:3]
-        top_patterns[field] = [
-            {"pattern": p, "count": c} for p, c in sorted_pats
-        ]
+        top_patterns[field] = [{"pattern": p, "count": c} for p, c in sorted_pats]
 
     # Top 5 highest-error samples
     high_error = sorted(sample_errors.items(), key=lambda x: -x[1])[:5]
 
     return {
         "misclassification_patterns": top_patterns,
-        "high_error_samples": [
-            {"id": sid, "n_errors": n} for sid, n in high_error
-        ],
+        "high_error_samples": [{"id": sid, "n_errors": n} for sid, n in high_error],
         "api_errors": api_errors,
     }
 
@@ -380,39 +374,42 @@ def format_results_table(report: dict) -> pd.DataFrame:
 
     for field, metrics in report["field_reports"].items():
         field_display = field.replace("_", " ").title()
-        rows.append({
-            "Field": field_display,
-            "Accuracy": metrics.get("accuracy", 0),
-            "Precision (macro)": metrics.get("precision_macro", 0),
-            "Recall (macro)": metrics.get("recall_macro", 0),
-            "F1 (macro)": metrics.get("f1_macro", 0),
-            "Cohen's Kappa": metrics.get("cohens_kappa", 0),
-        })
+        rows.append(
+            {
+                "Field": field_display,
+                "Accuracy": metrics.get("accuracy", 0),
+                "Precision (macro)": metrics.get("precision_macro", 0),
+                "Recall (macro)": metrics.get("recall_macro", 0),
+                "F1 (macro)": metrics.get("f1_macro", 0),
+                "Cohen's Kappa": metrics.get("cohens_kappa", 0),
+            }
+        )
 
     # Overall row
-    rows.append({
-        "Field": "Overall (macro avg)",
-        "Accuracy": report["overall"]["accuracy_macro"],
-        "Precision (macro)": report["overall"]["precision_macro"],
-        "Recall (macro)": report["overall"]["recall_macro"],
-        "F1 (macro)": report["overall"]["f1_macro"],
-        "Cohen's Kappa": round(
-            np.mean([
-                m.get("cohens_kappa", 0)
-                for m in report["field_reports"].values()
-            ]),
-            4,
-        ),
-    })
+    rows.append(
+        {
+            "Field": "Overall (macro avg)",
+            "Accuracy": report["overall"]["accuracy_macro"],
+            "Precision (macro)": report["overall"]["precision_macro"],
+            "Recall (macro)": report["overall"]["recall_macro"],
+            "F1 (macro)": report["overall"]["f1_macro"],
+            "Cohen's Kappa": round(
+                np.mean([m.get("cohens_kappa", 0) for m in report["field_reports"].values()]),
+                4,
+            ),
+        }
+    )
 
     # Exact Match row
-    rows.append({
-        "Field": "Exact Match (all fields)",
-        "Accuracy": report["exact_match"]["exact_match_rate"],
-        "Precision (macro)": "—",
-        "Recall (macro)": "—",
-        "F1 (macro)": "—",
-        "Cohen's Kappa": "—",
-    })
+    rows.append(
+        {
+            "Field": "Exact Match (all fields)",
+            "Accuracy": report["exact_match"]["exact_match_rate"],
+            "Precision (macro)": "—",
+            "Recall (macro)": "—",
+            "F1 (macro)": "—",
+            "Cohen's Kappa": "—",
+        }
+    )
 
     return pd.DataFrame(rows)

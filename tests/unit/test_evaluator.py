@@ -2,7 +2,6 @@
 match, bootstrap CIs, and the full report assembly."""
 
 import pytest
-
 from mindlog.pipeline.evaluator import (
     bootstrap_accuracy_ci,
     compute_exact_match,

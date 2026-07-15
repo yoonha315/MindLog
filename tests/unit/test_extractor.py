@@ -22,13 +22,15 @@ def test_extract_single_parses_valid_json(make_fake_client, valid_extraction_jso
 
 
 def test_extract_single_fuzzy_matches_casing_and_spaces(make_fake_client):
-    raw = json.dumps({
-        "affect_valence": "Negative",
-        "energy_level": "Low",
-        "sleep_quality": "Not Mentioned",
-        "dominant_theme": "Emotional",
-        "risk_indicators": "None",
-    })
+    raw = json.dumps(
+        {
+            "affect_valence": "Negative",
+            "energy_level": "Low",
+            "sleep_quality": "Not Mentioned",
+            "dominant_theme": "Emotional",
+            "risk_indicators": "None",
+        }
+    )
     client = make_fake_client([raw])
 
     result = extract_single(client, context="...", retry_attempts=1)
@@ -59,13 +61,15 @@ def test_extract_single_returns_error_dict_after_exhausting_retries(make_fake_cl
 
 
 def test_extract_single_rejects_invalid_label_value(make_fake_client):
-    raw = json.dumps({
-        "affect_valence": "somewhat_ok",  # not an allowed label
-        "energy_level": "low",
-        "sleep_quality": "poor",
-        "dominant_theme": "emotional",
-        "risk_indicators": "low",
-    })
+    raw = json.dumps(
+        {
+            "affect_valence": "somewhat_ok",  # not an allowed label
+            "energy_level": "low",
+            "sleep_quality": "poor",
+            "dominant_theme": "emotional",
+            "risk_indicators": "low",
+        }
+    )
     client = make_fake_client([raw, raw])
 
     result = extract_single(client, context="...", retry_attempts=2, retry_delay=0)

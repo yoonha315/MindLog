@@ -55,9 +55,7 @@ def annotate_single(
             for field, allowed in VALID_LABELS.items():
                 value = labels.get(field, "").strip().lower().replace(" ", "_")
                 if value not in allowed:
-                    raise ValueError(
-                        f"Invalid annotation label for {field}: '{value}'"
-                    )
+                    raise ValueError(f"Invalid annotation label for {field}: '{value}'")
                 validated_labels[field] = value
 
             return {
@@ -105,11 +103,13 @@ def annotate_batch(
             retry_delay=annotation_config.get("retry_delay_seconds", 2.0),
         )
 
-        results.append({
-            "id": sample["id"],
-            "reasoning": annotation["reasoning"],
-            "labels": annotation["labels"],
-        })
+        results.append(
+            {
+                "id": sample["id"],
+                "reasoning": annotation["reasoning"],
+                "labels": annotation["labels"],
+            }
+        )
 
         if logger and (i + 1) % 10 == 0:
             logger.info(f"  Annotation progress: {i + 1}/{len(samples)}")

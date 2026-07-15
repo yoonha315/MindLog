@@ -19,21 +19,22 @@ dataset from Kaggle, producing the evaluation table reported in the proposal.
 ### Step-by-step Setup
 
 ```bash
-# 1. Install dependencies
-pip install -r requirements.txt
+# 1. Install the package (editable) + dev tools (pytest, ruff)
+pip install -e ".[dev]"
 
 # 2. Set your OpenAI API key
-cp .env .env
+cp .env.example .env
 # Open .env in any editor and paste your key:
 #   OPENAI_API_KEY=sk-proj-...
 
 # 3. Download the dataset
 #    Go to: https://www.kaggle.com/datasets/thedevastator/nlp-mental-health-conversations
 #    Download "combined_data.csv" and place it here:
-#      00_data/00_raw/combined_data.csv
+#      data/raw/combined_data.csv
 
 # 4. Run the full pipeline
-python 02_scripts/01_run_validation.py
+python scripts/run_eval.py
+# or: make run
 ```
 
 The full run makes ~100 GPT-4o API calls (50 annotation + 50 extraction).
@@ -44,17 +45,19 @@ conversation lengths.
 
 ```bash
 # Re-evaluate without re-calling the API (uses cached JSON files)
-python 02_scripts/01_run_validation.py --evaluate-only
+python scripts/run_eval.py --evaluate-only   # or: make eval
 
 # Re-run extraction only (keep existing ground truth annotations)
-python 02_scripts/01_run_validation.py --skip-annotation
+python scripts/run_eval.py --skip-annotation
 
 # Re-run annotation only (keep existing extraction results)
-python 02_scripts/01_run_validation.py --skip-extraction
+python scripts/run_eval.py --skip-extraction
 
 # Override the sample size (default: 50)
-python 02_scripts/01_run_validation.py --sample-size 100
+python scripts/run_eval.py --sample-size 100
 ```
+
+Other Makefile targets: `make test` (pytest), `make lint` (ruff check + ruff format checks).
 
 ### Output Files
 
@@ -62,11 +65,11 @@ After the run completes, results are in:
 
 | File | Contents |
 |:-----|:---------|
-| `00_data/01_processed/sampled_conversations.json` | The N sampled conversations used as input |
-| `00_data/01_processed/ground_truth_labels.json` | CoT-annotated ground truth labels + reasoning |
-| `00_data/01_processed/extraction_results.json` | Pipeline-extracted predicted labels |
-| `00_data/02_results/evaluation_metrics.csv` | **Table 1** for your proposal — copy-paste ready |
-| `00_data/02_results/evaluation_report.json` | Full report: confusion matrices, per-class breakdowns, bootstrap CIs, error analysis |
+| `data/processed/sampled_conversations.json` | The N sampled conversations used as input |
+| `data/processed/ground_truth_labels.json` | CoT-annotated ground truth labels + reasoning |
+| `data/processed/extraction_results.json` | Pipeline-extracted predicted labels |
+| `artifacts/evaluation_metrics.csv` | **Table 1** for your proposal — copy-paste ready |
+| `artifacts/evaluation_report.json` | Full report: confusion matrices, per-class breakdowns, bootstrap CIs, error analysis |
 
 The terminal also prints the formatted Table 1 during Step 4.
 
@@ -115,7 +118,7 @@ downstream — summaries, briefings, trend charts — is unreliable.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### Step 1 — Load & Sample (`01_src/01_data/loader.py`)
+### Step 1 — Load & Sample (`src/mindlog/data/loaders.py`)
 
 The Kaggle dataset has two columns: **Context** (what the user said) and
 **Response** (what the counselor replied). We only extract from Context —
@@ -129,7 +132,7 @@ Why N=50? The proposal's original benchmark used N=20 synthetic conversations.
 50 real conversations from an external dataset is a stronger validation while
 staying within reasonable API cost for a preliminary study.
 
-### Step 2 — Annotate (`01_src/02_extraction/extractor.py`)
+### Step 2 — Annotate (`src/mindlog/agent/annotator.py`)
 
 This is the **ground truth generation** step. The key design question is:
 *"If we're using GPT-4o to extract AND to annotate, aren't we just comparing
@@ -154,7 +157,7 @@ a genuine signal about extraction difficulty — not just random noise.
 The reasoning is also saved, which lets you manually audit any label you're
 uncertain about.
 
-### Step 3 — Extract (`01_src/02_extraction/extractor.py`)
+### Step 3 — Extract (`src/mindlog/agent/extractor.py`)
 
 This simulates MindLog's production extraction module. For each conversation:
 
@@ -173,7 +176,7 @@ The 5 extraction fields map directly to Proposal §4.2:
 | **Dominant Theme** | emotional / relationships / work / ... | Weekly summary theme analysis |
 | **Risk Indicators** | none / low / moderate / high | Safe-messaging protocol trigger |
 
-### Step 4 — Evaluate (`01_src/03_evaluation/evaluator.py`)
+### Step 4 — Evaluate (`src/mindlog/pipeline/evaluator.py`)
 
 For each of the 5 fields, we compute:
 
@@ -217,28 +220,45 @@ Writes two files:
 ## Project Structure
 
 ```
-mindlog_validation/
-├── 00_data/
-│   ├── 00_raw/                  # Kaggle CSV (you download this)
-│   ├── 01_processed/            # Sampled conversations, annotations, extractions
-│   └── 02_results/              # Evaluation report + metrics CSV
-├── 01_src/
-│   ├── 00_common/               # Config loader, logger
-│   │   ├── config_loader.py     # Loads config.yaml + .env
-│   │   └── logger.py            # Shared logging format
-│   ├── 01_data/
-│   │   └── loader.py            # CSV ingestion, filtering, sampling
-│   ├── 02_extraction/
-│   │   └── extractor.py         # LLM prompts, extraction, annotation
-│   └── 03_evaluation/
-│       └── evaluator.py         # Metrics, confusion matrix, Table 1
-├── 02_scripts/
-│   └── 01_run_validation.py     # Main pipeline orchestrator
-├── 03_configs/
-│   └── config.yaml              # All parameters in one place
-├── 04_artifacts/                # (reserved for future model artifacts)
+mindlog/
+├── src/mindlog/
+│   ├── agent/                   # Everything that talks to the LLM
+│   │   ├── prompts/
+│   │   │   ├── extraction_prompt.py    # Single-pass extraction system prompt
+│   │   │   └── annotation_prompt.py    # CoT ground-truth annotation prompt
+│   │   ├── schema.py             # ConversationExtraction + valid label sets
+│   │   ├── client.py             # OpenAI client construction
+│   │   ├── extractor.py          # extract_single / extract_batch
+│   │   └── annotator.py          # annotate_single / annotate_batch
+│   ├── pipeline/                 # Reusable orchestration + evaluation logic
+│   │   ├── validation.py         # Step 1-5 pipeline (called by scripts/run_eval.py)
+│   │   └── evaluator.py          # Metrics, confusion matrix, Table 1
+│   ├── data/
+│   │   └── loaders.py            # CSV ingestion, filtering, sampling
+│   └── utils/
+│       ├── config_loader.py      # Loads config.yaml + .env
+│       └── logger.py             # Shared logging format
+├── data/
+│   ├── raw/                      # Kaggle CSV (you download this)
+│   ├── interim/                  # (reserved for intermediate transforms)
+│   └── processed/                # Sampled conversations, annotations, extractions
+├── configs/
+│   └── config.yaml               # All parameters in one place
+├── artifacts/                    # Evaluation report + metrics CSV
+├── scripts/
+│   └── run_eval.py                # CLI entry point
+├── notebooks/                    # Exploratory notebooks
+├── docs/
+│   └── workshop_abstract/
+├── tests/
+│   ├── unit/                     # Mocked-LLM unit tests
+│   ├── integration/               # Real-API smoke tests (skipped w/o API key)
+│   └── conftest.py
+├── .github/workflows/ci.yaml     # pytest + ruff on push/PR
+├── .pre-commit-config.yaml       # ruff check + ruff format
+├── pyproject.toml                # Dependencies + tool config (replaces requirements.txt)
+├── Makefile                      # test / run / eval / lint targets
 ├── .env.example
-├── requirements.txt
 └── README.md
 ```
 
@@ -300,7 +320,7 @@ enough to match the expected 5-10 minute session length.
 
 ## Customization
 
-All parameters live in `03_configs/config.yaml`. Key things you might change:
+All parameters live in `configs/config.yaml`. Key things you might change:
 
 - `dataset.sample_size` — increase for a stronger benchmark (costs more API)
 - `dataset.min_context_length` / `max_context_length` — adjust filtering

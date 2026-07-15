@@ -1,0 +1,101 @@
+{
+  "medication_adherence": {
+    "field": "medication_adherence",
+    "n_samples": 66,
+    "n_errors": 0,
+    "accuracy": 0.9545,
+    "precision_macro": 0.625,
+    "recall_macro": 0.6586,
+    "f1_macro": 0.6388,
+    "cohens_kappa": 0.6822,
+    "per_class": {
+      "missed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "not_applicable": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "not_mentioned": {
+        "precision": 1.0,
+        "recall": 0.9677,
+        "f1": 0.9836,
+        "support": 62
+      },
+      "taken": {
+        "precision": 0.5,
+        "recall": 0.6667,
+        "f1": 0.5714,
+        "support": 3
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "missed",
+        "not_applicable",
+        "not_mentioned",
+        "taken"
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          60,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  "somatic_symptoms": {
+    "n_samples": 66,
+    "counts": {
+      "correct": 63,
+      "partial": 1,
+      "incorrect": 2
+    },
+    "percentages": {
+      "correct": 95.5,
+      "partial": 1.5,
+      "incorrect": 3.0
+    }
+  },
+  "interpersonal_status": {
+    "n_samples": 66,
+    "counts": {
+      "correct": 46,
+      "partial": 16,
+      "incorrect": 4
+    },
+    "percentages": {
+      "correct": 69.7,
+      "partial": 24.2,
+      "incorrect": 6.1
+    }
+  },
+  "metadata": {
+    "n_samples": 66
+  }
+}

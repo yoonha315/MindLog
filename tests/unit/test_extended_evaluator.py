@@ -122,6 +122,14 @@ def test_generate_extended_evaluation_report_combines_medication_and_judge_resul
 
     assert report["metadata"]["n_samples"] == 2
 
+    # Per-sample cases let a caller pull out exactly which ids were partial/incorrect
+    interpersonal_cases = report["interpersonal_status"]["cases"]
+    assert [c["id"] for c in interpersonal_cases] == ["S1", "S2"]
+    assert interpersonal_cases[0]["verdict"] == "correct"
+    assert interpersonal_cases[1]["verdict"] == "partial"
+    assert interpersonal_cases[1]["extracted"] == "conflict with a friend"
+    assert interpersonal_cases[1]["ground_truth"] == "argument with a coworker"
+
 
 def test_generate_extended_evaluation_report_treats_extraction_error_as_incorrect(
     make_fake_client,
@@ -153,3 +161,6 @@ def test_generate_extended_evaluation_report_treats_extraction_error_as_incorrec
 
     assert report["somatic_symptoms"]["counts"]["incorrect"] == 1
     assert report["interpersonal_status"]["counts"]["incorrect"] == 1
+
+    assert report["somatic_symptoms"]["cases"][0]["verdict"] == "incorrect"
+    assert report["somatic_symptoms"]["cases"][0]["extracted"] == "ERROR"

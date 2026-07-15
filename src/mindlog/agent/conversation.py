@@ -6,8 +6,12 @@ from datetime import datetime, timezone
 
 from mindlog.agent.checklist import CHECKLIST_FIELDS, check_mentioned
 from mindlog.agent.client import build_client
+from mindlog.agent.extended_extractor import extract_extended_single
 from mindlog.agent.extractor import extract_single
 from mindlog.data.models import Extraction, Message, Session
+from mindlog.utils.logger import get_logger
+
+logger = get_logger("mindlog_conversation")
 
 
 class ConversationManager:
@@ -126,6 +130,8 @@ class ConversationManager:
         extraction = extract_single(client, context=context, **self.extraction_kwargs)
         model_name = self.extraction_kwargs.get("model", "gpt-4o")
 
+        somatic_symptoms = self._extract_somatic_symptoms(client, context)
+
         with self._session_factory() as db:
             db.add(
                 Extraction(
@@ -135,12 +141,33 @@ class ConversationManager:
                     sleep_quality=extraction["sleep_quality"],
                     dominant_theme=extraction["dominant_theme"],
                     risk_indicators=extraction["risk_indicators"],
+                    somatic_symptoms=somatic_symptoms,
                     model=model_name,
                 )
             )
             db.commit()
 
         return extraction
+
+    def _extract_somatic_symptoms(self, client, context: str) -> str | None:
+        """Extract only somatic_symptoms via the extended-field extractor —
+        medication_adherence/interpersonal_status from the same call are
+        intentionally discarded, since they haven't been validated enough
+        yet to persist. Never raises: a failure here must not block the
+        5-field extraction above from being saved.
+        """
+        try:
+            extended = extract_extended_single(client, context=context, **self.extraction_kwargs)
+        except Exception:
+            logger.exception("somatic_symptoms extraction raised; storing null")
+            return None
+
+        value = extended.get("somatic_symptoms")
+        if value == "ERROR":
+            logger.warning("somatic_symptoms extraction returned ERROR; storing null")
+            return None
+
+        return value
 
     def get_history(self, user_id: str, limit: int = 5) -> list[dict]:
         """Prior sessions' extractions for user_id, most recent first."""
@@ -162,6 +189,7 @@ class ConversationManager:
                     "sleep_quality": row.sleep_quality,
                     "dominant_theme": row.dominant_theme,
                     "risk_indicators": row.risk_indicators,
+                    "somatic_symptoms": row.somatic_symptoms,
                     "model": row.model,
                     "extracted_at": row.extracted_at,
                 }

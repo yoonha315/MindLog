@@ -7,6 +7,7 @@ import json
 import time
 
 import pytest
+
 from mindlog.agent.checklist import CHECKLIST_FIELDS
 from mindlog.agent.conversation import ConversationManager
 from mindlog.data.db import get_engine, get_session_factory, init_db

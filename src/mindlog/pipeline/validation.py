@@ -196,7 +196,7 @@ def step_4_evaluate(cfg: dict, extractions: list[dict], ground_truths: list[dict
     logger.info("├" + "─" * 78 + "┤")
 
     header = (
-        f"│ {'Field':<25} {'Accuracy':>8} {'Prec':>8} {'Recall':>8} " f"{'F1':>8} {'Kappa':>8}    │"
+        f"│ {'Field':<25} {'Accuracy':>8} {'Prec':>8} {'Recall':>8} {'F1':>8} {'Kappa':>8}    │"
     )
     logger.info(header)
     logger.info("├" + "─" * 78 + "┤")
@@ -215,9 +215,7 @@ def step_4_evaluate(cfg: dict, extractions: list[dict], ground_truths: list[dict
         acc = row["Accuracy"]
         acc_s = f"{acc:.4f}" if isinstance(acc, float) else str(acc)
 
-        line = (
-            f"│ {row['Field']:<25} {acc_s:>8} {prec_s:>8} {rec_s:>8} " f"{f1_s:>8} {kap_s:>8}    │"
-        )
+        line = f"│ {row['Field']:<25} {acc_s:>8} {prec_s:>8} {rec_s:>8} {f1_s:>8} {kap_s:>8}    │"
         logger.info(line)
 
     logger.info("└" + "─" * 78 + "┘")

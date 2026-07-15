@@ -25,6 +25,7 @@ class ConversationManager:
         min_turns: int = 6,
         checklist_check_interval: int = 3,
         extraction_kwargs: dict = None,
+        checklist_kwargs: dict = None,
     ):
         self._session_factory = session_factory
         self._client = client
@@ -32,6 +33,7 @@ class ConversationManager:
         self.min_turns = min_turns
         self.checklist_check_interval = checklist_check_interval
         self.extraction_kwargs = extraction_kwargs or {}
+        self.checklist_kwargs = checklist_kwargs or {}
 
         self.session_id = None
         self.user_id = None
@@ -80,7 +82,7 @@ class ConversationManager:
         """Scan the transcript so far and OR-merge newly mentioned topics into
         the running checklist — a field already marked True never reverts."""
         transcript = "\n".join(f"{m['role']}: {m['content']}" for m in self.messages)
-        mentioned = check_mentioned(self._get_client(), transcript)
+        mentioned = check_mentioned(self._get_client(), transcript, **self.checklist_kwargs)
         for field, is_mentioned in mentioned.items():
             if is_mentioned:
                 self._checklist[field] = True

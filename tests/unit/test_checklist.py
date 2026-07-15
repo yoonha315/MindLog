@@ -73,3 +73,20 @@ def test_check_mentioned_returns_all_false_when_a_field_is_missing(make_fake_cli
     result = check_mentioned(client, "...", retry_attempts=2, retry_delay=0)
 
     assert result == {field: False for field in CHECKLIST_FIELDS}
+
+
+def test_check_mentioned_passes_model_config_through_to_the_api_call(make_fake_client):
+    client = make_fake_client([_checklist_json(False)])
+
+    check_mentioned(
+        client,
+        "...",
+        model="gpt-4o-mini",
+        temperature=0,
+        max_tokens=256,
+        retry_attempts=1,
+    )
+
+    sent = client.chat.completions.received_kwargs[-1]
+    assert sent["model"] == "gpt-4o-mini"
+    assert sent["max_tokens"] == 256

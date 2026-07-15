@@ -126,6 +126,28 @@ def test_session_does_not_end_when_checklist_incomplete_even_past_min_turns(
     assert manager.check_session_end() is False  # turns >= min_turns, but checklist incomplete
 
 
+def test_checklist_check_uses_checklist_kwargs_not_extraction_kwargs(
+    session_factory, make_fake_client
+):
+    client = make_fake_client([_all_checklist_json(True)])
+    manager = ConversationManager(
+        session_factory,
+        client=client,
+        timeout_seconds=999,
+        min_turns=1,
+        checklist_check_interval=1,  # every add_turn triggers a check_mentioned call
+        extraction_kwargs={"model": "gpt-4o"},
+        checklist_kwargs={"model": "gpt-4o-mini", "temperature": 0, "max_tokens": 256},
+    )
+
+    manager.start_session("u1")
+    manager.add_turn("user", "msg1")  # only the checklist call happens here, not end_session
+
+    sent = client.chat.completions.received_kwargs[-1]
+    assert sent["model"] == "gpt-4o-mini"
+    assert sent["max_tokens"] == 256
+
+
 def test_get_history_returns_extractions_most_recent_first(
     session_factory, make_fake_client, valid_extraction_json
 ):

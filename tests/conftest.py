@@ -30,9 +30,11 @@ class _FakeCompletions:
     def __init__(self, responses):
         self._responses = list(responses)
         self.calls = 0
+        self.received_kwargs = []
 
     def create(self, **kwargs):
         self.calls += 1
+        self.received_kwargs.append(kwargs)
         if not self._responses:
             raise AssertionError("mock LLM client ran out of queued responses")
         item = self._responses.pop(0)

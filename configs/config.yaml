@@ -87,6 +87,20 @@ annotation:
   max_tokens: 1024
   require_reasoning: true       # force CoT justification per field
 
+# ── Checklist Scanner (session-end mention detection) ────────
+# Cheap yes/no "was X mentioned" scan — deliberately a smaller/cheaper
+# model than extraction/annotation since it's called every few turns.
+checklist:
+  model: "gpt-4o-mini"
+  temperature: 0
+  max_tokens: 256               # only 8 true/false fields to return
+
+# ── Conversation Session (ConversationManager) ────────────────
+conversation:
+  timeout_seconds: 600           # end a session after this long since the last message
+  min_turns: 6                   # safety floor — never end before this many turns
+  checklist_check_interval: 3    # scan the checklist every N turns
+
 # ── Evaluation Metrics ───────────────────────────────────────
 evaluation:
   primary_metric: "accuracy"
